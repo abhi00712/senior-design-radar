@@ -20,7 +20,7 @@ const LLM_PAGES = [
   { portal: "Wellfound", url: "https://wellfound.com/role/l/ui-ux-designer/bangalore", base: "https://wellfound.com" },
   { portal: "Cutshort", url: "https://cutshort.io/jobs/product-design-jobs-in-bangalore-bengaluru", base: "https://cutshort.io" },
 ];
-const RECRUITERS = /talent pro|peak hire|careerxperts|staffnix|hr folks|versatile club|neogencode|consult|recruit|staffing|placement/i;
+const RECRUITERS = /talent pro|peak hire|careerxperts|staffnix|hr folks|hr works|hr lobby|hyrme|dash hire|versatile club|neogencode|success pact|outsourcing|consult|recruit|staffing|placement|manpower|talent solutions|\bhire\b/i;
 
 // ---------- helpers ----------
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -335,7 +335,7 @@ for (const [portal, scan] of [["Hirist", scanHirist], ["Instahyre", scanInstahyr
       if (j.exp && !old.exp) old.exp = j.exp;
       continue;
     }
-    if (daysBetween(j.posted, TODAY) > 120) continue;
+    if (daysBetween(j.posted, TODAY) > 120 || tooJunior(j.exp)) continue;
     if (detailFetches >= MAX_DETAIL_FETCHES) continue;
     detailFetches++;
     let desc = j.desc;
@@ -356,6 +356,22 @@ for (const [k, j] of existing) {
   const closedOnBoard = j.portal === "Company site" && [...boardsFetched].some(b => j.url.includes(b)) && !seenToday.has(k);
   const gone = (fromScanned && sourceOk[j.portal] && !seenToday.has(k) && age > 45) || closedOnBoard;
   if (age > 120 || gone) { existing.delete(k); removed++; }
+}
+
+// Final cleanup on every row: drop too-junior roles, mark recruiter posts, merge same-title duplicates per portal.
+const byTC = new Map();
+for (const [k, j] of existing) {
+  if (tooJunior(j.exp)) { existing.delete(k); removed++; continue; }
+  if (RECRUITERS.test(j.company) && !/recruiter/i.test(j.note || "")) j.note = j.note ? j.note + " · Recruiter" : "Recruiter";
+  const dk = tcKey(j) + "|" + j.portal;
+  const prev = byTC.get(dk);
+  if (prev) {
+    const keepOld = prev.job.posted <= j.posted;
+    const [winner, loserKey] = keepOld ? [prev.job, k] : [j, prev.key];
+    if (!winner.exp) winner.exp = (keepOld ? j : prev.job).exp || "";
+    existing.delete(loserKey); removed++;
+    if (!keepOld) byTC.set(dk, { key: k, job: j });
+  } else byTC.set(dk, { key: k, job: j });
 }
 
 const jobs = [...existing.values()].map(j => ({
