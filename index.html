@@ -198,11 +198,16 @@ footer{font-size:12.5px;color:var(--muted);max-width:80ch}
 <script src="jobs.js"></script>
 <script>
 // Listings live in jobs.js (window.RADAR), which the daily scan replaces.
-const RADAR = window.RADAR || {scannedAt:null, previousScanAt:null, jobs:[]};
+let RADAR = window.RADAR || {scannedAt:null, previousScanAt:null, jobs:[]};
 // Stable id from the job URL, so status marks survive refreshes.
 const hash = s => { let h=5381; for (const c of s) h=((h<<5)+h+c.charCodeAt(0))|0; return (h>>>0).toString(36); };
-const JOBS = RADAR.jobs.map(j=>({id:"j"+hash(j.url), ...j, pmin:j.payMinL??"", pmax:j.payMaxL??""}));
-const LATEST = (RADAR.scannedAt||"").slice(0,10);
+let JOBS = [], LATEST = "";
+function loadData(d){
+  RADAR = d;
+  JOBS = d.jobs.map(j=>({id:"j"+hash(j.url), ...j, pmin:j.payMinL??"", pmax:j.payMaxL??""}));
+  LATEST = (d.scannedAt||"").slice(0,10);
+  loadData(RADAR);
+}
 const isNew = j => RADAR.previousScanAt && j.firstSeen === LATEST;
 
 const G = q => "https://www.google.com/search?q="+encodeURIComponent(q);
@@ -244,7 +249,7 @@ let status={};
 try{status=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){status={}}
 const saveStatus=()=>{try{localStorage.setItem(STORE,JSON.stringify(status))}catch(e){}};
 
-const activePortals=new Set(JOBS.map(j=>j.portal));
+const activePortals=new Set(["LinkedIn","Wellfound","Cutshort","Company site"]);
 const $=id=>document.getElementById(id);
 const daysAgo=iso=>Math.max(0,Math.round((Date.now()-new Date(iso+"T12:00:00+05:30").getTime())/86400000));
 const ageLabel=n=>n===0?"Today":n===1?"Yesterday":n<14?n+" days ago":n<60?Math.round(n/7)+" weeks ago":Math.round(n/30)+" months ago";
@@ -323,21 +328,38 @@ $("rows").addEventListener("change",e=>{
 $("portals").innerHTML=PORTALS.map(g=>`<div class="pgroup"><h3>${g.group}</h3><div class="portals">${g.items.map(p=>`<a class="portal" href="${p.url}" target="_blank" rel="noopener noreferrer"><b>${p.name}</b><span>${p.what}</span><em>Open search ↗</em></a>`).join("")}</div></div>`).join("");
 // Scan info and refresh
 const fmtScan=iso=>iso?new Date(iso).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric",hour:"numeric",minute:"2-digit"})+" IST":"not yet run";
-$("scanText").textContent="Last scan: "+fmtScan(RADAR.scannedAt)+" · "+JOBS.length+" openings";
+function showScan(){ $("scanText").textContent="Last scan: "+fmtScan(RADAR.scannedAt)+" · "+JOBS.length+" openings"; }
+// Fetch the newest jobs.js and apply it in place: a page reload can reuse a cached copy and look like nothing happened.
+async function fetchLatest(){
+  const r=await fetch(new URL("jobs.js?t="+Date.now(), location.href), {cache:"no-store"});
+  if(!r.ok) throw new Error("http "+r.status);
+  const t=await r.text();
+  return JSON.parse(t.slice(t.indexOf("{"), t.lastIndexOf("}")+1));
+}
+function applyIfNewer(latest){
+  if(!latest || !latest.scannedAt || latest.scannedAt===RADAR.scannedAt) return false;
+  loadData(latest); renderChips(); render(); showScan(); return true;
+}
+function say(text){ const m=$("refreshMsg"); m.textContent=text; m.hidden=false; }
 $("refreshBtn").addEventListener("click",async()=>{
-  const btn=$("refreshBtn"),msg=$("refreshMsg");
-  btn.disabled=true;btn.textContent="Checking…";
+  const btn=$("refreshBtn");
+  btn.disabled=true; btn.textContent="Checking…";
   try{
-    const r=await fetch("jobs.js?t="+Date.now(),{cache:"no-store"});
-    if(!r.ok)throw new Error("http "+r.status);
-    const txt=await r.text();
-    const latest=JSON.parse(txt.slice(txt.indexOf("{"),txt.lastIndexOf("}")+1));
-    if(latest.scannedAt&&latest.scannedAt!==RADAR.scannedAt){location.reload();return;}
-    msg.textContent="You already have the latest scan ("+fmtScan(RADAR.scannedAt)+"). Scans run every morning at 9:00 IST.";
-  }catch(e){location.reload();return;}
-  msg.hidden=false;btn.disabled=false;btn.textContent="↻ Refresh";
+    const latest=await fetchLatest();
+    if(applyIfNewer(latest)){
+      const n=JOBS.filter(isNew).length;
+      say("Updated to the scan from "+fmtScan(RADAR.scannedAt)+(n?" · "+n+" new openings, tagged New.":"."));
+    } else {
+      say("You already have the latest scan ("+fmtScan(RADAR.scannedAt)+"). Scans run every morning at 9:00 IST.");
+    }
+  }catch(e){
+    say("Couldn't check for a newer scan from here. Reload the page to get the latest. The last scan was "+fmtScan(RADAR.scannedAt)+".");
+  }
+  btn.disabled=false; btn.textContent="↻ Refresh";
 });
+showScan();
 renderChips();render();
+fetchLatest().then(applyIfNewer).catch(()=>{});
 </script>
 
 </body>
