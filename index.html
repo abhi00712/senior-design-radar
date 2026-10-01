@@ -64,7 +64,11 @@ select{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:
 .dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none}
 .d-LinkedIn{background:var(--p-linkedin)} .d-Wellfound{background:var(--p-wellfound)} .d-Cutshort{background:var(--p-cutshort)}
 .tablewrap{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow-x:auto}
-table{width:100%;border-collapse:collapse;min-width:860px}
+table{width:100%;border-collapse:collapse;min-width:1040px}
+td:nth-child(1){min-width:230px}
+td:nth-child(2){min-width:150px}
+.coname{font-weight:500;color:var(--ink)}
+tr.old .coname{color:var(--muted)}
 th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:left;font-weight:500;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
 td{padding:11px 12px;border-bottom:1px solid var(--soft);vertical-align:middle}
 tr:last-child td{border-bottom:0}
@@ -175,7 +179,7 @@ footer{font-size:12.5px;color:var(--muted);max-width:80ch}
 
   <div class="tablewrap">
     <table>
-      <thead><tr><th>Role</th><th>Source</th><th>Posted</th><th>Asks for</th><th>Fit for 4 yrs</th><th>Pay (CTC)</th><th>My status</th><th></th></tr></thead>
+      <thead><tr><th>Role</th><th>Company</th><th>Source</th><th>Posted</th><th>Asks for</th><th>Fit for 4 yrs</th><th>Pay (CTC)</th><th>My status</th><th></th></tr></thead>
       <tbody id="rows"></tbody>
     </table>
   </div>
@@ -298,7 +302,8 @@ function render(){
     const n=daysAgo(j.posted), st=status[j.id]||"";
     const pay=j.pmin?`₹${j.pmin}–${j.pmax}L`:"—";
     return `<tr class="${n>90?"old":""} ${st==="skip"?"skip":""}">
-      <td><div class="role">${isNew(j)?'<span class="newtag">New</span> ':""}${esc(j.title)}</div><div class="co">${esc(j.company)} · ${esc(j.domain)}${j.note?` · <span class="note">${esc(j.note)}</span>`:""}</div></td>
+      <td><div class="role">${isNew(j)?'<span class="newtag">New</span> ':""}${esc(j.title)}</div>${j.note?`<div class="note">${esc(j.note)}</div>`:""}</td>
+      <td><div class="coname">${esc(j.company)}</div>${j.domain?`<div class="co">${esc(j.domain)}</div>`:""}</td>
       <td><span class="src"><span class="dot d-${slug(j.portal)}"></span>${j.portal}</span></td>
       <td class="mono ${n<=7?"age-new":""}">${ageLabel(n)}</td>
       <td class="mono">${j.exp||'<span class="note">Not stated</span>'}</td>
@@ -312,7 +317,7 @@ function render(){
         <option value="skip" ${st==="skip"?"selected":""}>Skip</option>
       </select></td>
       <td><a class="open" href="${j.url}" target="_blank" rel="noopener noreferrer">Open ↗</a></td>
-    </tr>`}).join(""):`<tr><td colspan="8" class="empty">No openings match these filters. Try “Any date” or “All levels”.</td></tr>`;
+    </tr>`}).join(""):`<tr><td colspan="9" class="empty">No openings match these filters. Try “Any date” or “All levels”.</td></tr>`;
   $("s-total").textContent=list.length;
   if(RADAR.previousScanAt){$("s-new").textContent=list.filter(isNew).length;}
   else{$("s-new").textContent=list.filter(j=>daysAgo(j.posted)<=7).length;$("s-new-label").textContent="Posted in last 7 days";}
