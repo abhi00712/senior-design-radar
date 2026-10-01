@@ -6,7 +6,9 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const DATA_FILE = new URL("../jobs.js", import.meta.url);
-const OPENAI_KEY = process.env.OPENAI_API_KEY || "";
+// Trim stray whitespace/quotes that often sneak in when pasting a key into a secret.
+const OPENAI_KEY = (process.env.OPENAI_API_KEY || "").trim().replace(/^["']|["']$/g, "").trim();
+if (OPENAI_KEY) console.log(`OpenAI key check: ${OPENAI_KEY.length} chars, starts with "${OPENAI_KEY.slice(0, 3)}", contains whitespace: ${/\s/.test(OPENAI_KEY)}`);
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-4.1-mini";
 const MAX_DETAIL_FETCHES = 40;
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36";
