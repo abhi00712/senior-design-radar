@@ -10,7 +10,7 @@ const DATA_FILE = new URL("../jobs.js", import.meta.url);
 const OPENAI_KEY = (process.env.OPENAI_API_KEY || "").replace(/\s+/g, "").replace(/^["']|["']$/g, "");
 if (OPENAI_KEY) console.log(`OpenAI key check: ${OPENAI_KEY.length} chars, starts with "${OPENAI_KEY.slice(0, 3)}", contains whitespace: ${/\s/.test(OPENAI_KEY)}`);
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-4.1-mini";
-const MAX_DETAIL_FETCHES = 40;
+const MAX_DETAIL_FETCHES = 70;
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36";
 
 const LINKEDIN_QUERIES = ["senior product designer", "senior ux designer", "product designer", "ux designer", "lead product designer"];
@@ -123,6 +123,9 @@ async function enrichLinkedIn(job) {
   const r = await get(`https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/${job.id}`);
   await sleep(1500);
   const desc = r.ok ? text((r.body.match(/show-more-less-html__markup[^>]*>([\s\S]*?)<\/div>/) || [])[1] || "") : "";
+  return enrichText(job, desc);
+}
+async function enrichText(job, desc) {
   const ai = await askJSON(ENRICH_RULES, `Title: ${job.title}\nCompany: ${job.company}\nLocation: Bengaluru\nDescription:\n${desc.slice(0, 7000)}`);
   if (ai) return (ai.relevant === false || tooJunior(ai.exp)) ? null : {
     level: ["Senior", "Mid", "Lead", "Staff"].includes(ai.level) ? ai.level : levelOf(job.title),
@@ -156,6 +159,118 @@ async function scanLLMPage(src) {
     domain: String(j.domain || ""), url: String(j.url).split("?")[0], note: String(j.note || ""),
   }));
   return { ok: true, jobs };
+}
+
+// ---------- more portals (public JSON APIs) ----------
+const istDate = ms => new Date(+ms + 5.5 * 3600e3).toISOString().slice(0, 10);
+const safeDate = d => (/^\d{4}-\d{2}-\d{2}$/.test(d) && d <= TODAY) ? d : TODAY;
+const isBlr = l => /bengaluru|bangalore/i.test(String(l || ""));
+const keep = t => isDesignRole(t) && !isExcluded(t);
+async function getJSON(url, headers = {}) {
+  try {
+    const r = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json", ...headers } });
+    return r.ok ? await r.json() : null;
+  } catch { return null; }
+}
+
+async function scanHirist() {
+  const out = new Map(); let ok = false;
+  for (const q of ["product designer", "ux designer", "ui ux designer", "interaction designer"]) {
+    for (let page = 0; page < 3; page++) {
+      const d = await getJSON(`https://gladiator.hirist.tech/job/search?query=${encodeURIComponent(q)}&loc=3&pageNo=${page}`);
+      await sleep(800);
+      if (!d || !Array.isArray(d.data)) break;
+      ok = true;
+      for (const x of d.data) {
+        const company = x.companyData?.companyName || "";
+        // Hirist titles read "Company - Role - Skill"; drop the company prefix.
+        const parts = String(x.title || "").split(" - ");
+        const first = parts[0].toLowerCase().replace(/[^a-z]/g, "").slice(0, 5);
+        const title = parts.length > 1 && company.toLowerCase().replace(/[^a-z]/g, "").startsWith(first) ? parts.slice(1).join(" - ") : x.title;
+        if (!keep(title) || !(x.locations || []).some(l => isBlr(l.name))) continue;
+        const min = +x.min, max = +x.max;
+        out.set(x.jobDetailUrl, { title, company, portal: "Hirist", url: x.jobDetailUrl, posted: safeDate(istDate(x.createdTimeMs)),
+          exp: isFinite(min) && isFinite(max) && max > 0 ? `${min}–${max} yrs` : "", desc: "" });
+      }
+      if (!d.hasMore) break;
+    }
+  }
+  return { ok, jobs: [...out.values()] };
+}
+
+async function scanInstahyre() {
+  const out = new Map(); let ok = false;
+  for (const fn of [7, 77]) { // 7 = UX / Visual Design, 77 = Other Design / Creative
+    for (let offset = 0; offset < 300; offset += 100) {
+      const d = await getJSON(`https://www.instahyre.com/api/v1/job_search?company_size=0&job_type=0&location=Bangalore&job_functions=${fn}&limit=100&offset=${offset}`);
+      await sleep(800);
+      if (!d || !Array.isArray(d.objects)) break;
+      ok = true;
+      for (const x of d.objects) {
+        if (!keep(x.title || "") || !isBlr(x.locations)) continue;
+        out.set(x.public_url, { title: x.title, company: x.employer?.company_name || "", portal: "Instahyre", url: x.public_url, posted: TODAY, exp: "", desc: "", needsPage: true });
+      }
+      if (!d.meta?.next || d.objects.length < 100) break;
+    }
+  }
+  return { ok, jobs: [...out.values()] };
+}
+
+async function scanAmazon() {
+  const out = new Map(); let ok = false;
+  for (const q of ["ux designer", "product designer", "interaction designer"]) {
+    const d = await getJSON(`https://www.amazon.jobs/en/search.json?base_query=${encodeURIComponent(q)}&loc_query=Bengaluru%2C%20Karnataka%2C%20India&country=IND&result_limit=50`);
+    await sleep(800);
+    if (!d || !Array.isArray(d.jobs)) continue;
+    ok = true;
+    for (const x of d.jobs) {
+      if (!keep(x.title || "") || !isBlr(x.normalized_location || x.location)) continue;
+      const p = new Date(x.posted_date + " 12:00 GMT+0530");
+      out.set(x.job_path, { title: x.title.trim(), company: "Amazon", portal: "Amazon Jobs", url: "https://www.amazon.jobs" + x.job_path,
+        posted: safeDate(isNaN(p) ? TODAY : istDate(p.getTime())), exp: "", desc: text([x.basic_qualifications, x.preferred_qualifications, x.description_short].join("\n")) });
+    }
+  }
+  return { ok, jobs: [...out.values()] };
+}
+
+const boardsFetched = new Set();
+async function scanCompanyBoards() {
+  const cfg = JSON.parse(await readFile(new URL("./companies.json", import.meta.url), "utf8"));
+  const jobs = []; let ok = false;
+  for (const [slug, name] of Object.entries(cfg.greenhouse || {})) {
+    const d = await getJSON(`https://boards-api.greenhouse.io/v1/boards/${slug}/jobs`);
+    if (!d || !Array.isArray(d.jobs)) continue;
+    ok = true; boardsFetched.add("greenhouse.io/" + slug);
+    for (const x of d.jobs) {
+      if (!keep(x.title || "") || !isBlr(x.location?.name)) continue;
+      const full = await getJSON(`https://boards-api.greenhouse.io/v1/boards/${slug}/jobs/${x.id}`);
+      jobs.push({ title: x.title, company: name, portal: "Company site", url: x.absolute_url, posted: safeDate(String(x.first_published || x.updated_at || "").slice(0, 10)),
+        exp: "", desc: text(decode(full?.content || "")), board: "greenhouse.io/" + slug });
+    }
+  }
+  for (const [slug, name] of Object.entries(cfg.lever || {})) {
+    const d = await getJSON(`https://api.lever.co/v0/postings/${slug}?mode=json`);
+    if (!Array.isArray(d)) continue;
+    ok = true; boardsFetched.add("lever.co/" + slug);
+    for (const x of d) {
+      const locs = [x.categories?.location, ...(x.categories?.allLocations || [])];
+      if (!keep(x.text || "") || !locs.some(isBlr)) continue;
+      jobs.push({ title: x.text, company: name, portal: "Company site", url: x.hostedUrl, posted: safeDate(istDate(x.createdAt)),
+        exp: "", desc: String(x.descriptionPlain || "") + "\n" + (x.lists || []).map(l => l.text + ": " + text(l.content || "")).join("\n"), board: "lever.co/" + slug });
+    }
+  }
+  for (const [slug, name] of Object.entries(cfg.ashby || {})) {
+    const d = await getJSON(`https://api.ashbyhq.com/posting-api/job-board/${slug}`);
+    if (!d || !Array.isArray(d.jobs)) continue;
+    ok = true; boardsFetched.add("ashbyhq.com/" + slug);
+    for (const x of d.jobs) {
+      const locs = [x.location, ...(x.secondaryLocations || []).map(l => l.location)];
+      if (!keep(x.title || "") || !locs.some(isBlr)) continue;
+      jobs.push({ title: x.title.trim(), company: name, portal: "Company site", url: x.jobUrl, posted: safeDate(String(x.publishedAt || "").slice(0, 10)),
+        exp: "", desc: String(x.descriptionPlain || ""), board: "ashbyhq.com/" + slug });
+    }
+  }
+  return { ok, jobs };
 }
 
 // ---------- main ----------
@@ -206,12 +321,40 @@ for (const src of LLM_PAGES) {
   }
 }
 
+for (const [portal, scan] of [["Hirist", scanHirist], ["Instahyre", scanInstahyre], ["Amazon Jobs", scanAmazon], ["Company site", scanCompanyBoards]]) {
+  const res = await scan();
+  sourceOk[portal] = sourceOk[portal] || res.ok;
+  console.log(`${portal}: ${res.ok ? res.jobs.length + " design roles found" : "failed"}`);
+  for (const j of res.jobs) {
+    let k = keyOf(j);
+    if (!existing.has(k) && existingTC.has(tcKey(j))) k = existingTC.get(tcKey(j));
+    seenToday.add(k);
+    const old = existing.get(k);
+    if (old) {
+      if (j.posted < old.posted) old.posted = j.posted;
+      if (j.exp && !old.exp) old.exp = j.exp;
+      continue;
+    }
+    if (daysBetween(j.posted, TODAY) > 120) continue;
+    if (detailFetches >= MAX_DETAIL_FETCHES) continue;
+    detailFetches++;
+    let desc = j.desc;
+    if (j.needsPage) { const r = await get(j.url); await sleep(800); desc = r.ok ? text(r.body).slice(0, 8000) : ""; }
+    const extra = await enrichText(j, desc);
+    if (!extra) continue;
+    const job = { title: j.title, company: j.company, portal: j.portal, posted: j.posted, ...extra, exp: j.exp || extra.exp, url: j.url, firstSeen: TODAY };
+    existing.set(k, job); added.push(job); existingTC.set(tcKey(job), k);
+  }
+}
+
 // Remove stale rows
 let removed = 0;
 for (const [k, j] of existing) {
   const age = daysBetween(j.posted, TODAY);
-  const fromScanned = ["LinkedIn", "Wellfound", "Cutshort"].includes(j.portal);
-  const gone = fromScanned && sourceOk[j.portal] && !seenToday.has(k) && age > 45;
+  const fromScanned = ["LinkedIn", "Wellfound", "Cutshort", "Hirist", "Instahyre", "Amazon Jobs"].includes(j.portal);
+  // A company board lists only open roles, so a role missing from a board we just read has closed.
+  const closedOnBoard = j.portal === "Company site" && [...boardsFetched].some(b => j.url.includes(b)) && !seenToday.has(k);
+  const gone = (fromScanned && sourceOk[j.portal] && !seenToday.has(k) && age > 45) || closedOnBoard;
   if (age > 120 || gone) { existing.delete(k); removed++; }
 }
 

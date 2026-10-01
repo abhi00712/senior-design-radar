@@ -1,0 +1,28 @@
+{
+  "_about": "Company career boards read directly by the daily scan. Add a company by its board name (the part after the domain in its jobs URL). Only Bengaluru design roles are kept.",
+  "greenhouse": {
+    "razorpaysoftwareprivatelimited": "Razorpay",
+    "groww": "Groww",
+    "hyreo": "Hyreo",
+    "okta": "Okta",
+    "rubrik": "Rubrik",
+    "stripe": "Stripe",
+    "databricks": "Databricks",
+    "airbnb": "Airbnb",
+    "coinbase": "Coinbase",
+    "figma": "Figma",
+    "observeai": "Observe.AI",
+    "truefoundry": "TrueFoundry"
+  },
+  "lever": {
+    "hevodata": "Hevo Data",
+    "zeta": "Zeta",
+    "mindtickle": "Mindtickle",
+    "pocketfm": "Pocket FM"
+  },
+  "ashby": {
+    "sarvam": "Sarvam AI",
+    "composio": "Composio",
+    "spotdraft": "SpotDraft"
+  }
+}

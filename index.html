@@ -7,7 +7,7 @@
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;background:#f5f6f9}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>
-<title>Senior Design Radar</title>
+<title>UX/Product Designer Job Hunt</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -18,7 +18,7 @@
   --accent:#2f4fd1; --accent-ink:#ffffff; --accent-soft:#e6ebff;
   --good:#1d7a4f; --good-soft:#e2f4ea; --warn:#9a6200; --warn-soft:#fbf0d9; --stretch:#7a3e9d; --stretch-soft:#f2e7f8;
   --stale:#8a8fa0;
-  --p-linkedin:#0a66c2; --p-wellfound:#e0453a; --p-cutshort:#11998e; --p-company:#6b5bd6;
+  --p-linkedin:#0a66c2; --p-wellfound:#e0453a; --p-cutshort:#11998e; --p-company:#6b5bd6; --p-hirist:#c2410c; --p-instahyre:#0e7490; --p-amazon:#b7791f;
   --f-display:"Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
   --f-body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
@@ -30,7 +30,7 @@
     --accent:#8fa4ff; --accent-ink:#0f1220; --accent-soft:#232b4d;
     --good:#6fd3a0; --good-soft:#163428; --warn:#f0c26a; --warn-soft:#3a2e14; --stretch:#d3a4ef; --stretch-soft:#33213f;
     --stale:#6f7590;
-    --p-linkedin:#5aa7f0; --p-wellfound:#ff7e74; --p-cutshort:#4fd1c5; --p-company:#b3a8ff;
+    --p-linkedin:#5aa7f0; --p-wellfound:#ff7e74; --p-cutshort:#4fd1c5; --p-company:#b3a8ff; --p-hirist:#fb923c; --p-instahyre:#5ec8dc; --p-amazon:#f6c560;
   }
 }
 :root[data-theme="dark"]{
@@ -39,7 +39,7 @@
   --accent:#8fa4ff; --accent-ink:#0f1220; --accent-soft:#232b4d;
   --good:#6fd3a0; --good-soft:#163428; --warn:#f0c26a; --warn-soft:#3a2e14; --stretch:#d3a4ef; --stretch-soft:#33213f;
   --stale:#6f7590;
-  --p-linkedin:#5aa7f0; --p-wellfound:#ff7e74; --p-cutshort:#4fd1c5; --p-company:#b3a8ff;
+  --p-linkedin:#5aa7f0; --p-wellfound:#ff7e74; --p-cutshort:#4fd1c5; --p-company:#b3a8ff; --p-hirist:#fb923c; --p-instahyre:#5ec8dc; --p-amazon:#f6c560;
 }
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.5;padding:0 20px}
@@ -84,7 +84,7 @@ tr.old .role{color:var(--muted)}
 .fit-fits{background:var(--good-soft);color:var(--good)}
 .fit-apply{background:var(--warn-soft);color:var(--warn)}
 .fit-stretch{background:var(--stretch-soft);color:var(--stretch)}
-.d-Companysite{background:var(--p-company)}
+.d-Companysite{background:var(--p-company)} .d-Hirist{background:var(--p-hirist)} .d-Instahyre{background:var(--p-instahyre)} .d-AmazonJobs{background:var(--p-amazon)}
 .pgroups{display:grid;gap:18px}
 .pgroup{display:grid;gap:8px}
 h3{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0}
@@ -121,7 +121,7 @@ footer{font-size:12.5px;color:var(--muted);max-width:80ch}
 <div class="wrap">
   <header>
     <div>
-      <h1>Senior Design Radar</h1>
+      <h1>UX/Product Designer Job Hunt</h1>
       <p class="sub">UX and product designer openings in Bengaluru for a senior UX designer with 4 years of experience. Includes senior roles that ask for 5–7 years, and mid-level titles that match her experience at larger companies.</p>
     </div>
     <div class="scan">
@@ -186,8 +186,8 @@ footer{font-size:12.5px;color:var(--muted);max-width:80ch}
 
   <section style="display:grid;gap:12px">
     <div class="livehead">
-      <h2>Search live on 22 sources</h2>
-      <p>Each link opens with the search already set for Bengaluru and senior or mid-level design roles. Naukri, Indeed, Glassdoor, Instahyre, foundit and Hirist block automated reading, so their listings aren't in the table above. Check them here directly. Career-page links search Google for postings on company hiring systems, which often show up before they reach the job portals.</p>
+      <h2>Search live on 23 sources</h2>
+      <p>Each link opens with the search already set for Bengaluru and senior or mid-level design roles. The table already includes LinkedIn, Wellfound, Cutshort, Hirist, Instahyre, Amazon Jobs and company career boards. Naukri, Indeed, Glassdoor and foundit block automated reading, so check those here directly. Career-page links search Google for postings on company hiring systems, which often show up before they reach the job portals.</p>
     </div>
     <div class="pgroups" id="portals"></div>
   </section>
@@ -247,6 +247,7 @@ const PORTALS = [
   {name:"Lever boards",what:"Companies using Lever",url:G('site:jobs.lever.co "product designer" OR "ux designer" Bengaluru')},
   {name:"Ashby boards",what:"Mostly AI and newer startups",url:G('site:jobs.ashbyhq.com "product designer" Bengaluru')},
   {name:"Workday boards",what:"Large enterprises and MNCs",url:G('site:myworkdayjobs.com "UX designer" OR "product designer" Bengaluru')},
+  {name:"Amazon Jobs",what:"UX and product design roles at Amazon in Bengaluru",url:"https://www.amazon.jobs/en/search?base_query=ux%20designer&loc_query=Bengaluru%2C%20Karnataka%2C%20India"},
  ]},
 ];
 
@@ -255,7 +256,7 @@ let status={};
 try{status=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){status={}}
 const saveStatus=()=>{try{localStorage.setItem(STORE,JSON.stringify(status))}catch(e){}};
 
-const activePortals=new Set(["LinkedIn","Wellfound","Cutshort","Company site"]);
+const offPortals=new Set();
 const $=id=>document.getElementById(id);
 const daysAgo=iso=>Math.max(0,Math.round((Date.now()-new Date(iso+"T12:00:00+05:30").getTime())/86400000));
 const ageLabel=n=>n===0?"Today":n===1?"Yesterday":n<14?n+" days ago":n<60?Math.round(n/7)+" weeks ago":Math.round(n/30)+" months ago";
@@ -272,11 +273,11 @@ loadData(RADAR);
 
 function renderChips(){
   const counts={};JOBS.forEach(j=>counts[j.portal]=(counts[j.portal]||0)+1);
-  $("portalChips").innerHTML=Object.keys(counts).map(p=>`<button class="chip" type="button" data-p="${p}" aria-pressed="${activePortals.has(p)}"><span class="dot d-${slug(p)}"></span>${p}<span class="n">${counts[p]}</span></button>`).join("");
+  $("portalChips").innerHTML=Object.keys(counts).map(p=>`<button class="chip" type="button" data-p="${p}" aria-pressed="${!offPortals.has(p)}"><span class="dot d-${slug(p)}"></span>${p}<span class="n">${counts[p]}</span></button>`).join("");
 }
 $("portalChips").addEventListener("click",e=>{
   const b=e.target.closest(".chip");if(!b)return;
-  const p=b.dataset.p; activePortals.has(p)?activePortals.delete(p):activePortals.add(p);
+  const p=b.dataset.p; offPortals.has(p)?offPortals.delete(p):offPortals.add(p);
   renderChips();render();
 });
 
@@ -284,7 +285,7 @@ function render(){
   const q=$("q").value.trim().toLowerCase();
   const lvl=$("level").value, ff=$("fitf").value, maxAge=+$("age").value, sort=$("sort").value, sf=$("statusf").value, hideSkip=$("hideskip").checked;
   let list=JOBS.filter(j=>{
-    if(!activePortals.has(j.portal))return false;
+    if(offPortals.has(j.portal))return false;
     if(lvl!=="all"&&j.level!==lvl)return false;
     if(ff==="fa"&&j.fit==="stretch")return false;
     if(ff!=="fa"&&ff!=="all"&&j.fit!==ff)return false;
