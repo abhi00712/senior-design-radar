@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-02T02:53:00+05:30",
- "previousScanAt": "2026-10-02T02:12:00+05:30",
+ "scannedAt": "2026-10-02T02:56:00+05:30",
+ "previousScanAt": "2026-10-02T02:53:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -397,7 +397,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "B2C",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-b2c-at-versatile-club-employer-of-record-4473744435",
-   "note": "3 similar postings",
+   "note": "3 similar postings · Recruiter",
    "firstSeen": "2026-10-01"
   },
   {
@@ -411,7 +411,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "B2C",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-b2c-at-versatile-club-employer-of-record-4473746968",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -495,7 +495,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "Product",
    "url": "https://in.linkedin.com/jobs/view/staff-principal-product-designer-at-versatile-club-employer-of-record-4473213429",
-   "note": "3 similar postings",
+   "note": "3 similar postings · Recruiter",
    "firstSeen": "2026-10-01"
   },
   {
@@ -509,7 +509,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "InsurTech",
    "url": "https://in.linkedin.com/jobs/view/staff-principal-product-designer-at-versatile-club-employer-of-record-4473211468",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -737,20 +737,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "UI / UX designer",
-   "company": "Emplay",
-   "portal": "Wellfound",
-   "posted": "2026-09-25",
-   "exp": "3 yrs",
-   "payMinL": 3,
-   "payMaxL": 6.5,
-   "level": "Mid",
-   "domain": "B2B",
-   "url": "https://wellfound.com/jobs/4751198-ui-ux-designer",
-   "note": "Remote",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Product Designer, Amazon Pay India",
    "company": "Amazon",
    "portal": "Amazon Jobs",
@@ -803,7 +789,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "Design + frontend",
    "url": "https://cutshort.io/job/Senior-Product-Design-Engineer-Bengaluru-Bangalore-NeoGenCode-Technologies-Pvt-Ltd-IHD4CSNt",
-   "note": "Hybrid · needs coding",
+   "note": "Hybrid · needs coding · Recruiter",
    "firstSeen": "2026-10-01"
   },
   {
@@ -1153,7 +1139,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "",
    "url": "https://www.hirist.tech/j/senior-product-designer-1672893",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -1167,7 +1153,21 @@ window.RADAR = {
    "level": "Lead",
    "domain": "",
    "url": "https://www.hirist.tech/j/lead-product-designer-1672891",
-   "note": "",
+   "note": "Recruiter",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "UI / UX designer",
+   "company": "Emplay",
+   "portal": "Wellfound",
+   "posted": "2026-09-18",
+   "exp": "3 yrs",
+   "payMinL": 3,
+   "payMaxL": 6.5,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/4751198-ui-ux-designer",
+   "note": "Remote",
    "firstSeen": "2026-10-02"
   },
   {
@@ -1217,7 +1217,7 @@ window.RADAR = {
    "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-09-18",
-   "exp": "2 yrs",
+   "exp": "2 years",
    "payMinL": 30,
    "payMaxL": 80,
    "level": "Mid",
@@ -1321,7 +1321,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "",
    "url": "https://www.hirist.tech/j/head-product-design-7-10-yrs-1672570",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -1489,7 +1489,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "Creative Tools",
    "url": "https://www.hirist.tech/j/product-designer-iii-adobe-creative-suite-5-10-yrs-1671480",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -1881,7 +1881,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "Prototyping Tools",
    "url": "https://www.hirist.tech/j/uiux-designer-prototyping-tools-10-15-yrs-1668372",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -1979,7 +1979,7 @@ window.RADAR = {
    "level": "Lead",
    "domain": "Digital Banking",
    "url": "https://www.hirist.tech/j/uiux-design-lead-digital-banking-domain-1667179",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -2105,21 +2105,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "",
    "url": "https://www.hirist.tech/j/senior-product-designer-figma-1663740",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer - UI/UX - Consumer Tech Domain",
-   "company": "Avisa Enterprisess",
-   "portal": "Hirist",
-   "posted": "2026-08-17",
-   "exp": "0–2 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Consumer Tech",
-   "url": "https://www.hirist.tech/j/product-designer-uiux-consumer-tech-domain-1663556",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -2250,14 +2236,14 @@ window.RADAR = {
   },
   {
    "title": "Product Designer",
-   "company": "FOXO",
+   "company": "Unknown",
    "portal": "Wellfound",
    "posted": "2026-08-02",
    "exp": "4 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Longevity",
+   "domain": "",
    "url": "https://wellfound.com/jobs/4053124-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -2309,7 +2295,7 @@ window.RADAR = {
    "company": "Fireflies.ai",
    "portal": "Wellfound",
    "posted": "2026-08-02",
-   "exp": "3 yrs",
+   "exp": "3 years",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
@@ -2320,16 +2306,16 @@ window.RADAR = {
   },
   {
    "title": "Product Designer",
-   "company": "Nexera",
+   "company": "Corvee",
    "portal": "Wellfound",
    "posted": "2026-08-02",
    "exp": "",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Finance",
+   "domain": "Tax",
    "url": "https://wellfound.com/jobs/3344993-product-designer",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-02"
   },
   {
@@ -2357,21 +2343,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "Physical Assets",
    "url": "https://wellfound.com/jobs/4435452-ui-ux-designer-engineering-platforms",
-   "note": "In office needs coding",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Nexera",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Finance",
-   "url": "https://wellfound.com/jobs/3523277-product-designer",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-02"
   },
   {
@@ -2427,7 +2399,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "Product Design",
    "url": "https://www.hirist.tech/j/product-designer-figmaadobe-xd-1658307",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -2483,7 +2455,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "",
    "url": "https://www.hirist.tech/j/senior-product-designer-figma-1656508",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -2497,7 +2469,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "",
    "url": "https://www.hirist.tech/j/director-product-design-10-16-yrs-1667983",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -2525,7 +2497,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "Product Design",
    "url": "https://www.hirist.tech/j/product-designer-figmawireframing-tools-1656101",
-   "note": "",
+   "note": "Recruiter",
    "firstSeen": "2026-10-02"
   },
   {
@@ -2575,7 +2547,7 @@ window.RADAR = {
    "company": "Mirorin",
    "portal": "Cutshort",
    "posted": "2026-06-22",
-   "exp": "5–8 yrs",
+   "exp": "5+ yrs",
    "payMinL": 6,
    "payMaxL": 9,
    "level": "Senior",
