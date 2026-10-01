@@ -333,7 +333,7 @@ $("refreshBtn").addEventListener("click",async()=>{
     const txt=await r.text();
     const latest=JSON.parse(txt.slice(txt.indexOf("{"),txt.lastIndexOf("}")+1));
     if(latest.scannedAt&&latest.scannedAt!==RADAR.scannedAt){location.reload();return;}
-    msg.textContent="You already have the latest scan ("+fmtScan(RADAR.scannedAt)+"). The next one runs tomorrow at 9:00 IST.";
+    msg.textContent="You already have the latest scan ("+fmtScan(RADAR.scannedAt)+"). Scans run every morning at 9:00 IST.";
   }catch(e){location.reload();return;}
   msg.hidden=false;btn.disabled=false;btn.textContent="↻ Refresh";
 });
