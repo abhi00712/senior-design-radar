@@ -206,7 +206,7 @@ function loadData(d){
   RADAR = d;
   JOBS = d.jobs.map(j=>({id:"j"+hash(j.url), ...j, pmin:j.payMinL??"", pmax:j.payMaxL??""}));
   LATEST = (d.scannedAt||"").slice(0,10);
-  loadData(RADAR);
+  JOBS.forEach(j=>j.fit=fitOf(j));
 }
 const isNew = j => RADAR.previousScanAt && j.firstSeen === LATEST;
 
@@ -262,7 +262,7 @@ function fitOf(j){
   return j.level==="Staff"?"stretch":j.level==="Lead"?"apply":"fits";
 }
 const FIT_LABEL={fits:"Fits",apply:"Apply anyway",stretch:"Stretch"};
-JOBS.forEach(j=>j.fit=fitOf(j));
+loadData(RADAR);
 
 function renderChips(){
   const counts={};JOBS.forEach(j=>counts[j.portal]=(counts[j.portal]||0)+1);
