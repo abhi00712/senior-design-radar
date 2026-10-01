@@ -6,8 +6,8 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const DATA_FILE = new URL("../jobs.js", import.meta.url);
-// Trim stray whitespace/quotes that often sneak in when pasting a key into a secret.
-const OPENAI_KEY = (process.env.OPENAI_API_KEY || "").trim().replace(/^["']|["']$/g, "").trim();
+// Remove whitespace/quotes that sneak in when pasting a key (real keys never contain them).
+const OPENAI_KEY = (process.env.OPENAI_API_KEY || "").replace(/\s+/g, "").replace(/^["']|["']$/g, "");
 if (OPENAI_KEY) console.log(`OpenAI key check: ${OPENAI_KEY.length} chars, starts with "${OPENAI_KEY.slice(0, 3)}", contains whitespace: ${/\s/.test(OPENAI_KEY)}`);
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-4.1-mini";
 const MAX_DETAIL_FETCHES = 40;
