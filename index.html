@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;background:#f5f6f9}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Senior Design Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one working column. Summary strip, then filter bar, then the openings table, then live-search links per portal. */
+:root{
+  --bg:#f5f6f9; --surface:#ffffff; --ink:#151a2b; --muted:#5d6479; --line:#dfe2ea; --soft:#eceef4;
+  --accent:#2f4fd1; --accent-ink:#ffffff; --accent-soft:#e6ebff;
+  --good:#1d7a4f; --good-soft:#e2f4ea; --warn:#9a6200; --warn-soft:#fbf0d9; --stretch:#7a3e9d; --stretch-soft:#f2e7f8;
+  --stale:#8a8fa0;
+  --p-linkedin:#0a66c2; --p-wellfound:#e0453a; --p-cutshort:#11998e; --p-company:#6b5bd6;
+  --f-display:"Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --f-body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0f1220; --surface:#171b2c; --ink:#e8eaf3; --muted:#9aa1b8; --line:#2a3048; --soft:#20253a;
+    --accent:#8fa4ff; --accent-ink:#0f1220; --accent-soft:#232b4d;
+    --good:#6fd3a0; --good-soft:#163428; --warn:#f0c26a; --warn-soft:#3a2e14; --stretch:#d3a4ef; --stretch-soft:#33213f;
+    --stale:#6f7590;
+    --p-linkedin:#5aa7f0; --p-wellfound:#ff7e74; --p-cutshort:#4fd1c5; --p-company:#b3a8ff;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0f1220; --surface:#171b2c; --ink:#e8eaf3; --muted:#9aa1b8; --line:#2a3048; --soft:#20253a;
+  --accent:#8fa4ff; --accent-ink:#0f1220; --accent-soft:#232b4d;
+  --good:#6fd3a0; --good-soft:#163428; --warn:#f0c26a; --warn-soft:#3a2e14; --stretch:#d3a4ef; --stretch-soft:#33213f;
+  --stale:#6f7590;
+  --p-linkedin:#5aa7f0; --p-wellfound:#ff7e74; --p-cutshort:#4fd1c5; --p-company:#b3a8ff;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.5;padding:0 20px}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 56px;display:grid;gap:22px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(26px,4vw,36px);line-height:1.05;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:var(--muted);margin:6px 0 0;max-width:62ch}
+.stamp{font-family:var(--f-mono);font-size:12px;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 10px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-family:var(--f-display);font-size:28px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.stat span{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.bar input[type=search]{flex:1 1 240px;min-width:0;font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+select{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);cursor:pointer}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13px;padding:6px 11px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chip .n{font-family:var(--f-mono);font-size:11px;opacity:.75}
+.toggle{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:13px;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none}
+.d-LinkedIn{background:var(--p-linkedin)} .d-Wellfound{background:var(--p-wellfound)} .d-Cutshort{background:var(--p-cutshort)}
+.tablewrap{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:860px}
+th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:left;font-weight:500;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:11px 12px;border-bottom:1px solid var(--soft);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+tr.old td{color:var(--stale)}
+tr.skip td{opacity:.5}
+.role{font-weight:600;color:var(--ink)}
+tr.old .role{color:var(--muted)}
+.co{color:var(--muted);font-size:13px}
+.note{font-size:12px;color:var(--muted)}
+.mono{font-family:var(--f-mono);font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.src{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-size:13px}
+.fit{font-size:12px;font-weight:500;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.fit-fits{background:var(--good-soft);color:var(--good)}
+.fit-apply{background:var(--warn-soft);color:var(--warn)}
+.fit-stretch{background:var(--stretch-soft);color:var(--stretch)}
+.d-Companysite{background:var(--p-company)}
+.pgroups{display:grid;gap:18px}
+.pgroup{display:grid;gap:8px}
+h3{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0}
+.legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;font-size:13px;color:var(--muted)}
+.legend .fit{margin-right:6px}
+.age-new{color:var(--good);font-weight:500}
+td select{font-size:13px;padding:5px 8px}
+a.open{display:inline-block;font-weight:500;font-size:13px;color:var(--accent);text-decoration:none;padding:6px 10px;border:1px solid var(--accent);border-radius:7px;white-space:nowrap}
+a.open:hover{background:var(--accent);color:var(--accent-ink)}
+.empty{padding:28px;text-align:center;color:var(--muted)}
+h2{font-family:var(--f-display);font-weight:700;font-size:20px;margin:0}
+.livehead p{margin:4px 0 0;color:var(--muted);max-width:70ch}
+.portals{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.portal{display:grid;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.portal:hover{border-color:var(--accent)}
+.portal b{font-weight:600}
+.portal span{font-size:12.5px;color:var(--muted)}
+.portal em{font-style:normal;font-size:12px;color:var(--accent);font-weight:500}
+.scan{display:flex;gap:8px;align-items:stretch;flex-wrap:wrap}
+.scan .next{color:var(--muted);opacity:.85}
+.refresh{font:inherit;font-weight:600;font-size:13px;padding:8px 14px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);cursor:pointer}
+.refresh:disabled{opacity:.6;cursor:progress}
+.refreshmsg{margin:-8px 0 0;font-size:13px;color:var(--muted)}
+.newtag{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:1px 6px;border-radius:4px;background:var(--accent-soft);color:var(--accent);vertical-align:1px}
+footer{font-size:12.5px;color:var(--muted);max-width:80ch}
+@media (max-width:640px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Senior Design Radar</h1>
+      <p class="sub">UX and product designer openings in Bengaluru for a senior UX designer with 4 years of experience. Includes senior roles that ask for 5–7 years, and mid-level titles that match her experience at larger companies.</p>
+    </div>
+    <div class="scan">
+      <div class="stamp"><span id="scanText">Last scan: —</span><br><span class="next">Updates automatically every morning at 9:00 IST</span></div>
+      <button type="button" class="refresh" id="refreshBtn">↻ Refresh</button>
+    </div>
+  </header>
+  <p class="refreshmsg" id="refreshMsg" role="status" hidden></p>
+
+  <section class="stats" aria-label="Summary">
+    <div class="stat"><b id="s-total">0</b><span>Openings shown</span></div>
+    <div class="stat"><b id="s-new">0</b><span id="s-new-label">New in latest scan</span></div>
+    <div class="stat"><b id="s-saved">0</b><span>Saved</span></div>
+    <div class="stat"><b id="s-applied">0</b><span>Applied or interviewing</span></div>
+  </section>
+
+  <section class="bar" aria-label="Filters">
+    <input type="search" id="q" placeholder="Search role, company or domain (fintech, AI, SaaS…)">
+    <select id="fitf" aria-label="Fit for 4 years">
+      <option value="fa" selected>Fits + Apply anyway</option>
+      <option value="all">Every fit, including stretch</option>
+      <option value="fits">Fits only</option>
+      <option value="apply">Apply anyway only</option>
+      <option value="stretch">Stretch only</option>
+    </select>
+    <select id="level" aria-label="Title level">
+      <option value="all">All title levels</option>
+      <option value="Senior">Senior titles</option>
+      <option value="Mid">Product Designer / II titles</option>
+      <option value="Lead">Lead titles</option>
+      <option value="Staff">Staff / Principal titles</option>
+    </select>
+    <select id="age" aria-label="Posted within">
+      <option value="9999">Any date</option>
+      <option value="7">Last 7 days</option>
+      <option value="30">Last 30 days</option>
+      <option value="90" selected>Last 90 days</option>
+    </select>
+    <select id="sort" aria-label="Sort">
+      <option value="new">Newest first</option>
+      <option value="pay">Highest pay listed</option>
+      <option value="co">Company A–Z</option>
+    </select>
+    <select id="statusf" aria-label="Status filter">
+      <option value="">All statuses</option>
+      <option value="saved">Saved</option>
+      <option value="applied">Applied</option>
+      <option value="interview">Interviewing</option>
+      <option value="none">Not marked</option>
+      <option value="new">New in latest scan</option>
+    </select>
+    <label class="toggle"><input type="checkbox" id="hideskip" checked> Hide skipped</label>
+  </section>
+  <div class="chips" id="portalChips" role="group" aria-label="Portals"></div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Role</th><th>Source</th><th>Posted</th><th>Asks for</th><th>Fit for 4 yrs</th><th>Pay (CTC)</th><th>My status</th><th></th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <section style="display:grid;gap:12px">
+    <div class="livehead">
+      <h2>Search live on 22 sources</h2>
+      <p>Each link opens with the search already set for Bengaluru and senior or mid-level design roles. Naukri, Indeed, Glassdoor, Instahyre, foundit and Hirist block automated reading, so their listings aren't in the table above. Check them here directly. Career-page links search Google for postings on company hiring systems, which often show up before they reach the job portals.</p>
+    </div>
+    <div class="pgroups" id="portals"></div>
+  </section>
+
+  <section class="legend" aria-label="How fit is decided">
+    <div><span class="fit fit-fits">Fits</span> The listing asks for 4 years or fewer. If it doesn't say, the title is Senior or Product Designer / II.</div>
+    <div><span class="fit fit-apply">Apply anyway</span> The listing asks for 5–6 years, or the title is Lead and no experience is given. Companies often stretch by a year for a strong portfolio.</div>
+    <div><span class="fit fit-stretch">Stretch</span> The listing asks for 7+ years, or the title is Staff or Principal.</div>
+  </section>
+
+  <footer>Status marks are saved in each person's own browser, so they aren't shared between viewers. Rows older than 90 days are greyed out because they may already be filled. Pay is shown only where the listing states it. "Company site" rows come straight from the company's hiring page.</footer>
+</div>
+
+<script src="jobs.js"></script>
+<script>
+// Listings live in jobs.js (window.RADAR), which the daily scan replaces.
+const RADAR = window.RADAR || {scannedAt:null, previousScanAt:null, jobs:[]};
+// Stable id from the job URL, so status marks survive refreshes.
+const hash = s => { let h=5381; for (const c of s) h=((h<<5)+h+c.charCodeAt(0))|0; return (h>>>0).toString(36); };
+const JOBS = RADAR.jobs.map(j=>({id:"j"+hash(j.url), ...j, pmin:j.payMinL??"", pmax:j.payMaxL??""}));
+const LATEST = (RADAR.scannedAt||"").slice(0,10);
+const isNew = j => RADAR.previousScanAt && j.firstSeen === LATEST;
+
+const G = q => "https://www.google.com/search?q="+encodeURIComponent(q);
+const PORTALS = [
+ {group:"Big job portals",items:[
+  {name:"LinkedIn · Senior",what:"Senior product designer, mid-senior level, last 7 days",url:"https://www.linkedin.com/jobs/search/?keywords=Senior%20Product%20Designer&location=Bengaluru%2C%20Karnataka%2C%20India&f_E=4&f_TPR=r604800"},
+  {name:"LinkedIn · UX",what:"Senior UX designer, last 7 days",url:"https://www.linkedin.com/jobs/search/?keywords=Senior%20UX%20Designer&location=Bengaluru%2C%20Karnataka%2C%20India&f_TPR=r604800"},
+  {name:"LinkedIn · Product Designer II",what:"Mid-level titles that fit 4 years",url:"https://www.linkedin.com/jobs/search/?keywords=%22Product%20Designer%20II%22%20OR%20%22UX%20Designer%20II%22&location=Bengaluru%2C%20Karnataka%2C%20India"},
+  {name:"Naukri · Product",what:"Senior product designer, 4+ years",url:"https://www.naukri.com/senior-product-designer-jobs-in-bangalore?experience=4"},
+  {name:"Naukri · UX",what:"Senior UX designer, 4+ years",url:"https://www.naukri.com/senior-ux-designer-jobs-in-bangalore?experience=4"},
+  {name:"Indeed",what:"Senior product designer, last 7 days",url:"https://in.indeed.com/jobs?q=senior+product+designer&l=Bengaluru%2C+Karnataka&fromage=7"},
+  {name:"Glassdoor",what:"Senior product designer, with salary data",url:"https://www.glassdoor.co.in/Job/jobs.htm?sc.keyword=senior%20product%20designer&locKeyword=Bangalore"},
+  {name:"foundit",what:"4–8 years experience",url:"https://www.foundit.in/srp/results?query=senior%20product%20designer&locations=Bengaluru&experienceRanges=4~8"},
+  {name:"Google Jobs",what:"Combines listings from many sites",url:"https://www.google.com/search?q=senior+product+designer+jobs+bengaluru&ibp=htl;jobs"},
+ ]},
+ {group:"Startup and tech boards",items:[
+  {name:"Wellfound",what:"Startups, pay usually listed",url:"https://wellfound.com/role/l/product-designer/bangalore"},
+  {name:"Wellfound · UI/UX",what:"UI/UX designer roles",url:"https://wellfound.com/role/l/ui-ux-designer/bangalore"},
+  {name:"Cutshort",what:"Product design, experience ranges listed",url:"https://cutshort.io/jobs/product-design-jobs-in-bangalore-bengaluru"},
+  {name:"Instahyre",what:"Funded startups and product companies",url:"https://www.instahyre.com/search-jobs/?q=Product%20Designer&l=Bangalore"},
+  {name:"Hirist",what:"Tech-company roles, design category",url:"https://www.hirist.tech/k/ux-designer-jobs-in-bangalore.html"},
+  {name:"Built In",what:"Global tech companies hiring in Bangalore",url:"https://builtin.com/jobs/as/india/bangalore/design-ux"},
+ ]},
+ {group:"Design communities",items:[
+  {name:"Dribbble Jobs",what:"Design-only job board",url:"https://dribbble.com/jobs?keyword=product%20designer&location=Bengaluru"},
+  {name:"Behance Jobs",what:"Adobe's creative job board",url:"https://www.behance.net/joblist?search=product%20designer%20bangalore"},
+  {name:"LinkedIn hiring posts",what:"Posts by design managers saying they're hiring",url:"https://www.linkedin.com/search/results/content/?keywords=hiring%20senior%20product%20designer%20bangalore&sortBy=%22date_posted%22"},
+ ]},
+ {group:"Straight from company career pages",items:[
+  {name:"Greenhouse boards",what:"Companies using Greenhouse",url:G('site:job-boards.greenhouse.io "product designer" OR "ux designer" Bengaluru')},
+  {name:"Lever boards",what:"Companies using Lever",url:G('site:jobs.lever.co "product designer" OR "ux designer" Bengaluru')},
+  {name:"Ashby boards",what:"Mostly AI and newer startups",url:G('site:jobs.ashbyhq.com "product designer" Bengaluru')},
+  {name:"Workday boards",what:"Large enterprises and MNCs",url:G('site:myworkdayjobs.com "UX designer" OR "product designer" Bengaluru')},
+ ]},
+];
+
+const STORE="radar-status-v1";
+let status={};
+try{status=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){status={}}
+const saveStatus=()=>{try{localStorage.setItem(STORE,JSON.stringify(status))}catch(e){}};
+
+const activePortals=new Set(JOBS.map(j=>j.portal));
+const $=id=>document.getElementById(id);
+const daysAgo=iso=>Math.max(0,Math.round((Date.now()-new Date(iso+"T12:00:00+05:30").getTime())/86400000));
+const ageLabel=n=>n===0?"Today":n===1?"Yesterday":n<14?n+" days ago":n<60?Math.round(n/7)+" weeks ago":Math.round(n/30)+" months ago";
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const slug=p=>p.replace(/\W+/g,"");
+// Fit for a senior UX designer with 4 years: use the stated minimum years first, otherwise the title level.
+function fitOf(j){
+  const m=parseInt(j.exp,10);
+  if(!isNaN(m)) return m<=4?"fits":m<=6?"apply":"stretch";
+  return j.level==="Staff"?"stretch":j.level==="Lead"?"apply":"fits";
+}
+const FIT_LABEL={fits:"Fits",apply:"Apply anyway",stretch:"Stretch"};
+JOBS.forEach(j=>j.fit=fitOf(j));
+
+function renderChips(){
+  const counts={};JOBS.forEach(j=>counts[j.portal]=(counts[j.portal]||0)+1);
+  $("portalChips").innerHTML=Object.keys(counts).map(p=>`<button class="chip" type="button" data-p="${p}" aria-pressed="${activePortals.has(p)}"><span class="dot d-${slug(p)}"></span>${p}<span class="n">${counts[p]}</span></button>`).join("");
+}
+$("portalChips").addEventListener("click",e=>{
+  const b=e.target.closest(".chip");if(!b)return;
+  const p=b.dataset.p; activePortals.has(p)?activePortals.delete(p):activePortals.add(p);
+  renderChips();render();
+});
+
+function render(){
+  const q=$("q").value.trim().toLowerCase();
+  const lvl=$("level").value, ff=$("fitf").value, maxAge=+$("age").value, sort=$("sort").value, sf=$("statusf").value, hideSkip=$("hideskip").checked;
+  let list=JOBS.filter(j=>{
+    if(!activePortals.has(j.portal))return false;
+    if(lvl!=="all"&&j.level!==lvl)return false;
+    if(ff==="fa"&&j.fit==="stretch")return false;
+    if(ff!=="fa"&&ff!=="all"&&j.fit!==ff)return false;
+    if(daysAgo(j.posted)>maxAge)return false;
+    const st=status[j.id]||"";
+    if(hideSkip&&st==="skip")return false;
+    if(sf==="none"&&st)return false;
+    if(sf==="new"&&!isNew(j))return false;
+    if(sf&&sf!=="none"&&sf!=="new"&&st!==sf)return false;
+    if(q&&!(j.title+" "+j.company+" "+j.domain+" "+j.note).toLowerCase().includes(q))return false;
+    return true;
+  });
+  list.sort((a,b)=>sort==="pay"?((+b.pmax||0)-(+a.pmax||0))||b.posted.localeCompare(a.posted):sort==="co"?a.company.localeCompare(b.company):b.posted.localeCompare(a.posted));
+  $("rows").innerHTML=list.length?list.map(j=>{
+    const n=daysAgo(j.posted), st=status[j.id]||"";
+    const pay=j.pmin?`₹${j.pmin}–${j.pmax}L`:"—";
+    return `<tr class="${n>90?"old":""} ${st==="skip"?"skip":""}">
+      <td><div class="role">${isNew(j)?'<span class="newtag">New</span> ':""}${esc(j.title)}</div><div class="co">${esc(j.company)} · ${esc(j.domain)}${j.note?` · <span class="note">${esc(j.note)}</span>`:""}</div></td>
+      <td><span class="src"><span class="dot d-${slug(j.portal)}"></span>${j.portal}</span></td>
+      <td class="mono ${n<=7?"age-new":""}">${ageLabel(n)}</td>
+      <td class="mono">${j.exp||'<span class="note">Not stated</span>'}</td>
+      <td><span class="fit fit-${j.fit}">${FIT_LABEL[j.fit]}</span></td>
+      <td class="mono">${pay}</td>
+      <td><select id="st-${j.id}" data-id="${j.id}" aria-label="Status for ${esc(j.title)} at ${esc(j.company)}">
+        <option value="" ${!st?"selected":""}>—</option>
+        <option value="saved" ${st==="saved"?"selected":""}>Saved</option>
+        <option value="applied" ${st==="applied"?"selected":""}>Applied</option>
+        <option value="interview" ${st==="interview"?"selected":""}>Interviewing</option>
+        <option value="skip" ${st==="skip"?"selected":""}>Skip</option>
+      </select></td>
+      <td><a class="open" href="${j.url}" target="_blank" rel="noopener noreferrer">Open ↗</a></td>
+    </tr>`}).join(""):`<tr><td colspan="8" class="empty">No openings match these filters. Try “Any date” or “All levels”.</td></tr>`;
+  $("s-total").textContent=list.length;
+  if(RADAR.previousScanAt){$("s-new").textContent=list.filter(isNew).length;}
+  else{$("s-new").textContent=list.filter(j=>daysAgo(j.posted)<=7).length;$("s-new-label").textContent="Posted in last 7 days";}
+  const vals=Object.values(status);
+  $("s-saved").textContent=vals.filter(v=>v==="saved").length;
+  $("s-applied").textContent=vals.filter(v=>v==="applied"||v==="interview").length;
+}
+$("rows").addEventListener("change",e=>{
+  const s=e.target.closest("select[data-id]");if(!s)return;
+  if(s.value)status[s.dataset.id]=s.value;else delete status[s.dataset.id];
+  saveStatus();render();
+});
+["q","level","fitf","age","sort","statusf","hideskip"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
+
+$("portals").innerHTML=PORTALS.map(g=>`<div class="pgroup"><h3>${g.group}</h3><div class="portals">${g.items.map(p=>`<a class="portal" href="${p.url}" target="_blank" rel="noopener noreferrer"><b>${p.name}</b><span>${p.what}</span><em>Open search ↗</em></a>`).join("")}</div></div>`).join("");
+// Scan info and refresh
+const fmtScan=iso=>iso?new Date(iso).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric",hour:"numeric",minute:"2-digit"})+" IST":"not yet run";
+$("scanText").textContent="Last scan: "+fmtScan(RADAR.scannedAt)+" · "+JOBS.length+" openings";
+$("refreshBtn").addEventListener("click",async()=>{
+  const btn=$("refreshBtn"),msg=$("refreshMsg");
+  btn.disabled=true;btn.textContent="Checking…";
+  try{
+    const r=await fetch("jobs.js?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error("http "+r.status);
+    const txt=await r.text();
+    const latest=JSON.parse(txt.slice(txt.indexOf("{"),txt.lastIndexOf("}")+1));
+    if(latest.scannedAt&&latest.scannedAt!==RADAR.scannedAt){location.reload();return;}
+    msg.textContent="You already have the latest scan ("+fmtScan(RADAR.scannedAt)+"). The next one runs tomorrow at 9:00 IST.";
+  }catch(e){location.reload();return;}
+  msg.hidden=false;btn.disabled=false;btn.textContent="↻ Refresh";
+});
+renderChips();render();
+</script>
+
+</body>
+</html>
