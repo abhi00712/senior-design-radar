@@ -20,7 +20,7 @@ window.RADAR = {
    "domain": "B2B",
    "url": "https://wellfound.com/jobs/3543172-senior-product-designer",
    "note": "In office",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Sr. User Interaction Design Professional",
@@ -34,7 +34,7 @@ window.RADAR = {
    "domain": "Healthcare, enterprise",
    "url": "https://in.linkedin.com/jobs/view/sr-user-interaction-design-professional-at-siemens-healthineers-4472910349",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -48,7 +48,7 @@ window.RADAR = {
    "domain": "Fintech, cross-border payments",
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-skydo-4472553189",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer",
@@ -62,7 +62,7 @@ window.RADAR = {
    "domain": "HR tech",
    "url": "https://job-boards.greenhouse.io/hyreo/jobs/5246996004",
    "note": "Greenhouse · date not shown, open on 2 Oct",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -76,7 +76,7 @@ window.RADAR = {
    "domain": "AI, Indian-language models",
    "url": "https://jobs.ashbyhq.com/sarvam/79bb725b-83d4-400c-a207-e2b0a7ccec68",
    "note": "Ashby · date not shown, open on 2 Oct",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Sr. Product Designer – Service Collection",
@@ -90,7 +90,7 @@ window.RADAR = {
    "domain": "B2B SaaS",
    "url": "https://in.linkedin.com/jobs/view/sr-product-designer-service-collection-at-atlassian-4474136923",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer",
@@ -104,7 +104,7 @@ window.RADAR = {
    "domain": "SaaS, data backup",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-crashplan-4474389919",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer, RBS",
@@ -118,7 +118,7 @@ window.RADAR = {
    "domain": "E-commerce",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-rbs-at-amazon-4455794253",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Sr. UX Designer – Amazon Now",
@@ -132,7 +132,7 @@ window.RADAR = {
    "domain": "Quick commerce",
    "url": "https://in.linkedin.com/jobs/view/sr-ux-designer-amazon-now-amazon-now-at-amazon-4455794311",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Sr. User Experience Design Professional",
@@ -146,7 +146,7 @@ window.RADAR = {
    "domain": "Healthcare, enterprise",
    "url": "https://in.linkedin.com/jobs/view/sr-user-experience-design-professional-at-siemens-healthineers-4472900794",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX / Product Designer – Consumer Commerce (200M+ users)",
@@ -160,7 +160,7 @@ window.RADAR = {
    "domain": "Consumer commerce",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-product-designer-consumer-commerce-at-200m%2B-user-scale-at-careerxperts-consulting-4472929516",
    "note": "Recruiter posting",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff Product Designer",
@@ -174,7 +174,7 @@ window.RADAR = {
    "domain": "Travel & expense SaaS",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-navan-4456150927",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "UX Product Designer, MX Player",
@@ -188,7 +188,7 @@ window.RADAR = {
    "domain": "Media, streaming",
    "url": "https://in.linkedin.com/jobs/view/ux-product-designer-mx-player-at-prime-video-amazon-mgm-studios-4473977879",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Founding Product Designer (3+ yrs)",
@@ -202,7 +202,7 @@ window.RADAR = {
    "domain": "Startup",
    "url": "https://in.linkedin.com/jobs/view/founding-product-designer-3%2B-yoe-at-scalio-4472530615",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -216,7 +216,7 @@ window.RADAR = {
    "domain": "Fintech",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-slice-4473776716",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -230,7 +230,7 @@ window.RADAR = {
    "domain": "Media, streaming",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-jiostar-4438058979",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -244,7 +244,7 @@ window.RADAR = {
    "domain": "Fintech, remittance",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-aspora-4428813846",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -258,7 +258,7 @@ window.RADAR = {
    "domain": "Fintech, family banking",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greenlight-4473580878",
    "note": "Hybrid",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer – B2C",
@@ -272,7 +272,7 @@ window.RADAR = {
    "domain": "B2C",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-b2c-at-versatile-club-employer-of-record-4473744435",
    "note": "3 similar postings",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer (B2C)",
@@ -328,7 +328,7 @@ window.RADAR = {
    "domain": "Product",
    "url": "https://in.linkedin.com/jobs/view/staff-principal-product-designer-at-versatile-club-employer-of-record-4473213429",
    "note": "3 similar postings",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff/Principal Product Designer",
@@ -398,7 +398,7 @@ window.RADAR = {
    "domain": "Enterprise, public safety",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-motorola-solutions-4432581924",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer",
@@ -412,7 +412,7 @@ window.RADAR = {
    "domain": "Travel",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-makemytrip-4471888686",
    "note": "Second opening posted 2 weeks ago",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "UX Product Designer (Networking)",
@@ -426,7 +426,7 @@ window.RADAR = {
    "domain": "Enterprise networking",
    "url": "https://in.linkedin.com/jobs/view/ux-product-designer-networking-at-hewlett-packard-enterprise-4471887481",
    "note": "Also on Built In",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Lead Product Designer",
@@ -454,21 +454,7 @@ window.RADAR = {
    "domain": "Industrial, AI",
    "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-ai-hub-at-linde-4463107633",
    "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Designer",
-   "company": "Bytebeam",
-   "portal": "LinkedIn",
-   "posted": "2026-09-25",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "IoT platform",
-   "url": "https://in.linkedin.com/jobs/view/senior-designer-at-bytebeam-4468548579",
-   "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer",
@@ -482,7 +468,7 @@ window.RADAR = {
    "domain": "B2B SaaS, privacy",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-onetrust-4470636485",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff UX Designer",
@@ -496,7 +482,7 @@ window.RADAR = {
    "domain": "B2B SaaS, privacy",
    "url": "https://in.linkedin.com/jobs/view/staff-ux-designer-at-onetrust-4454063112",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -510,7 +496,7 @@ window.RADAR = {
    "domain": "Fintech",
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-jupiter-4467376442",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer (UI/UX)",
@@ -524,7 +510,7 @@ window.RADAR = {
    "domain": "AI agents",
    "url": "https://in.linkedin.com/jobs/view/product-designer-ui-ux-at-lyzr-ai-4468516680",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -538,7 +524,7 @@ window.RADAR = {
    "domain": "Consumer hardware",
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-cradlewise-4467844521",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UI / UX Designer - AI Hub",
@@ -594,7 +580,7 @@ window.RADAR = {
    "domain": "Banking",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-emirates-nbd-4469399546",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Design Engineer",
@@ -608,7 +594,7 @@ window.RADAR = {
    "domain": "Design + frontend",
    "url": "https://cutshort.io/job/Senior-Product-Design-Engineer-Bengaluru-Bangalore-NeoGenCode-Technologies-Pvt-Ltd-IHD4CSNt",
    "note": "Hybrid · needs coding",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -622,7 +608,7 @@ window.RADAR = {
    "domain": "Mobility",
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-namma-yatri-4469395474",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "UX Designer 2",
@@ -664,7 +650,7 @@ window.RADAR = {
    "domain": "IT services",
    "url": "https://in.linkedin.com/jobs/view/senior-user-experience-designer-at-hcltech-4469343122",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer II",
@@ -678,7 +664,7 @@ window.RADAR = {
    "domain": "Data, media",
    "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-nielsen-4459958590",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer II",
@@ -692,7 +678,7 @@ window.RADAR = {
    "domain": "Media, streaming",
    "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-jiohotstar-4468986566",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff Product Designer",
@@ -706,7 +692,7 @@ window.RADAR = {
    "domain": "Vertical SaaS",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-servicetitan-4470922678",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "UX Designer - C3 - CXP",
@@ -748,7 +734,7 @@ window.RADAR = {
    "domain": "Health, consumer",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-healthify-4470463498",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -762,7 +748,7 @@ window.RADAR = {
    "domain": "Cybersecurity, B2B",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-menlo-security-inc-4452406203",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -776,7 +762,7 @@ window.RADAR = {
    "domain": "Design agency",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-think-design-collaborative-4470251425",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer – Fi Admin",
@@ -790,7 +776,7 @@ window.RADAR = {
    "domain": "Banking software",
    "url": "https://in.linkedin.com/jobs/view/product-designer-fi-admin-at-candescent-4470284182",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Lead – Product Designer",
@@ -804,7 +790,7 @@ window.RADAR = {
    "domain": "B2B SaaS",
    "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-freshworks-4467044606",
    "note": "2 openings",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Lead Product Designer",
@@ -818,7 +804,7 @@ window.RADAR = {
    "domain": "IT management SaaS",
    "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-josys-4469040520",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -832,7 +818,7 @@ window.RADAR = {
    "domain": "AI",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-jazzx-ai-4467375690",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Lead Product Designer",
@@ -888,7 +874,7 @@ window.RADAR = {
    "domain": "AI, climate",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-aidash-4469804820",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Principal UX Designer (NetSec)",
@@ -916,7 +902,7 @@ window.RADAR = {
    "domain": "Creative software",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-adobe-4321974489",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Design Engineer (Design, Frontend)",
@@ -930,7 +916,7 @@ window.RADAR = {
    "domain": "Design + frontend",
    "url": "https://cutshort.io/job/Senior-Product-Design-Engineer-Design-Frontend-Bengaluru-Bangalore-Staffnixcom-kbG17zf9",
    "note": "Recruiter · needs coding",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -944,7 +930,7 @@ window.RADAR = {
    "domain": "EV mobility",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-yulu-4468606404",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -958,7 +944,7 @@ window.RADAR = {
    "domain": "B2B marketplace",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-xometry-4461334468",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff Product Designer",
@@ -972,7 +958,7 @@ window.RADAR = {
    "domain": "AI",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-jazzx-ai-4463950753",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -986,7 +972,7 @@ window.RADAR = {
    "domain": "B2C B2B",
    "url": "https://wellfound.com/jobs/4144519-product-designer",
    "note": "Hybrid",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer 2",
@@ -1000,7 +986,7 @@ window.RADAR = {
    "domain": "Health, pharmacy",
    "url": "https://in.linkedin.com/jobs/view/product-designer-2-at-truemeds-4463973910",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer – AI and Enterprise Software",
@@ -1014,7 +1000,7 @@ window.RADAR = {
    "domain": "Life sciences, enterprise",
    "url": "https://in.linkedin.com/jobs/view/product-designer-ai-and-enterprise-software-job-posting-title-here-at-thermo-fisher-scientific-4464274964",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Principal Product Designer",
@@ -1028,21 +1014,7 @@ window.RADAR = {
    "domain": "Enterprise software",
    "url": "https://in.linkedin.com/jobs/view/principal-product-designer-at-epicor-4428814504",
    "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Design Engineer",
-   "company": "Delightree",
-   "portal": "Wellfound",
-   "posted": "2026-09-18",
-   "exp": "4 yrs",
-   "payMinL": 40,
-   "payMaxL": 50,
-   "level": "Senior",
-   "domain": "Operations mgmt",
-   "url": "https://wellfound.com/jobs/4701950-senior-design-engineer",
-   "note": "In office needs coding",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "UI/UX Designer",
@@ -1098,7 +1070,7 @@ window.RADAR = {
    "domain": "IT services",
    "url": "https://in.linkedin.com/jobs/view/lead-i-ux-design-at-ust-4448073143",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff Product Designer",
@@ -1112,7 +1084,7 @@ window.RADAR = {
    "domain": "Media, streaming",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-jiostar-4465966715",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "UI/UX Designer",
@@ -1154,7 +1126,7 @@ window.RADAR = {
    "domain": "SaaS",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-ux-ui-at-revun-4458703085",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -1168,7 +1140,7 @@ window.RADAR = {
    "domain": "E-commerce",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-mumzworld-com-4466158632",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer",
@@ -1182,7 +1154,7 @@ window.RADAR = {
    "domain": "Fashion e-commerce",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-myntra-4448859154",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -1196,7 +1168,7 @@ window.RADAR = {
    "domain": "AI, enterprise",
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-ema-4465940221",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -1210,7 +1182,7 @@ window.RADAR = {
    "domain": "E-commerce",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-noon-4467030748",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -1224,7 +1196,7 @@ window.RADAR = {
    "domain": "Mobility, consumer",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-rapido-4464865223",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Platform Product Designer",
@@ -1238,7 +1210,7 @@ window.RADAR = {
    "domain": "AI platform",
    "url": "https://in.linkedin.com/jobs/view/platform-product-designer-at-jazzx-ai-4463970068",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff Product Designer",
@@ -1252,7 +1224,7 @@ window.RADAR = {
    "domain": "Fintech",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-moniepoint-group-4463991460",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Lead Product Designer",
@@ -1266,7 +1238,7 @@ window.RADAR = {
    "domain": "Longevity",
    "url": "https://wellfound.com/jobs/4689777-lead-product-designer",
    "note": "In office",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -1280,7 +1252,7 @@ window.RADAR = {
    "domain": "Jobs marketplace",
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-workindia-4465632362",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Sr UX Designer – Advanced AI",
@@ -1294,7 +1266,7 @@ window.RADAR = {
    "domain": "Retail, AI",
    "url": "https://in.linkedin.com/jobs/view/sr-ux-designer-advanced-ai-at-target-4460298097",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior User Experience Designer",
@@ -1308,7 +1280,7 @@ window.RADAR = {
    "domain": "Travel",
    "url": "https://in.linkedin.com/jobs/view/senior-user-experience-designer-at-redbus-4464193049",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -1322,7 +1294,7 @@ window.RADAR = {
    "domain": "Automotive SaaS",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-tekion-corp-4463481049",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -1336,7 +1308,7 @@ window.RADAR = {
    "domain": "HR SaaS",
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-greytip-software-private-limited-4465621168",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer II",
@@ -1350,7 +1322,7 @@ window.RADAR = {
    "domain": "Automotive SaaS",
    "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-tekion-corp-4463471044",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -1364,7 +1336,7 @@ window.RADAR = {
    "domain": "Retail, e-commerce",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-lenskart-com-4463034182",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Lead Product Designer",
@@ -1392,7 +1364,7 @@ window.RADAR = {
    "domain": "Fintech",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-fam-4463247310",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer – India",
@@ -1406,7 +1378,7 @@ window.RADAR = {
    "domain": "Shopify agency",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-india-at-anatta-shopify-platinum-partner-4463065016",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -1420,7 +1392,7 @@ window.RADAR = {
    "domain": "Startup",
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-nava-4462940225",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer",
@@ -1434,7 +1406,7 @@ window.RADAR = {
    "domain": "Enterprise",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-bridgestone-americas-4462680228",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Lead Product Designer",
@@ -1448,7 +1420,7 @@ window.RADAR = {
    "domain": "Edtech",
    "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-pw-physicswallah-4463346830",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior User Experience Designer II",
@@ -1462,7 +1434,7 @@ window.RADAR = {
    "domain": "Energy, enterprise",
    "url": "https://in.linkedin.com/jobs/view/senior-user-experience-designer-ii-at-schneider-electric-4461627521",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -1476,7 +1448,7 @@ window.RADAR = {
    "domain": "Data SaaS, AI-first",
    "url": "https://jobs.lever.co/hevodata/3c22a84f-7eb6-4105-aa3b-7698322a98af",
    "note": "On-site 5 days, HSR Layout · also on LinkedIn",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Experience Designer, SC Design (UI/UX)",
@@ -1490,7 +1462,7 @@ window.RADAR = {
    "domain": "Banking",
    "url": "https://in.linkedin.com/jobs/view/senior-experience-designer-sc-design-ui-ux-at-standard-chartered-india-4460244922",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -1504,7 +1476,7 @@ window.RADAR = {
    "domain": "AI",
    "url": "https://wellfound.com/jobs/747214-senior-product-designer",
    "note": "In office",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "AI Product Designer — Founding Member, BrandBrahma",
@@ -1532,7 +1504,7 @@ window.RADAR = {
    "domain": "Consumer AI",
    "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-dashverse-4448825208",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "SE Intel UX UI Designer",
@@ -1588,7 +1560,7 @@ window.RADAR = {
    "domain": "Fintech, investing",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-stockgro-4430921229",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -1602,7 +1574,7 @@ window.RADAR = {
    "domain": "Fintech, B2B",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-finkraft-4433468110",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff Product Designer",
@@ -1616,7 +1588,7 @@ window.RADAR = {
    "domain": "B2C",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -1630,7 +1602,7 @@ window.RADAR = {
    "domain": "Longevity",
    "url": "https://wellfound.com/jobs/4053124-product-designer",
    "note": "In office",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff/Principal Product Designer, Partnerships",
@@ -1644,7 +1616,7 @@ window.RADAR = {
    "domain": "B2C",
    "url": "https://wellfound.com/jobs/4670517-staff-principal-product-designer-partnerships",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UI/UX Designer",
@@ -1658,7 +1630,7 @@ window.RADAR = {
    "domain": "Entertainment",
    "url": "https://wellfound.com/jobs/4479275-senior-ui-ux-designer",
    "note": "In office",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product UI/UX Designer",
@@ -1672,7 +1644,7 @@ window.RADAR = {
    "domain": "AI",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -1703,20 +1675,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Software Engineer/ Product Engineer",
-   "company": "rooh",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "3 years",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Platform",
-   "url": "https://wellfound.com/jobs/4420099-software-engineer-product-engineer",
-   "note": "Remote needs coding",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Product Designer / UI-UX Designer",
    "company": "rooh",
    "portal": "Wellfound",
@@ -1731,58 +1689,16 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Product Engineer",
-   "company": "Troopod",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "0 years",
-   "payMinL": 3.5,
-   "payMaxL": 12,
-   "level": "Mid",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/4521224-product-engineer-clone",
-   "note": "Remote needs coding",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Product Engineer",
-   "company": "Troopod",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "0 years",
-   "payMinL": 3.5,
-   "payMaxL": 12,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/4521223-senior-product-engineer-clone",
-   "note": "Remote needs coding",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "UI/UX Designer (Engineering Platforms)",
    "company": "ENGINPILOT",
    "portal": "Wellfound",
    "posted": "2026-08-02",
    "exp": "3 yrs",
-   "payMinL": 0.2,
-   "payMaxL": 0.3,
+   "payMinL": null,
+   "payMaxL": null,
    "level": "Mid",
    "domain": "Physical Assets",
    "url": "https://wellfound.com/jobs/4435452-ui-ux-designer-engineering-platforms",
-   "note": "In office needs coding",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior AI Product Engineer",
-   "company": "Propel",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "5 yrs",
-   "payMinL": 35,
-   "payMaxL": 40,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/4275942-senior-ai-product-engineer",
    "note": "In office needs coding",
    "firstSeen": "2026-10-02"
   },
@@ -1798,7 +1714,7 @@ window.RADAR = {
    "domain": "AI, conversation analytics",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greylabs-ai-4447513416",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UI/UX Designer",
@@ -1812,7 +1728,7 @@ window.RADAR = {
    "domain": "Digital agency",
    "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-at-ada-4446996414",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Sr. UX Designer",
@@ -1826,7 +1742,7 @@ window.RADAR = {
    "domain": "AI, HR tech",
    "url": "https://in.linkedin.com/jobs/view/sr-ux-designer-at-eightfold-ai-4445326692",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "A&CD - UX Design Lead (Contract",
@@ -1854,7 +1770,7 @@ window.RADAR = {
    "domain": "Media",
    "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-at-squadra-media-4440205926",
    "note": "",
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer",

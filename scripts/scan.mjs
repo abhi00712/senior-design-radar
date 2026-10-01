@@ -124,14 +124,17 @@ async function enrichLinkedIn(job) {
   await sleep(1500);
   const desc = r.ok ? text((r.body.match(/show-more-less-html__markup[^>]*>([\s\S]*?)<\/div>/) || [])[1] || "") : "";
   const ai = await askJSON(ENRICH_RULES, `Title: ${job.title}\nCompany: ${job.company}\nLocation: Bengaluru\nDescription:\n${desc.slice(0, 7000)}`);
-  if (ai) return ai.relevant === false ? null : {
+  if (ai) return (ai.relevant === false || tooJunior(ai.exp)) ? null : {
     level: ["Senior", "Mid", "Lead", "Staff"].includes(ai.level) ? ai.level : levelOf(job.title),
     exp: String(ai.exp || ""), payMinL: num(ai.payMinL), payMaxL: num(ai.payMaxL),
     domain: String(ai.domain || ""), note: String(ai.note || ""),
   };
   return { level: levelOf(job.title), exp: expFromText(desc), payMinL: null, payMaxL: null, domain: "", note: RECRUITERS.test(job.company) ? "Recruiter" : "" };
 }
-const num = v => (typeof v === "number" && isFinite(v) && v > 0 && v < 500) ? Math.round(v * 10) / 10 : null;
+// Pay below 1 lakh is almost always a monthly figure read as yearly; drop it rather than mislead.
+const num = v => (typeof v === "number" && isFinite(v) && v >= 1 && v < 500) ? Math.round(v * 10) / 10 : null;
+// Roles that only ask for 0–2 years are too junior for a senior UX designer.
+const tooJunior = exp => { const m = String(exp).match(/(\d+)\D+(\d+)/); return /^0\b/.test(String(exp)) || (m && +m[2] <= 2); };
 
 async function scanLLMPage(src) {
   if (!OPENAI_KEY) return { ok: false, jobs: [] };
@@ -143,7 +146,8 @@ async function scanLLMPage(src) {
     `Today: ${TODAY}\nLinks on page:\n${[...new Set(links)].slice(0, 150).join("\n")}\n\nPage text:\n${text(r.body).slice(0, 24000)}`
   );
   if (!ai || !Array.isArray(ai.jobs)) return { ok: false, jobs: [] };
-  const jobs = ai.jobs.filter(j => j && j.relevant !== false && j.title && j.url && /^https?:\/\//.test(j.url)).map(j => ({
+  const jobs = ai.jobs.filter(j => j && j.relevant !== false && j.title && j.url && /^https?:\/\//.test(j.url)
+    && isDesignRole(String(j.title)) && !isExcluded(String(j.title)) && !tooJunior(j.exp)).map(j => ({
     title: String(j.title), company: String(j.company || ""), portal: src.portal,
     posted: /^\d{4}-\d{2}-\d{2}$/.test(j.posted) ? j.posted : TODAY,
     exp: String(j.exp || ""), payMinL: num(j.payMinL), payMaxL: num(j.payMaxL),
