@@ -103,7 +103,9 @@ h2{font-family:var(--f-display);font-weight:700;font-size:20px;margin:0}
 .scan .next{color:var(--muted);opacity:.85}
 .refresh{font:inherit;font-weight:600;font-size:13px;padding:8px 14px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);cursor:pointer}
 .refresh:disabled{opacity:.6;cursor:progress}
-.refreshmsg{margin:-8px 0 0;font-size:13px;color:var(--muted)}
+.refreshmsg{margin:-8px 0 0;font-size:13.5px;color:var(--ink);background:var(--accent-soft);border:1px solid var(--accent);border-radius:8px;padding:9px 12px}
+.refreshmsg.warn{background:var(--warn-soft);border-color:var(--warn)}
+.refresh.done{background:var(--good);border-color:var(--good)}
 .newtag{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:1px 6px;border-radius:4px;background:var(--accent-soft);color:var(--accent);vertical-align:1px}
 footer{font-size:12.5px;color:var(--muted);max-width:80ch}
 @media (max-width:640px){
@@ -340,7 +342,9 @@ function applyIfNewer(latest){
   if(!latest || !latest.scannedAt || latest.scannedAt===RADAR.scannedAt) return false;
   loadData(latest); renderChips(); render(); showScan(); return true;
 }
-function say(text){ const m=$("refreshMsg"); m.textContent=text; m.hidden=false; }
+let doneTimer;
+function say(text, warn){ const m=$("refreshMsg"); m.textContent=text; m.className="refreshmsg"+(warn?" warn":""); m.hidden=false; }
+function buttonDone(label){ const b=$("refreshBtn"); b.textContent=label; b.classList.add("done"); clearTimeout(doneTimer); doneTimer=setTimeout(()=>{ b.textContent="↻ Refresh"; b.classList.remove("done"); },3000); }
 $("refreshBtn").addEventListener("click",async()=>{
   const btn=$("refreshBtn");
   btn.disabled=true; btn.textContent="Checking…";
@@ -348,12 +352,12 @@ $("refreshBtn").addEventListener("click",async()=>{
     const latest=await fetchLatest();
     if(applyIfNewer(latest)){
       const n=JOBS.filter(isNew).length;
-      say("Updated to the scan from "+fmtScan(RADAR.scannedAt)+(n?" · "+n+" new openings, tagged New.":"."));
+      say("Updated to the scan from "+fmtScan(RADAR.scannedAt)+(n?" · "+n+" new openings, tagged New.":".")); btn.disabled=false; buttonDone("✓ Updated"); return;
     } else {
-      say("You already have the latest scan ("+fmtScan(RADAR.scannedAt)+"). Scans run every morning at 9:00 IST.");
+      say("Checked just now: you already have the latest scan ("+fmtScan(RADAR.scannedAt)+"). New jobs are added each morning around 9:00 IST."); btn.disabled=false; buttonDone("✓ Up to date"); return;
     }
   }catch(e){
-    say("Couldn't check for a newer scan from here. Reload the page to get the latest. The last scan was "+fmtScan(RADAR.scannedAt)+".");
+    say("Couldn't check for a newer scan from here. Reload the page to get the latest. The last scan was "+fmtScan(RADAR.scannedAt)+".", true);
   }
   btn.disabled=false; btn.textContent="↻ Refresh";
 });

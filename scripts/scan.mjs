@@ -149,7 +149,8 @@ async function scanLLMPage(src) {
   const jobs = ai.jobs.filter(j => j && j.relevant !== false && j.title && j.url && /^https?:\/\//.test(j.url)
     && isDesignRole(String(j.title)) && !isExcluded(String(j.title)) && !tooJunior(j.exp)).map(j => ({
     title: String(j.title), company: String(j.company || ""), portal: src.portal,
-    posted: /^\d{4}-\d{2}-\d{2}$/.test(j.posted) ? j.posted : TODAY,
+    // Reject malformed or future dates (relative ages are sometimes miscounted).
+    posted: (/^\d{4}-\d{2}-\d{2}$/.test(j.posted) && j.posted <= TODAY) ? j.posted : TODAY,
     exp: String(j.exp || ""), payMinL: num(j.payMinL), payMaxL: num(j.payMaxL),
     level: ["Senior", "Mid", "Lead", "Staff"].includes(j.level) ? j.level : levelOf(String(j.title)),
     domain: String(j.domain || ""), url: String(j.url).split("?")[0], note: String(j.note || ""),
@@ -197,7 +198,8 @@ for (const src of LLM_PAGES) {
     if (!existing.has(k) && existingTC.has(tcKey(j))) k = existingTC.get(tcKey(j));
     seenToday.add(k);
     const old = existing.get(k);
-    if (old) { Object.assign(old, { ...j, firstSeen: old.firstSeen, url: old.url }); continue; }
+    // Board pages often lack a precise date; keep the earliest posting date we've seen.
+    if (old) { Object.assign(old, { ...j, firstSeen: old.firstSeen, url: old.url, posted: old.posted < j.posted ? old.posted : j.posted }); continue; }
     if (daysBetween(j.posted, TODAY) > 120) continue;
     const job = { ...j, firstSeen: TODAY };
     existing.set(k, job); added.push(job); existingTC.set(tcKey(job), k);

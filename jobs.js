@@ -9,20 +9,6 @@ window.RADAR = {
  ],
  "jobs": [
   {
-   "title": "Senior Product Designer",
-   "company": "Supaboard",
-   "portal": "Wellfound",
-   "posted": "2026-12-02",
-   "exp": "4 years",
-   "payMinL": 20,
-   "payMaxL": 30,
-   "level": "Senior",
-   "domain": "B2B",
-   "url": "https://wellfound.com/jobs/3543172-senior-product-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Sr. User Interaction Design Professional",
    "company": "Siemens Healthineers",
    "portal": "LinkedIn",
@@ -1785,6 +1771,20 @@ window.RADAR = {
    "url": "https://cutshort.io/jobs/product-design-jobs",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Supaboard",
+   "portal": "Wellfound",
+   "posted": "2025-12-06",
+   "exp": "4 years",
+   "payMinL": 20,
+   "payMaxL": 30,
+   "level": "Senior",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/3543172-senior-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-01"
   }
  ]
 };
