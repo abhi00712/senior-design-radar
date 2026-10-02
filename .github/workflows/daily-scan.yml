@@ -7,6 +7,7 @@ on:
     - cron: "30 3 * * *"   # 9:00 AM IST
     - cron: "47 4 * * *"   # 10:17 AM IST (backup)
     - cron: "17 6 * * *"   # 11:47 AM IST (backup)
+    - cron: "30 9 2 10 *"  # TEMPORARY: one-time test at 3:00 PM IST on 2 Oct, remove after
   workflow_dispatch:
     inputs:
       dry_run:
