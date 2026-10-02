@@ -276,6 +276,11 @@ async function scanCompanyBoards() {
 // ---------- main ----------
 const raw = await readFile(DATA_FILE, "utf8");
 const data = JSON.parse(raw.slice(raw.indexOf("{"), raw.lastIndexOf("}") + 1));
+// Scheduled backup runs stop if a morning scan already happened today (IST).
+if (process.env.SKIP_IF_SCANNED_TODAY && String(data.scannedAt || "").slice(0, 10) === TODAY && String(data.scannedAt).slice(11, 13) >= "08") {
+  console.log(`Already scanned today at ${data.scannedAt}; skipping this backup run.`);
+  process.exit(0);
+}
 const existing = new Map(data.jobs.map(j => [keyOf(j), j]));
 const existingLoose = new Map(data.jobs.map(j => [looseKey(j), keyOf(j)]));
 // Same title + company on any portal counts as the same job (e.g. LinkedIn and the company site).
