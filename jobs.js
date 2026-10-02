@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-02T02:56:00+05:30",
- "previousScanAt": "2026-10-02T02:53:00+05:30",
+ "scannedAt": "2026-10-02T10:12:00+05:30",
+ "previousScanAt": "2026-10-02T02:56:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -1217,7 +1217,7 @@ window.RADAR = {
    "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-09-18",
-   "exp": "2 years",
+   "exp": "2 yrs",
    "payMinL": 30,
    "payMaxL": 80,
    "level": "Mid",
@@ -2235,20 +2235,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer",
-   "company": "Unknown",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "4 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "",
-   "url": "https://wellfound.com/jobs/4053124-product-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Staff/Principal Product Designer, Partnerships",
    "company": "Ethos",
    "portal": "Wellfound",
@@ -2257,7 +2243,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "B2C",
+   "domain": "Insurtech",
    "url": "https://wellfound.com/jobs/4670517-staff-principal-product-designer-partnerships",
    "note": "",
    "firstSeen": "2026-10-01"
@@ -2295,27 +2281,13 @@ window.RADAR = {
    "company": "Fireflies.ai",
    "portal": "Wellfound",
    "posted": "2026-08-02",
-   "exp": "3 years",
+   "exp": "3 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
    "domain": "B2B",
    "url": "https://wellfound.com/jobs/3281427-product-designer",
    "note": "Remote",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Corvee",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Tax",
-   "url": "https://wellfound.com/jobs/3344993-product-designer",
-   "note": "In office",
    "firstSeen": "2026-10-02"
   },
   {
