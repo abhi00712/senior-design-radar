@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-02T10:12:00+05:30",
- "previousScanAt": "2026-10-02T02:56:00+05:30",
+ "scannedAt": "2026-10-03T14:54:00+05:30",
+ "previousScanAt": "2026-10-02T10:12:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -217,6 +217,20 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-409585-product-designer-at-policybazaar-bangalore/",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Moniepoint",
+   "portal": "LinkedIn",
+   "posted": "2026-10-02",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-moniepoint-group-4463991460",
+   "note": "",
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Sr. Product Designer – Service Collection",
@@ -1535,20 +1549,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Staff Product Designer",
-   "company": "Moniepoint",
-   "portal": "LinkedIn",
-   "posted": "2026-09-11",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "Fintech",
-   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-moniepoint-group-4463991460",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Lead Product Designer",
    "company": "FOXO",
    "portal": "Wellfound",
@@ -2221,6 +2221,20 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
+   "title": "Product Designer",
+   "company": "Unknown",
+   "portal": "Wellfound",
+   "posted": "2026-08-03",
+   "exp": "4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/4053124-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-03"
+  },
+  {
    "title": "Staff Product Designer",
    "company": "EarnIn",
    "portal": "Wellfound",
@@ -2243,7 +2257,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "Insurtech",
+   "domain": "B2C",
    "url": "https://wellfound.com/jobs/4670517-staff-principal-product-designer-partnerships",
    "note": "",
    "firstSeen": "2026-10-01"
@@ -2299,7 +2313,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Growth Platform",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/4418963-product-designer-ui-ux-designer",
    "note": "Remote",
    "firstSeen": "2026-10-02"
