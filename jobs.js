@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-03T14:54:00+05:30",
- "previousScanAt": "2026-10-02T10:12:00+05:30",
+ "scannedAt": "2026-10-04T15:34:00+05:30",
+ "previousScanAt": "2026-10-03T14:54:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,34 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior Product Designer",
+   "company": "Supaboard",
+   "portal": "Wellfound",
+   "posted": "2026-10-04",
+   "exp": "4 yrs",
+   "payMinL": 20,
+   "payMaxL": 30,
+   "level": "Senior",
+   "domain": "Data Analytics",
+   "url": "https://wellfound.com/jobs/3543172-senior-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "title": "Senior UI / Product Designer",
+   "company": "ARADY",
+   "portal": "Instahyre",
+   "posted": "2026-10-04",
+   "exp": "7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Real estate",
+   "url": "https://www.instahyre.com/job-442683-senior-ui-product-designer-at-arady-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-04"
+  },
   {
    "title": "Sr. User Interaction Design Professional",
    "company": "Siemens Healthineers",
@@ -695,20 +723,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer (UI/UX)",
-   "company": "Lyzr AI",
-   "portal": "LinkedIn",
-   "posted": "2026-09-25",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "AI agents",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-ui-ux-at-lyzr-ai-4468516680",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Product Designer",
    "company": "Cradlewise",
    "portal": "LinkedIn",
@@ -849,6 +863,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "User Experience Designer",
+   "company": "UST",
+   "portal": "LinkedIn",
+   "posted": "2026-09-24",
+   "exp": "2-5 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Automotive",
+   "url": "https://in.linkedin.com/jobs/view/user-experience-designer-at-ust-4469690424",
+   "note": "",
+   "firstSeen": "2026-10-04"
+  },
+  {
    "title": "Senior User Experience Designer",
    "company": "HCLTech",
    "portal": "LinkedIn",
@@ -931,6 +959,34 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-meesho-4470985311",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Group Manger - Experience Design",
+   "company": "Infosys",
+   "portal": "LinkedIn",
+   "posted": "2026-09-23",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Enterprise Products",
+   "url": "https://in.linkedin.com/jobs/view/group-manger-experience-design-at-infosys-4460692927",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "title": "Product Designer (UI/UX)",
+   "company": "Lyzr AI",
+   "portal": "LinkedIn",
+   "posted": "2026-09-22",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "AI agents",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-ui-ux-at-lyzr-ai-4468516680",
+   "note": "",
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior UX Designer",
@@ -1087,6 +1143,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Manager, Product Design: AI Products",
+   "company": "New Relic",
+   "portal": "LinkedIn",
+   "posted": "2026-09-21",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "AI Products",
+   "url": "https://in.linkedin.com/jobs/view/manager-product-design-ai-products-at-new-relic-4469882400",
+   "note": "In office",
+   "firstSeen": "2026-10-04"
+  },
+  {
    "title": "Senior Product Designer",
    "company": "AiDASH",
    "portal": "LinkedIn",
@@ -1227,20 +1297,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer",
-   "company": "Atlys",
-   "portal": "Wellfound",
-   "posted": "2026-09-18",
-   "exp": "2 yrs",
-   "payMinL": 30,
-   "payMaxL": 80,
-   "level": "Mid",
-   "domain": "B2C B2B",
-   "url": "https://wellfound.com/jobs/4144519-product-designer",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Product Designer 2",
    "company": "Truemeds",
    "portal": "LinkedIn",
@@ -1308,20 +1364,6 @@ window.RADAR = {
    "domain": "Fintech",
    "url": "https://in.linkedin.com/jobs/view/product-design-manager-ux-product-design-at-phonepe-4458093175",
    "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "UI/UX Designer",
-   "company": "Wesence",
-   "portal": "Wellfound",
-   "posted": "2026-09-18",
-   "exp": "3 yrs",
-   "payMinL": 6,
-   "payMaxL": 7.2,
-   "level": "Mid",
-   "domain": "Intelligent Systems",
-   "url": "https://wellfound.com/jobs/4718643-ui-ux-product-designer",
-   "note": "In office",
    "firstSeen": "2026-10-02"
   },
   {
@@ -1519,6 +1561,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-noon-4467030748",
    "note": "",
    "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "UX Designer (2 to 4 years)",
+   "company": "athenahealth",
+   "portal": "LinkedIn",
+   "posted": "2026-09-14",
+   "exp": "2–4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Healthcare",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-2-to-4-years-at-athenahealth-4465865455",
+   "note": "",
+   "firstSeen": "2026-10-04"
   },
   {
    "title": "Senior Product Designer",
@@ -1855,6 +1911,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-pw-physicswallah-4463346830",
    "note": "",
    "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "Emirates NBD",
+   "portal": "LinkedIn",
+   "posted": "2026-09-04",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-emirates-nbd-4461158680",
+   "note": "",
+   "firstSeen": "2026-10-04"
   },
   {
    "title": "Senior User Experience Designer II",
@@ -2221,15 +2291,43 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
+   "title": "UI/UX Designer",
+   "company": "Wesence",
+   "portal": "Wellfound",
+   "posted": "2026-08-04",
+   "exp": "3 yrs",
+   "payMinL": 6,
+   "payMaxL": 7.2,
+   "level": "Mid",
+   "domain": "Intelligent Systems",
+   "url": "https://wellfound.com/jobs/4718643-ui-ux-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-02"
+  },
+  {
    "title": "Product Designer",
-   "company": "Unknown",
+   "company": "Corvee",
+   "portal": "Wellfound",
+   "posted": "2026-08-04",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/3344993-product-designer",
+   "note": "",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "title": "Product Designer",
+   "company": "FOXO",
    "portal": "Wellfound",
    "posted": "2026-08-03",
    "exp": "4 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "B2B",
+   "domain": "Longevity",
    "url": "https://wellfound.com/jobs/4053124-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-03"
@@ -2257,7 +2355,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "B2C",
+   "domain": "Insurance",
    "url": "https://wellfound.com/jobs/4670517-staff-principal-product-designer-partnerships",
    "note": "",
    "firstSeen": "2026-10-01"
@@ -2313,7 +2411,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "B2B",
+   "domain": "Growth",
    "url": "https://wellfound.com/jobs/4418963-product-designer-ui-ux-designer",
    "note": "Remote",
    "firstSeen": "2026-10-02"
@@ -2329,7 +2427,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "Physical Assets",
    "url": "https://wellfound.com/jobs/4435452-ui-ux-designer-engineering-platforms",
-   "note": "In office",
+   "note": "In office needs coding",
    "firstSeen": "2026-10-02"
   },
   {
