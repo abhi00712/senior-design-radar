@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-04T15:34:00+05:30",
- "previousScanAt": "2026-10-03T14:54:00+05:30",
+ "scannedAt": "2026-10-05T15:04:00+05:30",
+ "previousScanAt": "2026-10-04T15:34:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -10,17 +10,59 @@ window.RADAR = {
  "jobs": [
   {
    "title": "Senior Product Designer",
-   "company": "Supaboard",
-   "portal": "Wellfound",
-   "posted": "2026-10-04",
-   "exp": "4 yrs",
-   "payMinL": 20,
-   "payMaxL": 30,
+   "company": "Emergent",
+   "portal": "LinkedIn",
+   "posted": "2026-10-05",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
    "level": "Senior",
-   "domain": "Data Analytics",
-   "url": "https://wellfound.com/jobs/3543172-senior-product-designer",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-emergent-4474235911",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-05"
+  },
+  {
+   "title": "Product Designer",
+   "company": "OnlyLaw",
+   "portal": "LinkedIn",
+   "posted": "2026-10-05",
+   "exp": "2–5 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Legal Tech",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-onlylaw-4475545558",
    "note": "In office",
-   "firstSeen": "2026-10-04"
+   "firstSeen": "2026-10-05"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Khatabook",
+   "portal": "Instahyre",
+   "posted": "2026-10-05",
+   "exp": "3-6 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://www.instahyre.com/job-420291-senior-product-designer-at-khatabook-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-05"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "Bridgetown Research",
+   "portal": "Instahyre",
+   "posted": "2026-10-05",
+   "exp": "6-10 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "B2B SaaS AI",
+   "url": "https://www.instahyre.com/job-442803-lead-product-designer-at-bridgetown-research-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-05"
   },
   {
    "title": "Senior UI / Product Designer",
@@ -35,6 +77,20 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-442683-senior-ui-product-designer-at-arady-bangalore/",
    "note": "",
    "firstSeen": "2026-10-04"
+  },
+  {
+   "title": "UX Designer - Enterprise Products",
+   "company": "VISCR AI",
+   "portal": "LinkedIn",
+   "posted": "2026-10-04",
+   "exp": "2–4 yrs",
+   "payMinL": 9,
+   "payMaxL": 15,
+   "level": "Senior",
+   "domain": "Enterprise AI Security",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-enterprise-products-at-viscr-ai-4474201890",
+   "note": "In office",
+   "firstSeen": "2026-10-05"
   },
   {
    "title": "Sr. User Interaction Design Professional",
@@ -877,6 +933,20 @@ window.RADAR = {
    "firstSeen": "2026-10-04"
   },
   {
+   "title": "Senior Product Design Engineer",
+   "company": "NeoGenCode Technologies Pvt Ltd",
+   "portal": "Cutshort",
+   "posted": "2026-09-24",
+   "exp": "4–8 yrs",
+   "payMinL": 30,
+   "payMaxL": 50,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://cutshort.io/job/senior-product-design-engineer-bengaluru-neoGencode-technologies-pvt-ltd--J6v6q3q",
+   "note": "Hybrid needs coding · Recruiter",
+   "firstSeen": "2026-10-05"
+  },
+  {
    "title": "Senior User Experience Designer",
    "company": "HCLTech",
    "portal": "LinkedIn",
@@ -1239,6 +1309,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/lead-product-designer-1672891",
    "note": "Recruiter",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Design Engineer",
+   "company": "Staffnixcom",
+   "portal": "Cutshort",
+   "posted": "2026-09-19",
+   "exp": "4–8 yrs",
+   "payMinL": 40,
+   "payMaxL": 50,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://cutshort.io/job/senior-product-design-engineer-bengaluru-staffnixcom--J6v6q3q",
+   "note": "Hybrid needs coding · Recruiter",
+   "firstSeen": "2026-10-05"
   },
   {
    "title": "UI / UX designer",
@@ -1927,6 +2011,20 @@ window.RADAR = {
    "firstSeen": "2026-10-04"
   },
   {
+   "title": "Lead UX Designer",
+   "company": "PlaySimple Games",
+   "portal": "LinkedIn",
+   "posted": "2026-09-04",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Gaming",
+   "url": "https://in.linkedin.com/jobs/view/lead-ux-designer-at-playsimple-games-4471265401",
+   "note": "",
+   "firstSeen": "2026-10-05"
+  },
+  {
    "title": "Senior User Experience Designer II",
    "company": "Schneider Electric",
    "portal": "LinkedIn",
@@ -2193,6 +2291,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Lead User Experience Designer",
+   "company": "PlaySimple Games",
+   "portal": "LinkedIn",
+   "posted": "2026-08-14",
+   "exp": "7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Gaming",
+   "url": "https://in.linkedin.com/jobs/view/lead-user-experience-designer-at-playsimple-games-4450328851",
+   "note": "",
+   "firstSeen": "2026-10-05"
+  },
+  {
    "title": "Senior Product Designer",
    "company": "Hevo Data",
    "portal": "Company site",
@@ -2219,6 +2331,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/allen-lead-product-designer-interaction-design-1662873",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Sr. Product Designer",
+   "company": "Navan",
+   "portal": "Cutshort",
+   "posted": "2026-08-10",
+   "exp": "4–6 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Travel",
+   "url": "https://cutshort.io/job/sr-product-designer-bengaluru-navan--J6v6q3q",
+   "note": "Remote",
+   "firstSeen": "2026-10-05"
   },
   {
    "title": "Senior Product Designer",
@@ -2306,20 +2432,6 @@ window.RADAR = {
   },
   {
    "title": "Product Designer",
-   "company": "Corvee",
-   "portal": "Wellfound",
-   "posted": "2026-08-04",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "B2B",
-   "url": "https://wellfound.com/jobs/3344993-product-designer",
-   "note": "",
-   "firstSeen": "2026-10-04"
-  },
-  {
-   "title": "Product Designer",
    "company": "FOXO",
    "portal": "Wellfound",
    "posted": "2026-08-03",
@@ -2343,7 +2455,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "B2C",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-01"
   },
   {
@@ -2355,9 +2467,9 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "Insurance",
+   "domain": "B2C",
    "url": "https://wellfound.com/jobs/4670517-staff-principal-product-designer-partnerships",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-01"
   },
   {
@@ -2411,23 +2523,9 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Growth",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/4418963-product-designer-ui-ux-designer",
    "note": "Remote",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "UI/UX Designer (Engineering Platforms)",
-   "company": "ENGINPILOT",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "3 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Physical Assets",
-   "url": "https://wellfound.com/jobs/4435452-ui-ux-designer-engineering-platforms",
-   "note": "In office needs coding",
    "firstSeen": "2026-10-02"
   },
   {
@@ -2625,6 +2723,34 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/straive-lead-ux-designer-1654187",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "UI/UX Designer (Engineering Platforms)",
+   "company": "ENGINPILOT",
+   "portal": "Wellfound",
+   "posted": "2026-07-05",
+   "exp": "3 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Engineering Platforms",
+   "url": "https://wellfound.com/jobs/4435452-ui-ux-designer-engineering-platforms",
+   "note": "In office needs coding",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Nexera",
+   "portal": "Wellfound",
+   "posted": "2026-07-05",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Finance",
+   "url": "https://wellfound.com/jobs/3523277-product-designer",
+   "note": "",
+   "firstSeen": "2026-10-05"
   },
   {
    "title": "Senior UX Designer",
