@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-06T16:14:00+05:30",
- "previousScanAt": "2026-10-05T15:04:00+05:30",
+ "scannedAt": "2026-10-07T16:03:00+05:30",
+ "previousScanAt": "2026-10-06T16:14:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,48 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Product Designer",
+   "company": "Toddle - Your Teaching Partner",
+   "portal": "LinkedIn",
+   "posted": "2026-10-07",
+   "exp": "1–3 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Edtech",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-toddle-your-teaching-partner-4475422019",
+   "note": "Remote",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "title": "Product Designer - UI/UX Design",
+   "company": "HyrMe",
+   "portal": "Hirist",
+   "posted": "2026-10-07",
+   "exp": "3–6 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Product Design",
+   "url": "https://www.hirist.tech/j/product-designer-uiux-design-1677059",
+   "note": "Recruiter",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "title": "Senior Product Designer - B2C",
+   "company": "Versatile Club",
+   "portal": "Hirist",
+   "posted": "2026-10-07",
+   "exp": "3–7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2C",
+   "url": "https://www.hirist.tech/j/senior-product-designer-b2c-1677099",
+   "note": "Recruiter",
+   "firstSeen": "2026-10-07"
+  },
   {
    "title": "Lead Product Designer | Bangalore",
    "company": "Neuron7.ai",
@@ -63,6 +105,48 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-438957-product-designer-at-loop-health-bangalore/",
    "note": "",
    "firstSeen": "2026-10-06"
+  },
+  {
+   "title": "Senior Product Designer (UX/UI)",
+   "company": "Revun",
+   "portal": "LinkedIn",
+   "posted": "2026-10-06",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-ux-ui-at-revun-4458703085",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Mindtickle",
+   "portal": "LinkedIn",
+   "posted": "2026-10-06",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-mindtickle-4476563315",
+   "note": "",
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "Mindtickle",
+   "portal": "LinkedIn",
+   "posted": "2026-10-06",
+   "exp": "6–8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-mindtickle-4476567102",
+   "note": "",
+   "firstSeen": "2026-10-07"
   },
   {
    "title": "Senior Product Designer",
@@ -187,20 +271,6 @@ window.RADAR = {
    "level": "Senior",
    "domain": "Healthcare, enterprise",
    "url": "https://in.linkedin.com/jobs/view/sr-user-interaction-design-professional-at-siemens-healthineers-4472910349",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Skydo",
-   "portal": "LinkedIn",
-   "posted": "2026-10-02",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Fintech, cross-border payments",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-at-skydo-4472553189",
    "note": "",
    "firstSeen": "2026-10-01"
   },
@@ -397,6 +467,20 @@ window.RADAR = {
    "level": "Staff",
    "domain": "Fintech",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-moniepoint-group-4463991460",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Skydo",
+   "portal": "LinkedIn",
+   "posted": "2026-10-01",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Fintech, cross-border payments",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-skydo-4472553189",
    "note": "",
    "firstSeen": "2026-10-01"
   },
@@ -665,6 +749,20 @@ window.RADAR = {
    "url": "https://www.amazon.jobs/en/jobs/10565933/ux-product-designer-mx-player",
    "note": "Hybrid",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer III",
+   "company": "6sense",
+   "portal": "LinkedIn",
+   "posted": "2026-09-30",
+   "exp": "5–7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-iii-at-6sense-4473764662",
+   "note": "Hybrid needs coding",
+   "firstSeen": "2026-10-07"
   },
   {
    "title": "Staff/Principal Product Designer",
@@ -1479,20 +1577,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer 2",
-   "company": "Truemeds",
-   "portal": "LinkedIn",
-   "posted": "2026-09-18",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Health, pharmacy",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-2-at-truemeds-4463973910",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Product Designer – AI and Enterprise Software",
    "company": "Thermo Fisher Scientific",
    "portal": "LinkedIn",
@@ -1661,20 +1745,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Senior Product Designer (UX/UI)",
-   "company": "Revun",
-   "portal": "LinkedIn",
-   "posted": "2026-09-15",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "SaaS",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-ux-ui-at-revun-4458703085",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Mumzworld",
    "portal": "LinkedIn",
@@ -1757,6 +1827,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/ux-designer-2-to-4-years-at-athenahealth-4465865455",
    "note": "",
    "firstSeen": "2026-10-04"
+  },
+  {
+   "title": "Product Designer 2",
+   "company": "Truemeds",
+   "portal": "LinkedIn",
+   "posted": "2026-09-11",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Health, pharmacy",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-2-at-truemeds-4463973910",
+   "note": "",
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -2403,20 +2487,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Lead User Experience Designer",
-   "company": "PlaySimple Games",
-   "portal": "LinkedIn",
-   "posted": "2026-08-14",
-   "exp": "7+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Gaming",
-   "url": "https://in.linkedin.com/jobs/view/lead-user-experience-designer-at-playsimple-games-4450328851",
-   "note": "",
-   "firstSeen": "2026-10-05"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Hevo Data",
    "portal": "Company site",
@@ -2530,14 +2600,14 @@ window.RADAR = {
   },
   {
    "title": "Product Designer",
-   "company": "FOXO",
+   "company": "Unknown",
    "portal": "Wellfound",
    "posted": "2026-08-03",
    "exp": "4 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Longevity",
+   "domain": "Unknown",
    "url": "https://wellfound.com/jobs/4053124-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-03"
@@ -2593,7 +2663,7 @@ window.RADAR = {
    "payMinL": 20,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "B2B",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -2621,7 +2691,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Growth Platform",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/4418963-product-designer-ui-ux-designer",
    "note": "Remote",
    "firstSeen": "2026-10-02"
@@ -2807,20 +2877,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/straive-lead-ux-designer-1654187",
    "note": "",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Corvee",
-   "portal": "Wellfound",
-   "posted": "2026-07-06",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Tax",
-   "url": "https://wellfound.com/jobs/3344993-product-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-06"
   },
   {
    "title": "Senior UX Designer",
