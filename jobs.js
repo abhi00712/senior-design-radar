@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-07T16:03:00+05:30",
- "previousScanAt": "2026-10-06T16:14:00+05:30",
+ "scannedAt": "2026-10-08T16:23:00+05:30",
+ "previousScanAt": "2026-10-07T16:03:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,48 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Product Designer (B2C)",
+   "company": "Virtual Connect Solutions",
+   "portal": "LinkedIn",
+   "posted": "2026-10-08",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "B2C",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-b2c-at-virtual-connect-solutions-4475744474",
+   "note": "",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "UX Designer",
+   "company": "Nutanix",
+   "portal": "LinkedIn",
+   "posted": "2026-10-08",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Enterprise Software",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-at-nutanix-4477115231",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Bridgetown Research",
+   "portal": "Instahyre",
+   "posted": "2026-10-08",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Research",
+   "url": "https://www.instahyre.com/job-441328-product-designer-at-bridgetown-research-bangalore/",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-08"
+  },
   {
    "title": "Product Designer",
    "company": "Toddle - Your Teaching Partner",
@@ -49,6 +91,62 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/senior-product-designer-b2c-1677099",
    "note": "Recruiter",
    "firstSeen": "2026-10-07"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "JioStar",
+   "portal": "LinkedIn",
+   "posted": "2026-10-07",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Media, streaming",
+   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-jiostar-4465966715",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "UI/UX Designer",
+   "company": "Ecolab",
+   "portal": "LinkedIn",
+   "posted": "2026-10-07",
+   "exp": "3+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Enterprise Software",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-ecolab-4468254051",
+   "note": "",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Ema",
+   "portal": "LinkedIn",
+   "posted": "2026-10-07",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "AI, enterprise",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-ema-4465940221",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Product design",
+   "company": "HuntingCube",
+   "portal": "LinkedIn",
+   "posted": "2026-10-07",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/product-design-at-huntingcube-4476794333",
+   "note": "",
+   "firstSeen": "2026-10-08"
   },
   {
    "title": "Lead Product Designer | Bangalore",
@@ -961,20 +1059,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer",
-   "company": "Cradlewise",
-   "portal": "LinkedIn",
-   "posted": "2026-09-25",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Consumer hardware",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-at-cradlewise-4467844521",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior UI / UX Designer - AI Hub",
    "company": "Linde@India",
    "portal": "LinkedIn",
@@ -1339,20 +1423,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer",
-   "company": "Atlys",
-   "portal": "Wellfound",
-   "posted": "2026-09-22",
-   "exp": "2 years",
-   "payMinL": 30,
-   "payMaxL": 80,
-   "level": "Mid",
-   "domain": "B2C B2B",
-   "url": "https://wellfound.com/jobs/4144519-product-designer",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-06"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "JazzX AI",
    "portal": "LinkedIn",
@@ -1521,6 +1591,20 @@ window.RADAR = {
    "firstSeen": "2026-10-05"
   },
   {
+   "title": "Product Designer",
+   "company": "Cradlewise",
+   "portal": "LinkedIn",
+   "posted": "2026-09-18",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Consumer hardware",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-cradlewise-4467844521",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "title": "UI / UX designer",
    "company": "Emplay",
    "portal": "Wellfound",
@@ -1533,34 +1617,6 @@ window.RADAR = {
    "url": "https://wellfound.com/jobs/4751198-ui-ux-designer",
    "note": "Remote",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Yulu",
-   "portal": "LinkedIn",
-   "posted": "2026-09-18",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "EV mobility",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-yulu-4468606404",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Xometry",
-   "portal": "LinkedIn",
-   "posted": "2026-09-18",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "B2B marketplace",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-xometry-4461334468",
-   "note": "",
-   "firstSeen": "2026-10-01"
   },
   {
    "title": "Staff Product Designer",
@@ -1661,6 +1717,34 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Product Designer",
+   "company": "Atlys",
+   "portal": "Wellfound",
+   "posted": "2026-09-17",
+   "exp": "2 years",
+   "payMinL": 30,
+   "payMaxL": 80,
+   "level": "Mid",
+   "domain": "B2C B2B",
+   "url": "https://wellfound.com/jobs/4144519-product-designer",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Yulu",
+   "portal": "LinkedIn",
+   "posted": "2026-09-17",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "EV mobility",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-yulu-4468606404",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "title": "Lead I – UX Design",
    "company": "UST",
    "portal": "LinkedIn",
@@ -1685,34 +1769,6 @@ window.RADAR = {
    "level": "Senior",
    "domain": "",
    "url": "https://www.hirist.tech/j/senior-product-designer-figma-1672222",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Staff Product Designer",
-   "company": "JioStar",
-   "portal": "LinkedIn",
-   "posted": "2026-09-16",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "Media, streaming",
-   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-jiostar-4465966715",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "UI/UX Designer",
-   "company": "Ecolab",
-   "portal": "LinkedIn",
-   "posted": "2026-09-16",
-   "exp": "3+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Enterprise Software",
-   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-ecolab-4468254051",
    "note": "",
    "firstSeen": "2026-10-02"
   },
@@ -1773,20 +1829,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer",
-   "company": "Ema",
-   "portal": "LinkedIn",
-   "posted": "2026-09-15",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "AI, enterprise",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-at-ema-4465940221",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Product Designer III - Adobe Creative Suite",
    "company": "HyrMe",
    "portal": "Hirist",
@@ -1799,6 +1841,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/product-designer-iii-adobe-creative-suite-5-10-yrs-1671480",
    "note": "Recruiter",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Xometry",
+   "portal": "LinkedIn",
+   "posted": "2026-09-14",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B marketplace",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-xometry-4461334468",
+   "note": "",
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -2607,7 +2663,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Unknown",
+   "domain": "",
    "url": "https://wellfound.com/jobs/4053124-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-03"
@@ -2663,7 +2719,7 @@ window.RADAR = {
    "payMinL": 20,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "AI",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -2695,20 +2751,6 @@ window.RADAR = {
    "url": "https://wellfound.com/jobs/4418963-product-designer-ui-ux-designer",
    "note": "Remote",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "GreyLabs AI",
-   "portal": "LinkedIn",
-   "posted": "2026-07-31",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "AI, conversation analytics",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greylabs-ai-4447513416",
-   "note": "",
-   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer - NID/IIT",
@@ -2877,6 +2919,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/straive-lead-ux-designer-1654187",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Corvee",
+   "portal": "Wellfound",
+   "posted": "2026-07-08",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/3344993-product-designer",
+   "note": "",
+   "firstSeen": "2026-10-08"
   },
   {
    "title": "Senior UX Designer",
