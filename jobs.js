@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-08T16:23:00+05:30",
- "previousScanAt": "2026-10-07T16:03:00+05:30",
+ "scannedAt": "2026-10-09T16:23:00+05:30",
+ "previousScanAt": "2026-10-08T16:23:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,104 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Product Designer II",
+   "company": "Nielsen",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Data, media",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-nielsen-4459958590",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Lead I – UX Design",
+   "company": "UST",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "IT services",
+   "url": "https://in.linkedin.com/jobs/view/lead-i-ux-design-at-ust-4448073143",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Senior UI/UX Designer",
+   "company": "Gosuper Edtech",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "2+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "EdTech",
+   "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-at-gosuper-edtech-4477649635",
+   "note": "Remote",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "E-Commerce Product Designer",
+   "company": "Weekday (YC W21)",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "E-commerce",
+   "url": "https://in.linkedin.com/jobs/view/e-commerce-product-designer-at-weekday-yc-w21-4474898782",
+   "note": "",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "Lead User Experience Designer",
+   "company": "Salesforce",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "10-16 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "AI CRM",
+   "url": "https://in.linkedin.com/jobs/view/lead-user-experience-designer-at-salesforce-4389081545",
+   "note": "",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "UI/UX Design Lead - Human Computer Interaction",
+   "company": "HiPos Consulting",
+   "portal": "Hirist",
+   "posted": "2026-10-09",
+   "exp": "8–10 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Human Computer Interaction",
+   "url": "https://www.hirist.tech/j/uiux-design-lead-human-computer-interaction-1677641",
+   "note": "Recruiter",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "Product Designer",
+   "company": "M-League",
+   "portal": "Instahyre",
+   "posted": "2026-10-09",
+   "exp": "3-7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Gaming",
+   "url": "https://www.instahyre.com/job-446352-product-designer-at-m-league-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-09"
+  },
   {
    "title": "Product Designer (B2C)",
    "company": "Virtual Connect Solutions",
@@ -49,6 +147,48 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-441328-product-designer-at-bridgetown-research-bangalore/",
    "note": "Hybrid",
    "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "Product Designer -II",
+   "company": "Microsoft",
+   "portal": "LinkedIn",
+   "posted": "2026-10-08",
+   "exp": "3+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Data Platform",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-microsoft-4477166566",
+   "note": "",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "Lead User Experience Designer",
+   "company": "SalesForce-ad",
+   "portal": "LinkedIn",
+   "posted": "2026-10-08",
+   "exp": "10-16 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "AI CRM",
+   "url": "https://in.linkedin.com/jobs/view/lead-user-experience-designer-at-salesforce-ad-4477458982",
+   "note": "",
+   "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "Product Designer - Figma",
+   "company": "eloelo",
+   "portal": "Hirist",
+   "posted": "2026-10-08",
+   "exp": "2–4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Product Design",
+   "url": "https://www.hirist.tech/j/eloelo-product-designer-figma-1677481",
+   "note": "",
+   "firstSeen": "2026-10-09"
   },
   {
    "title": "Product Designer",
@@ -695,6 +835,20 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
+   "title": "Senior UX Designer, RBS",
+   "company": "Amazon",
+   "portal": "LinkedIn",
+   "posted": "2026-10-01",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "E-commerce",
+   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-rbs-at-amazon-4455794253",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
    "title": "Senior Product Designer",
    "company": "slice",
    "portal": "LinkedIn",
@@ -961,6 +1115,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Product Design Lead, HRIS",
+   "company": "Rippling",
+   "portal": "LinkedIn",
+   "posted": "2026-09-27",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "HRIS",
+   "url": "https://in.linkedin.com/jobs/view/product-design-lead-hris-at-rippling-4454823629",
+   "note": "",
+   "firstSeen": "2026-10-09"
+  },
+  {
    "title": "Senior UX Designer",
    "company": "Motorola Solutions",
    "portal": "LinkedIn",
@@ -1223,20 +1391,6 @@ window.RADAR = {
    "level": "Senior",
    "domain": "IT services",
    "url": "https://in.linkedin.com/jobs/view/senior-user-experience-designer-at-hcltech-4469343122",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Product Designer II",
-   "company": "Nielsen",
-   "portal": "LinkedIn",
-   "posted": "2026-09-23",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Data, media",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-nielsen-4459958590",
    "note": "",
    "firstSeen": "2026-10-01"
   },
@@ -1721,13 +1875,13 @@ window.RADAR = {
    "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-09-17",
-   "exp": "2 years",
+   "exp": "2 yrs",
    "payMinL": 30,
    "payMaxL": 80,
    "level": "Mid",
    "domain": "B2C B2B",
    "url": "https://wellfound.com/jobs/4144519-product-designer",
-   "note": "Hybrid",
+   "note": "Onsite or remote",
    "firstSeen": "2026-10-06"
   },
   {
@@ -1741,20 +1895,6 @@ window.RADAR = {
    "level": "Senior",
    "domain": "EV mobility",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-yulu-4468606404",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Lead I – UX Design",
-   "company": "UST",
-   "portal": "LinkedIn",
-   "posted": "2026-09-17",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "IT services",
-   "url": "https://in.linkedin.com/jobs/view/lead-i-ux-design-at-ust-4448073143",
    "note": "",
    "firstSeen": "2026-10-01"
   },
@@ -2599,6 +2739,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "UI/UX Designer",
+   "company": "peopleHum",
+   "portal": "LinkedIn",
+   "posted": "2026-08-07",
+   "exp": "3+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Digital Products",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-peoplehum-4450300808",
+   "note": "",
+   "firstSeen": "2026-10-09"
+  },
+  {
    "title": "Product Designer",
    "company": "THINK41 TECHNOLOGIES PRIVATE LIMITED",
    "portal": "Hirist",
@@ -2653,20 +2807,6 @@ window.RADAR = {
    "url": "https://wellfound.com/jobs/4718643-ui-ux-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Unknown",
-   "portal": "Wellfound",
-   "posted": "2026-08-03",
-   "exp": "4 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "",
-   "url": "https://wellfound.com/jobs/4053124-product-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-03"
   },
   {
    "title": "Staff Product Designer",
@@ -2725,20 +2865,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer",
-   "company": "Fireflies.ai",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "3 years",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "B2B",
-   "url": "https://wellfound.com/jobs/3281427-product-designer",
-   "note": "Remote",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Product Designer / UI-UX Designer",
    "company": "rooh",
    "portal": "Wellfound",
@@ -2747,7 +2873,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "B2B",
+   "domain": "Growth Platform",
    "url": "https://wellfound.com/jobs/4418963-product-designer-ui-ux-designer",
    "note": "Remote",
    "firstSeen": "2026-10-02"
@@ -2765,6 +2891,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/tresvista-senior-product-designer-nidiit-1659581",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "GreyLabs AI",
+   "portal": "LinkedIn",
+   "posted": "2026-07-31",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greylabs-ai-4447513416",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-09"
   },
   {
    "title": "Product Designer - Figma/Adobe XD",
@@ -2807,20 +2947,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/lead-ux-designer-adobe-creative-suite-1657439",
    "note": "",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior UX Designer, RBS",
-   "company": "Amazon",
-   "portal": "LinkedIn",
-   "posted": "2026-07-23",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "E-commerce",
-   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-rbs-at-amazon-4455794253",
-   "note": "",
-   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer - Figma",
@@ -2919,6 +3045,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/straive-lead-ux-designer-1654187",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "FOXO",
+   "portal": "Wellfound",
+   "posted": "2026-07-09",
+   "exp": "4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Longevity",
+   "url": "https://wellfound.com/jobs/4053124-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-03"
   },
   {
    "title": "Product Designer",
