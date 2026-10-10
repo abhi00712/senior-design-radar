@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-09T16:23:00+05:30",
- "previousScanAt": "2026-10-08T16:23:00+05:30",
+ "scannedAt": "2026-10-10T15:36:00+05:30",
+ "previousScanAt": "2026-10-09T16:23:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -12,7 +12,7 @@ window.RADAR = {
    "title": "Product Designer II",
    "company": "Nielsen",
    "portal": "LinkedIn",
-   "posted": "2026-10-09",
+   "posted": "2026-10-10",
    "exp": "",
    "payMinL": null,
    "payMaxL": null,
@@ -21,6 +21,48 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-nielsen-4459958590",
    "note": "",
    "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Product Designer — WhatsApp India",
+   "company": "WhatsApp",
+   "portal": "LinkedIn",
+   "posted": "2026-10-10",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Social Media",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-%E2%80%94-whatsapp-india-at-whatsapp-4475620155",
+   "note": "",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "User Experience Designer",
+   "company": "Honda Digital Innovation, India",
+   "portal": "LinkedIn",
+   "posted": "2026-10-10",
+   "exp": "4+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Automotive",
+   "url": "https://in.linkedin.com/jobs/view/user-experience-designer-at-honda-digital-innovation-india-4476895339",
+   "note": "In office",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "UI/UX Design",
+   "company": "Virtusa",
+   "portal": "LinkedIn",
+   "posted": "2026-10-10",
+   "exp": "10-15 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-design-at-virtusa-4475277811",
+   "note": "Hybrid needs coding",
+   "firstSeen": "2026-10-10"
   },
   {
    "title": "Lead I – UX Design",
@@ -105,6 +147,90 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-446352-product-designer-at-m-league-bangalore/",
    "note": "",
    "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "UI/UX Designer II",
+   "company": "Aon",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "12-14 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-ii-at-aon-4477887633",
+   "note": "In office",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Paylocity",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "5-7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-paylocity-4477680252",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "aion",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-aion-4477813566",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "Product Designer II",
+   "company": "Porter",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "2-4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Logistics",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-porter-4475255142",
+   "note": "",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "Xynvia",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-xynvia-4476258120",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Simplismart",
+   "portal": "Wellfound",
+   "posted": "2026-10-09",
+   "exp": "4 years",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/4809486-senior-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-10"
   },
   {
    "title": "Product Designer (B2C)",
@@ -1087,6 +1213,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "UI/UX Designer",
+   "company": "Tricog Health",
+   "portal": "LinkedIn",
+   "posted": "2026-09-28",
+   "exp": "4–5 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Healthtech",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-tricog-health-4470890110",
+   "note": "",
+   "firstSeen": "2026-10-10"
+  },
+  {
    "title": "Product Design Lead, Platform Tools",
    "company": "Rippling",
    "portal": "LinkedIn",
@@ -1875,13 +2015,13 @@ window.RADAR = {
    "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-09-17",
-   "exp": "2 yrs",
+   "exp": "2 years",
    "payMinL": 30,
    "payMaxL": 80,
    "level": "Mid",
    "domain": "B2C B2B",
    "url": "https://wellfound.com/jobs/4144519-product-designer",
-   "note": "Onsite or remote",
+   "note": "Hybrid",
    "firstSeen": "2026-10-06"
   },
   {
@@ -2627,20 +2767,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Product Designer",
-   "company": "Sarvam",
-   "portal": "LinkedIn",
-   "posted": "2026-08-19",
-   "exp": "4+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-at-sarvam-4456176299",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "UX/UI Designer",
    "company": "Apple",
    "portal": "LinkedIn",
@@ -2709,6 +2835,34 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/allen-lead-product-designer-interaction-design-1662873",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Fireflies.ai",
+   "portal": "Wellfound",
+   "posted": "2026-08-10",
+   "exp": "3 years",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/3281427-product-designer",
+   "note": "Remote",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Nprep",
+   "portal": "Wellfound",
+   "posted": "2026-08-10",
+   "exp": "2 years",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/4135684-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-10"
   },
   {
    "title": "Senior Product Designer",
@@ -2859,7 +3013,7 @@ window.RADAR = {
    "payMinL": 20,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "B2B",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3071,7 +3225,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "B2B",
    "url": "https://wellfound.com/jobs/3344993-product-designer",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-08"
   },
   {
