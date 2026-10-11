@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-10T15:36:00+05:30",
- "previousScanAt": "2026-10-09T16:23:00+05:30",
+ "scannedAt": "2026-10-11T15:47:00+05:30",
+ "previousScanAt": "2026-10-10T15:36:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -63,6 +63,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/ui-ux-design-at-virtusa-4475277811",
    "note": "Hybrid needs coding",
    "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Tekion Corp",
+   "portal": "LinkedIn",
+   "posted": "2026-10-10",
+   "exp": "5–7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Automotive SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-tekion-corp-4478074208",
+   "note": "",
+   "firstSeen": "2026-10-11"
   },
   {
    "title": "Lead I – UX Design",
@@ -223,7 +237,7 @@ window.RADAR = {
    "company": "Simplismart",
    "portal": "Wellfound",
    "posted": "2026-10-09",
-   "exp": "4 years",
+   "exp": "4 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Senior",
@@ -231,6 +245,20 @@ window.RADAR = {
    "url": "https://wellfound.com/jobs/4809486-senior-designer",
    "note": "In office",
    "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "UI/UX Designer",
+   "company": "Epergne Solutions",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Software",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-epergne-solutions-4477661389",
+   "note": "Remote",
+   "firstSeen": "2026-10-11"
   },
   {
    "title": "Product Designer (B2C)",
@@ -1927,20 +1955,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer – AI and Enterprise Software",
-   "company": "Thermo Fisher Scientific",
-   "portal": "LinkedIn",
-   "posted": "2026-09-18",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Life sciences, enterprise",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-ai-and-enterprise-software-job-posting-title-here-at-thermo-fisher-scientific-4464274964",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Principal Product Designer",
    "company": "Epicor",
    "portal": "LinkedIn",
@@ -2015,7 +2029,7 @@ window.RADAR = {
    "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-09-17",
-   "exp": "2 years",
+   "exp": "2 yrs",
    "payMinL": 30,
    "payMaxL": 80,
    "level": "Mid",
@@ -2163,6 +2177,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/ux-designer-2-to-4-years-at-athenahealth-4465865455",
    "note": "",
    "firstSeen": "2026-10-04"
+  },
+  {
+   "title": "Product Designer – AI and Enterprise Software",
+   "company": "Thermo Fisher Scientific",
+   "portal": "LinkedIn",
+   "posted": "2026-09-12",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Life sciences, enterprise",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-ai-and-enterprise-software-job-posting-title-here-at-thermo-fisher-scientific-4464274964",
+   "note": "",
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer 2",
@@ -2841,7 +2869,7 @@ window.RADAR = {
    "company": "Fireflies.ai",
    "portal": "Wellfound",
    "posted": "2026-08-10",
-   "exp": "3 years",
+   "exp": "3 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
@@ -2855,11 +2883,11 @@ window.RADAR = {
    "company": "Nprep",
    "portal": "Wellfound",
    "posted": "2026-08-10",
-   "exp": "2 years",
+   "exp": "2 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "B2B",
+   "domain": "Education",
    "url": "https://wellfound.com/jobs/4135684-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-10"
@@ -3013,7 +3041,7 @@ window.RADAR = {
    "payMinL": 20,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "AI",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3027,7 +3055,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Growth Platform",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/4418963-product-designer-ui-ux-designer",
    "note": "Remote",
    "firstSeen": "2026-10-02"
@@ -3208,7 +3236,7 @@ window.RADAR = {
    "exp": "4 yrs",
    "payMinL": null,
    "payMaxL": null,
-   "level": "Mid",
+   "level": "Senior",
    "domain": "Longevity",
    "url": "https://wellfound.com/jobs/4053124-product-designer",
    "note": "In office",
@@ -3225,7 +3253,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "B2B",
    "url": "https://wellfound.com/jobs/3344993-product-designer",
-   "note": "In office",
+   "note": "",
    "firstSeen": "2026-10-08"
   },
   {
@@ -3233,7 +3261,7 @@ window.RADAR = {
    "company": "Mirorin",
    "portal": "Cutshort",
    "posted": "2026-06-22",
-   "exp": "5+ yrs",
+   "exp": "5-8 yrs",
    "payMinL": 6,
    "payMaxL": 9,
    "level": "Senior",
