@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-12T16:47:00+05:30",
- "previousScanAt": "2026-10-11T15:47:00+05:30",
+ "scannedAt": "2026-10-13T16:33:00+05:30",
+ "previousScanAt": "2026-10-12T16:47:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,62 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Product Designer",
+   "company": "Weekday (YC W21)",
+   "portal": "LinkedIn",
+   "posted": "2026-10-13",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-weekday-yc-w21-4476095447",
+   "note": "",
+   "firstSeen": "2026-10-13"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "DataWeave",
+   "portal": "LinkedIn",
+   "posted": "2026-10-13",
+   "exp": "6-7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-dataweave-4478759435",
+   "note": "",
+   "firstSeen": "2026-10-13"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "BlueStone.com",
+   "portal": "Instahyre",
+   "posted": "2026-10-13",
+   "exp": "3-4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "E-commerce",
+   "url": "https://www.instahyre.com/job-446658-senior-product-designer-at-bluestone-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-13"
+  },
+  {
+   "title": "Product Designer",
+   "company": "eloelo",
+   "portal": "Instahyre",
+   "posted": "2026-10-13",
+   "exp": "2-4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Content, Social",
+   "url": "https://www.instahyre.com/job-446242-product-designer-at-eloelo-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-13"
+  },
   {
    "title": "Senior Product Designer",
    "company": "greytHR",
@@ -77,6 +133,48 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-446571-product-designer-at-superkalam-bangalore/",
    "note": "",
    "firstSeen": "2026-10-12"
+  },
+  {
+   "title": "UX Designer, YouTube Creator Support",
+   "company": "Google",
+   "portal": "LinkedIn",
+   "posted": "2026-10-12",
+   "exp": "4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-youtube-creator-support-at-google-4468499694",
+   "note": "",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Manager, Product Design: AI Products",
+   "company": "New Relic",
+   "portal": "LinkedIn",
+   "posted": "2026-10-12",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "AI Products",
+   "url": "https://in.linkedin.com/jobs/view/manager-product-design-ai-products-at-new-relic-4469882400",
+   "note": "In office",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "title": "UI/UX Designer",
+   "company": "InSnap Technologies Pvt Ltd",
+   "portal": "LinkedIn",
+   "posted": "2026-10-12",
+   "exp": "2–5 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-insnap-technologies-pvt-ltd-4477582411",
+   "note": "",
+   "firstSeen": "2026-10-13"
   },
   {
    "title": "User Experience Designer",
@@ -1871,34 +1969,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "UX Designer, YouTube Creator Support",
-   "company": "Google",
-   "portal": "LinkedIn",
-   "posted": "2026-09-21",
-   "exp": "4 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://in.linkedin.com/jobs/view/ux-designer-youtube-creator-support-at-google-4468499694",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Manager, Product Design: AI Products",
-   "company": "New Relic",
-   "portal": "LinkedIn",
-   "posted": "2026-09-21",
-   "exp": "8+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "AI Products",
-   "url": "https://in.linkedin.com/jobs/view/manager-product-design-ai-products-at-new-relic-4469882400",
-   "note": "In office",
-   "firstSeen": "2026-10-04"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "AiDASH",
    "portal": "LinkedIn",
@@ -2537,7 +2607,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Lead",
-   "domain": "Longevity",
+   "domain": "Longevity Platform",
    "url": "https://wellfound.com/jobs/4689777-lead-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -2705,7 +2775,7 @@ window.RADAR = {
    "payMinL": 15,
    "payMaxL": 20,
    "level": "Senior",
-   "domain": "AI",
+   "domain": "Parking",
    "url": "https://wellfound.com/jobs/747214-senior-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -2963,34 +3033,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Product Designer",
-   "company": "Fireflies.ai",
-   "portal": "Wellfound",
-   "posted": "2026-08-10",
-   "exp": "3 years",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "B2B",
-   "url": "https://wellfound.com/jobs/3281427-product-designer",
-   "note": "Remote",
-   "firstSeen": "2026-10-10"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Nprep",
-   "portal": "Wellfound",
-   "posted": "2026-08-10",
-   "exp": "2 years",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Education",
-   "url": "https://wellfound.com/jobs/4135684-product-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-10"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "StockGro",
    "portal": "LinkedIn",
@@ -3103,34 +3145,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Staff/Principal Product Designer, Partnerships",
-   "company": "Ethos",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "B2C",
-   "url": "https://wellfound.com/jobs/4670517-staff-principal-product-designer-partnerships",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior UI/UX Designer",
-   "company": "ENFLIX",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "5 yrs",
-   "payMinL": 11,
-   "payMaxL": 14,
-   "level": "Senior",
-   "domain": "Entertainment",
-   "url": "https://wellfound.com/jobs/4479275-senior-ui-ux-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product UI/UX Designer",
    "company": "Outdoo AI",
    "portal": "Wellfound",
@@ -3139,24 +3153,10 @@ window.RADAR = {
    "payMinL": 20,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "B2B",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Product Designer / UI-UX Designer",
-   "company": "rooh",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "3 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "B2B",
-   "url": "https://wellfound.com/jobs/4418963-product-designer-ui-ux-designer",
-   "note": "Remote",
-   "firstSeen": "2026-10-02"
   },
   {
    "title": "Senior Product Designer - NID/IIT",
@@ -3185,6 +3185,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greylabs-ai-4447513416",
    "note": "Hybrid",
    "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "Senior UI/UX Designer",
+   "company": "ADA",
+   "portal": "LinkedIn",
+   "posted": "2026-07-31",
+   "exp": "5–8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-at-ada-4446996414",
+   "note": "",
+   "firstSeen": "2026-10-13"
   },
   {
    "title": "Product Designer - Figma/Adobe XD",
@@ -3313,20 +3327,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Straive - Lead UX Designer",
-   "company": "SPI TECHNOLOGIES INDIA PRIVATE LIMITED",
-   "portal": "Hirist",
-   "posted": "2026-07-15",
-   "exp": "7–11 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "",
-   "url": "https://www.hirist.tech/j/straive-lead-ux-designer-1654187",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Product Designer",
    "company": "Corvee",
    "portal": "Wellfound",
@@ -3355,17 +3355,17 @@ window.RADAR = {
    "firstSeen": "2026-10-12"
   },
   {
-   "title": "Senior UX Designer",
-   "company": "Mirorin",
+   "title": "Sr. Product Designer",
+   "company": "Navan",
    "portal": "Cutshort",
    "posted": "2026-06-22",
-   "exp": "5+ yrs",
-   "payMinL": 6,
-   "payMaxL": 9,
+   "exp": "4-6 years",
+   "payMinL": null,
+   "payMaxL": null,
    "level": "Senior",
-   "domain": "FemTech",
+   "domain": "Travel B2B SaaS",
    "url": "https://cutshort.io/jobs/product-design-jobs",
-   "note": "",
+   "note": "Remote",
    "firstSeen": "2026-10-02"
   }
  ]
