@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-13T16:33:00+05:30",
- "previousScanAt": "2026-10-12T16:47:00+05:30",
+ "scannedAt": "2026-10-14T14:31:00+05:30",
+ "previousScanAt": "2026-10-13T16:33:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,48 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Product Designer",
+   "company": "CashBook : UPI Wallets for Business Expenses",
+   "portal": "LinkedIn",
+   "posted": "2026-10-14",
+   "exp": "2–3 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-cashbook-upi-wallets-for-business-expenses-4478413525",
+   "note": "",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "title": "Khatabook - Senior Product Designer - Adobe Creative Suite",
+   "company": "ADJ UTILITY APPS PRIVATE LIMITED",
+   "portal": "Hirist",
+   "posted": "2026-10-14",
+   "exp": "4–6 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Fintech",
+   "url": "https://www.hirist.tech/j/khatabook-senior-product-designer-adobe-creative-suite-1678303",
+   "note": "",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "JOOLA",
+   "portal": "Instahyre",
+   "posted": "2026-10-14",
+   "exp": "8-12 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "E-commerce",
+   "url": "https://www.instahyre.com/job-446604-lead-product-designer-at-joola-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-14"
+  },
   {
    "title": "Product Designer",
    "company": "Weekday (YC W21)",
@@ -63,6 +105,34 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-446242-product-designer-at-eloelo-bangalore/",
    "note": "",
    "firstSeen": "2026-10-13"
+  },
+  {
+   "title": "Lead UX Designer",
+   "company": "Consilio LLC",
+   "portal": "LinkedIn",
+   "posted": "2026-10-13",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Legal Tech",
+   "url": "https://in.linkedin.com/jobs/view/lead-ux-designer-at-consilio-llc-4469913386",
+   "note": "",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer-1",
+   "company": "CDW",
+   "portal": "LinkedIn",
+   "posted": "2026-10-13",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "SaaS",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-1-at-cdw-4478788548",
+   "note": "",
+   "firstSeen": "2026-10-14"
   },
   {
    "title": "Senior Product Designer",
@@ -443,6 +513,20 @@ window.RADAR = {
    "firstSeen": "2026-10-11"
   },
   {
+   "title": "Product Design Manager - UX, Product Design",
+   "company": "PhonePe",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "7–10 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/product-design-manager-ux-product-design-at-phonepe-4458093175",
+   "note": "",
+   "firstSeen": "2026-10-02"
+  },
+  {
    "title": "Product Designer (B2C)",
    "company": "Virtual Connect Solutions",
    "portal": "LinkedIn",
@@ -525,6 +609,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/eloelo-product-designer-figma-1677481",
    "note": "",
    "firstSeen": "2026-10-09"
+  },
+  {
+   "title": "Product Design Engineer- 4+ years of experience",
+   "company": "SonicWall",
+   "portal": "LinkedIn",
+   "posted": "2026-10-08",
+   "exp": "4–7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Cybersecurity",
+   "url": "https://in.linkedin.com/jobs/view/product-design-engineer-4%2B-years-of-experience-at-sonicwall-4477417405",
+   "note": "",
+   "firstSeen": "2026-10-14"
   },
   {
    "title": "Product Designer",
@@ -835,20 +933,6 @@ window.RADAR = {
    "firstSeen": "2026-10-05"
   },
   {
-   "title": "Sr. User Interaction Design Professional",
-   "company": "Siemens Healthineers",
-   "portal": "LinkedIn",
-   "posted": "2026-10-02",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Healthcare, enterprise",
-   "url": "https://in.linkedin.com/jobs/view/sr-user-interaction-design-professional-at-siemens-healthineers-4472910349",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "UX Designer",
    "company": "Komprise",
    "portal": "Instahyre",
@@ -1041,6 +1125,20 @@ window.RADAR = {
    "level": "Staff",
    "domain": "Fintech",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-moniepoint-group-4463991460",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Sr. User Interaction Design Professional",
+   "company": "Siemens Healthineers",
+   "portal": "LinkedIn",
+   "posted": "2026-10-01",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Healthcare, enterprise",
+   "url": "https://in.linkedin.com/jobs/view/sr-user-interaction-design-professional-at-siemens-healthineers-4472910349",
    "note": "",
    "firstSeen": "2026-10-01"
   },
@@ -1955,20 +2053,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Lead UX Designer",
-   "company": "Consilio LLC",
-   "portal": "LinkedIn",
-   "posted": "2026-09-21",
-   "exp": "8+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Legal Tech",
-   "url": "https://in.linkedin.com/jobs/view/lead-ux-designer-at-consilio-llc-4469913386",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "AiDASH",
    "portal": "LinkedIn",
@@ -2086,8 +2170,8 @@ window.RADAR = {
    "portal": "Wellfound",
    "posted": "2026-09-18",
    "exp": "3 yrs",
-   "payMinL": 3,
-   "payMaxL": 6.5,
+   "payMinL": 8,
+   "payMaxL": 10,
    "level": "Mid",
    "domain": "B2B",
    "url": "https://wellfound.com/jobs/4751198-ui-ux-designer",
@@ -2137,20 +2221,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Product Design Manager - UX, Product Design",
-   "company": "PhonePe",
-   "portal": "LinkedIn",
-   "posted": "2026-09-18",
-   "exp": "7–10 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Fintech",
-   "url": "https://in.linkedin.com/jobs/view/product-design-manager-ux-product-design-at-phonepe-4458093175",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Head - Product Design",
    "company": "HR LOBBY",
    "portal": "Hirist",
@@ -2189,7 +2259,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "B2C B2B",
    "url": "https://wellfound.com/jobs/4144519-product-designer",
-   "note": "Hybrid",
+   "note": "Onsite or remote",
    "firstSeen": "2026-10-06"
   },
   {
@@ -2775,7 +2845,7 @@ window.RADAR = {
    "payMinL": 15,
    "payMaxL": 20,
    "level": "Senior",
-   "domain": "Parking",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/747214-senior-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3005,6 +3075,34 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Product Designer",
+   "company": "Nprep",
+   "portal": "Wellfound",
+   "posted": "2026-08-14",
+   "exp": "2 years",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Education",
+   "url": "https://wellfound.com/jobs/4135684-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-14"
+  },
+  {
+   "title": "Staff/Principal Product Designer, Partnerships",
+   "company": "Ethos",
+   "portal": "Wellfound",
+   "posted": "2026-08-14",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "B2C",
+   "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
+   "note": "",
+   "firstSeen": "2026-10-14"
+  },
+  {
    "title": "Senior Product Designer",
    "company": "Hevo Data",
    "portal": "Company site",
@@ -3171,20 +3269,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/tresvista-senior-product-designer-nidiit-1659581",
    "note": "",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "GreyLabs AI",
-   "portal": "LinkedIn",
-   "posted": "2026-07-31",
-   "exp": "5+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "B2B SaaS",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greylabs-ai-4447513416",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-09"
   },
   {
    "title": "Senior UI/UX Designer",
