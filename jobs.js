@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-14T14:31:00+05:30",
- "previousScanAt": "2026-10-13T16:33:00+05:30",
+ "scannedAt": "2026-10-15T14:03:00+05:30",
+ "previousScanAt": "2026-10-14T14:31:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,34 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "UI/UX Designer",
+   "company": "Product Space",
+   "portal": "LinkedIn",
+   "posted": "2026-10-15",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-product-space-4478858099",
+   "note": "",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Meraki Labs",
+   "portal": "Instahyre",
+   "posted": "2026-10-15",
+   "exp": "7–11 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "",
+   "url": "https://www.instahyre.com/job-416904-staff-product-designer-at-meraki-labs-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-15"
+  },
   {
    "title": "Product Designer",
    "company": "CashBook : UPI Wallets for Business Expenses",
@@ -49,6 +77,62 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-446604-lead-product-designer-at-joola-bangalore/",
    "note": "",
    "firstSeen": "2026-10-14"
+  },
+  {
+   "title": "Group Manger - Experience Design",
+   "company": "Infosys",
+   "portal": "LinkedIn",
+   "posted": "2026-10-14",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Enterprise Products",
+   "url": "https://in.linkedin.com/jobs/view/group-manger-experience-design-at-infosys-4460692927",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-04"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Menlo Security",
+   "portal": "LinkedIn",
+   "posted": "2026-10-14",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Cybersecurity, B2B",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-menlo-security-inc-4452406203",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Senior UX/CX Designer,",
+   "company": "Optum",
+   "portal": "LinkedIn",
+   "posted": "2026-10-14",
+   "exp": "7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "",
+   "url": "https://in.linkedin.com/jobs/view/senior-ux-cx-designer-at-optum-4476659897",
+   "note": "",
+   "firstSeen": "2026-10-15"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "PhonePe",
+   "portal": "LinkedIn",
+   "posted": "2026-10-14",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "",
+   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-phonepe-4476652882",
+   "note": "",
+   "firstSeen": "2026-10-15"
   },
   {
    "title": "Product Designer",
@@ -527,6 +611,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Senior Product Designer",
+   "company": "EarnIn",
+   "portal": "LinkedIn",
+   "posted": "2026-10-09",
+   "exp": "4+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-earnin-4477884157",
+   "note": "",
+   "firstSeen": "2026-10-15"
+  },
+  {
    "title": "Product Designer (B2C)",
    "company": "Virtual Connect Solutions",
    "portal": "LinkedIn",
@@ -623,6 +721,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/product-design-engineer-4%2B-years-of-experience-at-sonicwall-4477417405",
    "note": "",
    "firstSeen": "2026-10-14"
+  },
+  {
+   "title": "UX Researcher - Product Design",
+   "company": "GetHyr",
+   "portal": "Hirist",
+   "posted": "2026-10-08",
+   "exp": "5–10 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "",
+   "url": "https://www.hirist.tech/j/ux-researcher-product-design-1677432",
+   "note": "",
+   "firstSeen": "2026-10-15"
   },
   {
    "title": "Product Designer",
@@ -1885,20 +1997,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Group Manger - Experience Design",
-   "company": "Infosys",
-   "portal": "LinkedIn",
-   "posted": "2026-09-23",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Enterprise Products",
-   "url": "https://in.linkedin.com/jobs/view/group-manger-experience-design-at-infosys-4460692927",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-04"
-  },
-  {
    "title": "Product Designer (UI/UX)",
    "company": "Lyzr AI",
    "portal": "LinkedIn",
@@ -1937,20 +2035,6 @@ window.RADAR = {
    "level": "Senior",
    "domain": "Health, consumer",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-healthify-4470463498",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Menlo Security",
-   "portal": "LinkedIn",
-   "posted": "2026-09-22",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Cybersecurity, B2B",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-menlo-security-inc-4452406203",
    "note": "",
    "firstSeen": "2026-10-01"
   },
@@ -2865,6 +2949,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Interaction Designer",
+   "company": "Observe.AI",
+   "portal": "Company site",
+   "posted": "2026-09-02",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "",
+   "url": "https://www.observe.ai/position?gh_jid=5409244008",
+   "note": "",
+   "firstSeen": "2026-10-15"
+  },
+  {
    "title": "Lead Product Designer",
    "company": "Dashverse",
    "portal": "LinkedIn",
@@ -3353,6 +3451,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/director-product-design-10-16-yrs-1667983",
    "note": "Recruiter",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Web Designer - Adobe Creative Suite",
+   "company": "Boost Tech",
+   "portal": "Hirist",
+   "posted": "2026-07-22",
+   "exp": "2–7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "",
+   "url": "https://www.hirist.tech/j/web-designer-adobe-creative-suite-1656481",
+   "note": "",
+   "firstSeen": "2026-10-15"
   },
   {
    "title": "A&CD - UX Design Lead (Contract",
