@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-15T14:03:00+05:30",
- "previousScanAt": "2026-10-14T14:31:00+05:30",
+ "scannedAt": "2026-10-16T13:59:00+05:30",
+ "previousScanAt": "2026-10-15T14:03:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,20 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior Product Designer - Figma",
+   "company": "Stellaspire",
+   "portal": "Hirist",
+   "posted": "2026-10-16",
+   "exp": "8–12 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "",
+   "url": "https://www.hirist.tech/j/senior-product-designer-figma-1678803",
+   "note": "",
+   "firstSeen": "2026-10-16"
+  },
   {
    "title": "UI/UX Designer",
    "company": "Product Space",
@@ -35,6 +49,90 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-416904-staff-product-designer-at-meraki-labs-bangalore/",
    "note": "",
    "firstSeen": "2026-10-15"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "ServiceTitan",
+   "portal": "LinkedIn",
+   "posted": "2026-10-15",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Vertical SaaS",
+   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-servicetitan-4470922678",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "UX Designer - C3 - CXP",
+   "company": "Valtech",
+   "portal": "LinkedIn",
+   "posted": "2026-10-15",
+   "exp": "5–8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Experience Innovation",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-c3-cxp-at-valtech-4461735412",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Whatfix",
+   "portal": "LinkedIn",
+   "posted": "2026-10-15",
+   "exp": "4+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI, Digital Adoption",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-whatfix-4479824699",
+   "note": "Remote",
+   "firstSeen": "2026-10-16"
+  },
+  {
+   "title": "Principal UX Designer",
+   "company": "Aviatrix",
+   "portal": "LinkedIn",
+   "posted": "2026-10-15",
+   "exp": "10+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Cloud Security",
+   "url": "https://in.linkedin.com/jobs/view/principal-ux-designer-at-aviatrix-4478897681",
+   "note": "",
+   "firstSeen": "2026-10-16"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Pine Labs",
+   "portal": "LinkedIn",
+   "posted": "2026-10-15",
+   "exp": "4–5 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-pine-labs-4477097644",
+   "note": "",
+   "firstSeen": "2026-10-16"
+  },
+  {
+   "title": "Senior Product Designer - UI/UX - Healthtech Domain",
+   "company": "Hiring Infinity",
+   "portal": "Hirist",
+   "posted": "2026-10-15",
+   "exp": "5–8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Healthtech",
+   "url": "https://www.hirist.tech/j/senior-product-designer-uiux-healthtech-domain-1678717",
+   "note": "Recruiter",
+   "firstSeen": "2026-10-16"
   },
   {
    "title": "Product Designer",
@@ -329,6 +427,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-insnap-technologies-pvt-ltd-4477582411",
    "note": "",
    "firstSeen": "2026-10-13"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Flick TV",
+   "portal": "Cutshort",
+   "posted": "2026-10-12",
+   "exp": "2-3 yrs",
+   "payMinL": 10,
+   "payMaxL": 12,
+   "level": "Mid",
+   "domain": "E-commerce",
+   "url": "https://cutshort.io/job/product-designer-bangalore-flick-tv--mobile-app",
+   "note": "",
+   "firstSeen": "2026-10-16"
   },
   {
    "title": "User Experience Designer",
@@ -1917,7 +2029,7 @@ window.RADAR = {
    "company": "NeoGenCode Technologies Pvt Ltd",
    "portal": "Cutshort",
    "posted": "2026-09-24",
-   "exp": "4–8 yrs",
+   "exp": "4-8 yrs",
    "payMinL": 30,
    "payMaxL": 50,
    "level": "Senior",
@@ -1953,34 +2065,6 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-jiohotstar-4468986566",
    "note": "",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Staff Product Designer",
-   "company": "ServiceTitan",
-   "portal": "LinkedIn",
-   "posted": "2026-09-23",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "Vertical SaaS",
-   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-servicetitan-4470922678",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "UX Designer - C3 - CXP",
-   "company": "Valtech",
-   "portal": "LinkedIn",
-   "posted": "2026-09-23",
-   "exp": "5–8 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Experience Innovation",
-   "url": "https://in.linkedin.com/jobs/view/ux-designer-c3-cxp-at-valtech-4461735412",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-02"
   },
   {
    "title": "Lead Product Designer",
@@ -2225,13 +2309,13 @@ window.RADAR = {
    "company": "Staffnixcom",
    "portal": "Cutshort",
    "posted": "2026-09-19",
-   "exp": "4–8 yrs",
+   "exp": "4-8 yrs",
    "payMinL": 40,
    "payMaxL": 50,
    "level": "Senior",
-   "domain": "B2B SaaS",
+   "domain": "Product Design",
    "url": "https://cutshort.io/job/senior-product-design-engineer-bengaluru-staffnixcom--J6v6q3q",
-   "note": "Hybrid needs coding · Recruiter",
+   "note": "needs coding · Recruiter",
    "firstSeen": "2026-10-05"
   },
   {
@@ -2761,7 +2845,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Lead",
-   "domain": "Longevity Platform",
+   "domain": "Longevity",
    "url": "https://wellfound.com/jobs/4689777-lead-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -2933,20 +3017,6 @@ window.RADAR = {
    "url": "https://wellfound.com/jobs/747214-senior-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "AI Product Designer — Founding Member, BrandBrahma",
-   "company": "BrandBrahma",
-   "portal": "Wellfound",
-   "posted": "2026-09-02",
-   "exp": "3 yrs",
-   "payMinL": 8,
-   "payMaxL": 20,
-   "level": "Mid",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-02"
   },
   {
    "title": "Interaction Designer",
@@ -3159,6 +3229,34 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "AI Product Designer — Founding Member",
+   "company": "BrandBrahma",
+   "portal": "Wellfound",
+   "posted": "2026-08-16",
+   "exp": "3 years",
+   "payMinL": 8,
+   "payMaxL": 20,
+   "level": "Mid",
+   "domain": "AI",
+   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
+   "note": "Onsite or remote",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Fireflies.ai",
+   "portal": "Wellfound",
+   "posted": "2026-08-16",
+   "exp": "3 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/3281427-product-designer",
+   "note": "Remote",
+   "firstSeen": "2026-10-16"
+  },
+  {
    "title": "Loop Health - Product Designer",
    "company": "Invoq Healthcare",
    "portal": "Hirist",
@@ -3349,7 +3447,7 @@ window.RADAR = {
    "payMinL": 20,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "AI",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3549,20 +3647,6 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-keka-hr-4433719273",
    "note": "",
    "firstSeen": "2026-10-12"
-  },
-  {
-   "title": "Sr. Product Designer",
-   "company": "Navan",
-   "portal": "Cutshort",
-   "posted": "2026-06-22",
-   "exp": "4-6 years",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Travel B2B SaaS",
-   "url": "https://cutshort.io/jobs/product-design-jobs",
-   "note": "Remote",
-   "firstSeen": "2026-10-02"
   }
  ]
 };
