@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-16T13:59:00+05:30",
- "previousScanAt": "2026-10-15T14:03:00+05:30",
+ "scannedAt": "2026-10-17T13:31:00+05:30",
+ "previousScanAt": "2026-10-16T13:59:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,48 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "UX Designer_Bangalore_HSR Layout",
+   "company": "triSys",
+   "portal": "LinkedIn",
+   "posted": "2026-10-17",
+   "exp": "5–10 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Product Design",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-bangalore-hsr-layout-at-trisys-4480583836",
+   "note": "",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Riyom Technologies",
+   "portal": "Instahyre",
+   "posted": "2026-10-17",
+   "exp": "5-7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://www.instahyre.com/job-447186-senior-product-designer-at-riyom-technologies-bangalore/",
+   "note": "Remote",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "DecoverAI",
+   "portal": "Instahyre",
+   "posted": "2026-10-17",
+   "exp": "2-4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Legal Tech",
+   "url": "https://www.instahyre.com/job-447062-senior-product-designer-at-decoverai-bangalore/",
+   "note": "Remote",
+   "firstSeen": "2026-10-17"
+  },
   {
    "title": "Senior Product Designer - Figma",
    "company": "Stellaspire",
@@ -21,6 +63,118 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/senior-product-designer-figma-1678803",
    "note": "",
    "firstSeen": "2026-10-16"
+  },
+  {
+   "title": "Sr. User Interaction Design Professional",
+   "company": "Siemens Healthineers",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Healthcare, enterprise",
+   "url": "https://in.linkedin.com/jobs/view/sr-user-interaction-design-professional-at-siemens-healthineers-4472910349",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Sr. User Experience Design Professional",
+   "company": "Siemens Healthineers",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Healthcare, enterprise",
+   "url": "https://in.linkedin.com/jobs/view/sr-user-experience-design-professional-at-siemens-healthineers-4472900794",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Staff UX Designer",
+   "company": "OneTrust",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "B2B SaaS, privacy",
+   "url": "https://in.linkedin.com/jobs/view/staff-ux-designer-at-onetrust-4454063112",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Senior UI / UX Designer - AI Hub",
+   "company": "Linde@India",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-ai-hub-at-linde%40india-4461103201",
+   "note": "",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Sr Product Designer (Onsite - Bangalore)",
+   "company": "Uplers",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "8+ yrs",
+   "payMinL": 20,
+   "payMaxL": 25,
+   "level": "Senior",
+   "domain": "Pet Health-Tech",
+   "url": "https://in.linkedin.com/jobs/view/sr-product-designer-onsite-bangalore-at-uplers-4480365130",
+   "note": "In office",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "title": "Senior UX Designer",
+   "company": "Sage",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-sage-4480362215",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "title": "Senior/ Lead Product Designer",
+   "company": "ITILITE",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "5–7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B2C SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-lead-product-designer-at-itilite-4480338919",
+   "note": "",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "title": "Product Design Lead",
+   "company": "Refold AI",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/product-design-lead-at-refold-ai-4477700237",
+   "note": "",
+   "firstSeen": "2026-10-17"
   },
   {
    "title": "UI/UX Designer",
@@ -685,7 +839,7 @@ window.RADAR = {
    "company": "Simplismart",
    "portal": "Wellfound",
    "posted": "2026-10-09",
-   "exp": "4 years",
+   "exp": "4 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Senior",
@@ -1353,20 +1507,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Sr. User Interaction Design Professional",
-   "company": "Siemens Healthineers",
-   "portal": "LinkedIn",
-   "posted": "2026-10-01",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Healthcare, enterprise",
-   "url": "https://in.linkedin.com/jobs/view/sr-user-interaction-design-professional-at-siemens-healthineers-4472910349",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Product Designer",
    "company": "Skydo",
    "portal": "LinkedIn",
@@ -1419,20 +1559,6 @@ window.RADAR = {
    "level": "Senior",
    "domain": "Quick commerce",
    "url": "https://in.linkedin.com/jobs/view/sr-ux-designer-amazon-now-amazon-now-at-amazon-4455794311",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Sr. User Experience Design Professional",
-   "company": "Siemens Healthineers",
-   "portal": "LinkedIn",
-   "posted": "2026-10-01",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Healthcare, enterprise",
-   "url": "https://in.linkedin.com/jobs/view/sr-user-experience-design-professional-at-siemens-healthineers-4472900794",
    "note": "",
    "firstSeen": "2026-10-01"
   },
@@ -1871,34 +1997,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Staff UX Designer",
-   "company": "OneTrust",
-   "portal": "LinkedIn",
-   "posted": "2026-09-25",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "B2B SaaS, privacy",
-   "url": "https://in.linkedin.com/jobs/view/staff-ux-designer-at-onetrust-4454063112",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior UI / UX Designer - AI Hub",
-   "company": "Linde@India",
-   "portal": "LinkedIn",
-   "posted": "2026-09-25",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-ai-hub-at-linde%40india-4461103201",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "User Experience Designer",
    "company": "Accenture in India",
    "portal": "LinkedIn",
@@ -2315,7 +2413,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "Product Design",
    "url": "https://cutshort.io/job/senior-product-design-engineer-bengaluru-staffnixcom--J6v6q3q",
-   "note": "needs coding · Recruiter",
+   "note": "Bootstrapped needs coding · Recruiter",
    "firstSeen": "2026-10-05"
   },
   {
@@ -2421,13 +2519,13 @@ window.RADAR = {
    "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-09-17",
-   "exp": "2 years",
+   "exp": "2 yrs",
    "payMinL": 30,
    "payMaxL": 80,
    "level": "Mid",
    "domain": "B2C B2B",
    "url": "https://wellfound.com/jobs/4144519-product-designer",
-   "note": "Onsite or remote",
+   "note": "Hybrid",
    "firstSeen": "2026-10-06"
   },
   {
@@ -3033,34 +3131,6 @@ window.RADAR = {
    "firstSeen": "2026-10-15"
   },
   {
-   "title": "Lead Product Designer",
-   "company": "Dashverse",
-   "portal": "LinkedIn",
-   "posted": "2026-09-01",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Consumer AI",
-   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-dashverse-4448825208",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "SE Intel UX UI Designer",
-   "company": "Schneider Electric",
-   "portal": "LinkedIn",
-   "posted": "2026-09-01",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Digital Experience",
-   "url": "https://in.linkedin.com/jobs/view/se-intel-ux-ui-designer-at-schneider-electric-4460622458",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "UX Engineer - Prototype/Wireframe Design",
    "company": "Workplace",
    "portal": "Hirist",
@@ -3201,20 +3271,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Product Designer",
-   "company": "Sarvam",
-   "portal": "LinkedIn",
-   "posted": "2026-08-19",
-   "exp": "4+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-at-sarvam-4456176299",
-   "note": "",
-   "firstSeen": "2026-10-12"
-  },
-  {
    "title": "Senior Product Designer - Figma",
    "company": "Success Pact Consulting",
    "portal": "Hirist",
@@ -3226,20 +3282,6 @@ window.RADAR = {
    "domain": "",
    "url": "https://www.hirist.tech/j/senior-product-designer-figma-1663740",
    "note": "Recruiter",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "AI Product Designer — Founding Member",
-   "company": "BrandBrahma",
-   "portal": "Wellfound",
-   "posted": "2026-08-16",
-   "exp": "3 years",
-   "payMinL": 8,
-   "payMaxL": 20,
-   "level": "Mid",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
-   "note": "Onsite or remote",
    "firstSeen": "2026-10-02"
   },
   {
@@ -3275,27 +3317,13 @@ window.RADAR = {
    "company": "Nprep",
    "portal": "Wellfound",
    "posted": "2026-08-14",
-   "exp": "2 years",
+   "exp": "2 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
    "domain": "Education",
    "url": "https://wellfound.com/jobs/4135684-product-designer",
    "note": "In office",
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "title": "Staff/Principal Product Designer, Partnerships",
-   "company": "Ethos",
-   "portal": "Wellfound",
-   "posted": "2026-08-14",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "B2C",
-   "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
-   "note": "",
    "firstSeen": "2026-10-14"
   },
   {
@@ -3419,7 +3447,7 @@ window.RADAR = {
    "payMinL": 6,
    "payMaxL": 7.2,
    "level": "Mid",
-   "domain": "Intelligent Systems",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/4718643-ui-ux-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-02"
@@ -3465,20 +3493,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/tresvista-senior-product-designer-nidiit-1659581",
    "note": "",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior UI/UX Designer",
-   "company": "ADA",
-   "portal": "LinkedIn",
-   "posted": "2026-07-31",
-   "exp": "5–8+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "B2B SaaS",
-   "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-at-ada-4446996414",
-   "note": "",
-   "firstSeen": "2026-10-13"
   },
   {
    "title": "Product Designer - Figma/Adobe XD",
@@ -3605,6 +3619,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/firstclub-product-designer-1655716",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Staff/Principal Product Designer, Partnerships",
+   "company": "Ethos",
+   "portal": "Wellfound",
+   "posted": "2026-07-17",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "B2C",
+   "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
+   "note": "",
+   "firstSeen": "2026-10-14"
   },
   {
    "title": "Senior UI/UX Designer",
