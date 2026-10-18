@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-17T13:31:00+05:30",
- "previousScanAt": "2026-10-16T13:59:00+05:30",
+ "scannedAt": "2026-10-18T13:48:00+05:30",
+ "previousScanAt": "2026-10-17T13:31:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -49,6 +49,34 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-447062-senior-product-designer-at-decoverai-bangalore/",
    "note": "Remote",
    "firstSeen": "2026-10-17"
+  },
+  {
+   "title": "Senior UI/UX Designer – AI Hub",
+   "company": "Linde",
+   "portal": "LinkedIn",
+   "posted": "2026-10-17",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Industrial, AI",
+   "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-ai-hub-at-linde-4463107633",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "E-commerce UI/UX Designer",
+   "company": "Valarr",
+   "portal": "LinkedIn",
+   "posted": "2026-10-17",
+   "exp": "2+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "E-commerce",
+   "url": "https://in.linkedin.com/jobs/view/e-commerce-ui-ux-designer-at-valarr-4479683509",
+   "note": "",
+   "firstSeen": "2026-10-18"
   },
   {
    "title": "Senior Product Designer - Figma",
@@ -1969,20 +1997,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Senior UI/UX Designer – AI Hub",
-   "company": "Linde",
-   "portal": "LinkedIn",
-   "posted": "2026-09-25",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Industrial, AI",
-   "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-ai-hub-at-linde-4463107633",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior UX Designer",
    "company": "OneTrust",
    "portal": "LinkedIn",
@@ -2133,7 +2147,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "B2B SaaS",
    "url": "https://cutshort.io/job/senior-product-design-engineer-bengaluru-neoGencode-technologies-pvt-ltd--J6v6q3q",
-   "note": "Hybrid needs coding · Recruiter",
+   "note": "Hybrid, needs coding · Recruiter",
    "firstSeen": "2026-10-05"
   },
   {
@@ -2413,7 +2427,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "Product Design",
    "url": "https://cutshort.io/job/senior-product-design-engineer-bengaluru-staffnixcom--J6v6q3q",
-   "note": "Bootstrapped needs coding · Recruiter",
+   "note": "In office, needs coding · Recruiter",
    "firstSeen": "2026-10-05"
   },
   {
@@ -2513,20 +2527,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/vedantu-innovations-senior-uiux-designer-figma-1672534",
    "note": "",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Atlys",
-   "portal": "Wellfound",
-   "posted": "2026-09-17",
-   "exp": "2 yrs",
-   "payMinL": 30,
-   "payMaxL": 80,
-   "level": "Mid",
-   "domain": "B2C B2B",
-   "url": "https://wellfound.com/jobs/4144519-product-designer",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-06"
   },
   {
    "title": "Senior Product Designer",
@@ -3089,20 +3089,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Senior Experience Designer, SC Design (UI/UX)",
-   "company": "Standard Chartered",
-   "portal": "LinkedIn",
-   "posted": "2026-09-02",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Banking",
-   "url": "https://in.linkedin.com/jobs/view/senior-experience-designer-sc-design-ui-ux-at-standard-chartered-india-4460244922",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Get My Parking",
    "portal": "Wellfound",
@@ -3271,6 +3257,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Product Designer",
+   "company": "Nprep",
+   "portal": "Wellfound",
+   "posted": "2026-08-18",
+   "exp": "2 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Education",
+   "url": "https://wellfound.com/jobs/4144519-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-06"
+  },
+  {
    "title": "Senior Product Designer - Figma",
    "company": "Success Pact Consulting",
    "portal": "Hirist",
@@ -3286,16 +3286,16 @@ window.RADAR = {
   },
   {
    "title": "Product Designer",
-   "company": "Fireflies.ai",
+   "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-08-16",
-   "exp": "3 yrs",
-   "payMinL": null,
-   "payMaxL": null,
+   "exp": "2 yrs",
+   "payMinL": 30,
+   "payMaxL": 80,
    "level": "Mid",
-   "domain": "B2B",
+   "domain": "B2C B2B",
    "url": "https://wellfound.com/jobs/3281427-product-designer",
-   "note": "Remote",
+   "note": "Hybrid",
    "firstSeen": "2026-10-16"
   },
   {
@@ -3311,20 +3311,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/loop-health-product-designer-1663264",
    "note": "",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Nprep",
-   "portal": "Wellfound",
-   "posted": "2026-08-14",
-   "exp": "2 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Education",
-   "url": "https://wellfound.com/jobs/4135684-product-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-14"
   },
   {
    "title": "Senior Product Designer",
@@ -3475,7 +3461,7 @@ window.RADAR = {
    "payMinL": 20,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "B2B",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3604,20 +3590,6 @@ window.RADAR = {
    "domain": "Product Design",
    "url": "https://www.hirist.tech/j/product-designer-figmawireframing-tools-1656101",
    "note": "Recruiter",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "FirstClub",
-   "portal": "Hirist",
-   "posted": "2026-07-20",
-   "exp": "3–5 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "",
-   "url": "https://www.hirist.tech/j/firstclub-product-designer-1655716",
-   "note": "",
    "firstSeen": "2026-10-02"
   },
   {
