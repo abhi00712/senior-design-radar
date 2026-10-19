@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-18T13:48:00+05:30",
- "previousScanAt": "2026-10-17T13:31:00+05:30",
+ "scannedAt": "2026-10-19T14:45:00+05:30",
+ "previousScanAt": "2026-10-18T13:48:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,62 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior UX Design Specialist",
+   "company": "Amadeus",
+   "portal": "LinkedIn",
+   "posted": "2026-10-19",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-ux-design-specialist-at-amadeus-4479971745",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "title": "UI/UX Designer",
+   "company": "Juntrax Solutions",
+   "portal": "Wellfound",
+   "posted": "2026-10-19",
+   "exp": "2 yrs",
+   "payMinL": 5.5,
+   "payMaxL": 7,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/1054298-ui-ux-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-19"
+  },
+  {
+   "title": "Product Design Lead, Platform Tools",
+   "company": "Rippling",
+   "portal": "LinkedIn",
+   "posted": "2026-10-18",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "SaaS Platform",
+   "url": "https://in.linkedin.com/jobs/view/product-design-lead-platform-tools-at-rippling-4454889888",
+   "note": "",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior UX Designer",
+   "company": "Motorola Solutions",
+   "portal": "LinkedIn",
+   "posted": "2026-10-18",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Enterprise, public safety",
+   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-motorola-solutions-4432581924",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
   {
    "title": "UX Designer_Bangalore_HSR Layout",
    "company": "triSys",
@@ -203,6 +259,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/product-design-lead-at-refold-ai-4477700237",
    "note": "",
    "firstSeen": "2026-10-17"
+  },
+  {
+   "title": "UX Designer II",
+   "company": "Exxat",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Healthcare SaaS",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-ii-at-exxat-4480361129",
+   "note": "",
+   "firstSeen": "2026-10-19"
   },
   {
    "title": "UI/UX Designer",
@@ -637,6 +707,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/user-experience-designer-at-hirojet-4477263715",
    "note": "In office",
    "firstSeen": "2026-10-12"
+  },
+  {
+   "title": "Principal UX Designer (NetSec)",
+   "company": "Palo Alto Networks",
+   "portal": "LinkedIn",
+   "posted": "2026-10-11",
+   "exp": "10+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Cybersecurity",
+   "url": "https://in.linkedin.com/jobs/view/principal-ux-designer-netsec-at-palo-alto-networks-4402818442",
+   "note": "In office",
+   "firstSeen": "2026-10-02"
   },
   {
    "title": "Product Designer II",
@@ -1913,20 +1997,6 @@ window.RADAR = {
    "firstSeen": "2026-10-10"
   },
   {
-   "title": "Product Design Lead, Platform Tools",
-   "company": "Rippling",
-   "portal": "LinkedIn",
-   "posted": "2026-09-27",
-   "exp": "8+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "SaaS Platform",
-   "url": "https://in.linkedin.com/jobs/view/product-design-lead-platform-tools-at-rippling-4454889888",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Staff Engineer, User Experience & Design - Mobile",
    "company": "Vontier",
    "portal": "LinkedIn",
@@ -1953,20 +2023,6 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/product-design-lead-hris-at-rippling-4454823629",
    "note": "",
    "firstSeen": "2026-10-09"
-  },
-  {
-   "title": "Senior UX Designer",
-   "company": "Motorola Solutions",
-   "portal": "LinkedIn",
-   "posted": "2026-09-26",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Enterprise, public safety",
-   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-motorola-solutions-4432581924",
-   "note": "",
-   "firstSeen": "2026-10-01"
   },
   {
    "title": "UX Product Designer (Networking)",
@@ -2141,13 +2197,13 @@ window.RADAR = {
    "company": "NeoGenCode Technologies Pvt Ltd",
    "portal": "Cutshort",
    "posted": "2026-09-24",
-   "exp": "4-8 yrs",
+   "exp": "4-8 years",
    "payMinL": 30,
    "payMaxL": 50,
    "level": "Senior",
    "domain": "B2B SaaS",
    "url": "https://cutshort.io/job/senior-product-design-engineer-bengaluru-neoGencode-technologies-pvt-ltd--J6v6q3q",
-   "note": "Hybrid, needs coding · Recruiter",
+   "note": "Hybrid needs coding · Recruiter",
    "firstSeen": "2026-10-05"
   },
   {
@@ -2347,20 +2403,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Principal UX Designer (NetSec)",
-   "company": "Palo Alto Networks",
-   "portal": "LinkedIn",
-   "posted": "2026-09-20",
-   "exp": "10+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "Cybersecurity",
-   "url": "https://in.linkedin.com/jobs/view/principal-ux-designer-netsec-at-palo-alto-networks-4402818442",
-   "note": "In office",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Staff Product Designer",
    "company": "Adobe",
    "portal": "LinkedIn",
@@ -2421,13 +2463,13 @@ window.RADAR = {
    "company": "Staffnixcom",
    "portal": "Cutshort",
    "posted": "2026-09-19",
-   "exp": "4-8 yrs",
+   "exp": "4-8 years",
    "payMinL": 40,
    "payMaxL": 50,
    "level": "Senior",
-   "domain": "Product Design",
+   "domain": "B2B SaaS",
    "url": "https://cutshort.io/job/senior-product-design-engineer-bengaluru-staffnixcom--J6v6q3q",
-   "note": "In office, needs coding · Recruiter",
+   "note": "Hybrid needs coding · Recruiter",
    "firstSeen": "2026-10-05"
   },
   {
@@ -3257,6 +3299,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "AI Product Designer — Founding Member",
+   "company": "BrandBrahma",
+   "portal": "Wellfound",
+   "posted": "2026-08-19",
+   "exp": "3 yrs",
+   "payMinL": 8,
+   "payMaxL": 20,
+   "level": "Mid",
+   "domain": "AI",
+   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-19"
+  },
+  {
    "title": "Product Designer",
    "company": "Nprep",
    "portal": "Wellfound",
@@ -3286,16 +3342,16 @@ window.RADAR = {
   },
   {
    "title": "Product Designer",
-   "company": "Atlys",
+   "company": "Fireflies.ai",
    "portal": "Wellfound",
    "posted": "2026-08-16",
-   "exp": "2 yrs",
-   "payMinL": 30,
-   "payMaxL": 80,
+   "exp": "3 yrs",
+   "payMinL": null,
+   "payMaxL": null,
    "level": "Mid",
-   "domain": "B2C B2B",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/3281427-product-designer",
-   "note": "Hybrid",
+   "note": "Remote",
    "firstSeen": "2026-10-16"
   },
   {
@@ -3339,6 +3395,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/allen-lead-product-designer-interaction-design-1662873",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Sr. Product Designer",
+   "company": "Navan",
+   "portal": "Cutshort",
+   "posted": "2026-08-10",
+   "exp": "4-6 years",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Travel",
+   "url": "https://cutshort.io/jobs/product-design-jobs",
+   "note": "Remote",
+   "firstSeen": "2026-10-19"
   },
   {
    "title": "Senior Product Designer",
@@ -3433,7 +3503,7 @@ window.RADAR = {
    "payMinL": 6,
    "payMaxL": 7.2,
    "level": "Mid",
-   "domain": "AI",
+   "domain": "Intelligent Systems",
    "url": "https://wellfound.com/jobs/4718643-ui-ux-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-02"
@@ -3479,6 +3549,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/tresvista-senior-product-designer-nidiit-1659581",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "GreyLabs AI",
+   "portal": "LinkedIn",
+   "posted": "2026-07-31",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greylabs-ai-4447513416",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-19"
   },
   {
    "title": "Product Designer - Figma/Adobe XD",
@@ -3563,20 +3647,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/web-designer-adobe-creative-suite-1656481",
    "note": "",
    "firstSeen": "2026-10-15"
-  },
-  {
-   "title": "A&CD - UX Design Lead (Contract",
-   "company": "Alstom",
-   "portal": "LinkedIn",
-   "posted": "2026-07-21",
-   "exp": "8+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Transportation",
-   "url": "https://in.linkedin.com/jobs/view/a-cd-ux-design-lead-contract-at-alstom-4440489795",
-   "note": "Contract",
-   "firstSeen": "2026-10-02"
   },
   {
    "title": "Product Designer - Figma/Wireframing Tools",
