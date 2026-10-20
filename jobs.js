@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-19T14:45:00+05:30",
- "previousScanAt": "2026-10-18T13:48:00+05:30",
+ "scannedAt": "2026-10-20T14:21:00+05:30",
+ "previousScanAt": "2026-10-19T14:45:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -35,6 +35,34 @@ window.RADAR = {
    "url": "https://wellfound.com/jobs/1054298-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-19"
+  },
+  {
+   "title": "Staff Product Designer - Consumer",
+   "company": "ServiceTitan",
+   "portal": "LinkedIn",
+   "posted": "2026-10-19",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "SaaS",
+   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-consumer-at-servicetitan-4480205989",
+   "note": "",
+   "firstSeen": "2026-10-20"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Zoca",
+   "portal": "LinkedIn",
+   "posted": "2026-10-19",
+   "exp": "4-6 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Local Business SaaS",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-zoca-4480213751",
+   "note": "In office",
+   "firstSeen": "2026-10-20"
   },
   {
    "title": "Product Design Lead, Platform Tools",
@@ -951,7 +979,7 @@ window.RADAR = {
    "company": "Simplismart",
    "portal": "Wellfound",
    "posted": "2026-10-09",
-   "exp": "4 yrs",
+   "exp": "4 years",
    "payMinL": null,
    "payMaxL": null,
    "level": "Senior",
@@ -2459,20 +2487,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Senior Product Design Engineer",
-   "company": "Staffnixcom",
-   "portal": "Cutshort",
-   "posted": "2026-09-19",
-   "exp": "4-8 years",
-   "payMinL": 40,
-   "payMaxL": 50,
-   "level": "Senior",
-   "domain": "B2B SaaS",
-   "url": "https://cutshort.io/job/senior-product-design-engineer-bengaluru-staffnixcom--J6v6q3q",
-   "note": "Hybrid needs coding · Recruiter",
-   "firstSeen": "2026-10-05"
-  },
-  {
    "title": "Product Designer",
    "company": "Cradlewise",
    "portal": "LinkedIn",
@@ -3061,48 +3075,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Lead Product Designer",
-   "company": "PhysicsWallah",
-   "portal": "LinkedIn",
-   "posted": "2026-09-04",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Edtech",
-   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-pw-physicswallah-4463346830",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Lead Product Designer",
-   "company": "Emirates NBD",
-   "portal": "LinkedIn",
-   "posted": "2026-09-04",
-   "exp": "5+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Fintech",
-   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-emirates-nbd-4461158680",
-   "note": "",
-   "firstSeen": "2026-10-04"
-  },
-  {
-   "title": "Lead UX Designer",
-   "company": "PlaySimple Games",
-   "portal": "LinkedIn",
-   "posted": "2026-09-04",
-   "exp": "6+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Gaming",
-   "url": "https://in.linkedin.com/jobs/view/lead-ux-designer-at-playsimple-games-4471265401",
-   "note": "",
-   "firstSeen": "2026-10-05"
-  },
-  {
    "title": "Senior User Experience Designer II",
    "company": "Schneider Electric",
    "portal": "LinkedIn",
@@ -3299,25 +3271,11 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "AI Product Designer — Founding Member",
-   "company": "BrandBrahma",
-   "portal": "Wellfound",
-   "posted": "2026-08-19",
-   "exp": "3 yrs",
-   "payMinL": 8,
-   "payMaxL": 20,
-   "level": "Mid",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-19"
-  },
-  {
    "title": "Product Designer",
    "company": "Nprep",
    "portal": "Wellfound",
    "posted": "2026-08-18",
-   "exp": "2 yrs",
+   "exp": "2 years",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
@@ -3345,7 +3303,7 @@ window.RADAR = {
    "company": "Fireflies.ai",
    "portal": "Wellfound",
    "posted": "2026-08-16",
-   "exp": "3 yrs",
+   "exp": "3 years",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
@@ -3397,17 +3355,17 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Sr. Product Designer",
-   "company": "Navan",
+   "title": "Senior Product Design Engineer",
+   "company": "Staffnixcom",
    "portal": "Cutshort",
    "posted": "2026-08-10",
-   "exp": "4-6 years",
-   "payMinL": null,
-   "payMaxL": null,
+   "exp": "4-8 yrs",
+   "payMinL": 40,
+   "payMaxL": 50,
    "level": "Senior",
-   "domain": "Travel",
+   "domain": "Product Design",
    "url": "https://cutshort.io/jobs/product-design-jobs",
-   "note": "Remote",
+   "note": "needs coding · Recruiter",
    "firstSeen": "2026-10-19"
   },
   {
