@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-20T14:21:00+05:30",
- "previousScanAt": "2026-10-19T14:45:00+05:30",
+ "scannedAt": "2026-10-21T14:21:00+05:30",
+ "previousScanAt": "2026-10-20T14:21:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,34 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior Product Designer",
+   "company": "WorkCrew",
+   "portal": "Hirist",
+   "posted": "2026-10-21",
+   "exp": "6–15 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "",
+   "url": "https://www.hirist.tech/j/senior-product-designer-1679353",
+   "note": "",
+   "firstSeen": "2026-10-21"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Zeta Global",
+   "portal": "LinkedIn",
+   "posted": "2026-10-20",
+   "exp": "4+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-zeta-global-4480724080",
+   "note": "",
+   "firstSeen": "2026-10-21"
+  },
   {
    "title": "Senior UX Design Specialist",
    "company": "Amadeus",
@@ -3215,6 +3243,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "AI Product Designer — Founding Member",
+   "company": "BrandBrahma",
+   "portal": "Wellfound",
+   "posted": "2026-08-21",
+   "exp": "3 years",
+   "payMinL": 8,
+   "payMaxL": 20,
+   "level": "Mid",
+   "domain": "AI",
+   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-21"
+  },
+  {
    "title": "Founding Product Designer - Figma",
    "company": "Scaling Theory Technologies",
    "portal": "Hirist",
@@ -3272,16 +3314,16 @@ window.RADAR = {
   },
   {
    "title": "Product Designer",
-   "company": "Nprep",
+   "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-08-18",
    "exp": "2 years",
-   "payMinL": null,
-   "payMaxL": null,
+   "payMinL": 30,
+   "payMaxL": 80,
    "level": "Mid",
-   "domain": "Education",
+   "domain": "B2C B2B",
    "url": "https://wellfound.com/jobs/4144519-product-designer",
-   "note": "In office",
+   "note": "Hybrid",
    "firstSeen": "2026-10-06"
   },
   {
@@ -3467,20 +3509,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Staff Product Designer",
-   "company": "EarnIn",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "B2C",
-   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product UI/UX Designer",
    "company": "Outdoo AI",
    "portal": "Wellfound",
@@ -3521,6 +3549,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greylabs-ai-4447513416",
    "note": "Hybrid",
    "firstSeen": "2026-10-19"
+  },
+  {
+   "title": "Senior UI/UX Designer",
+   "company": "ADA",
+   "portal": "LinkedIn",
+   "posted": "2026-07-31",
+   "exp": "5–8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-at-ada-4446996414",
+   "note": "",
+   "firstSeen": "2026-10-21"
   },
   {
    "title": "Product Designer - Figma/Adobe XD",
@@ -3593,18 +3635,18 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Web Designer - Adobe Creative Suite",
-   "company": "Boost Tech",
-   "portal": "Hirist",
-   "posted": "2026-07-22",
-   "exp": "2–7 yrs",
+   "title": "Staff Product Designer",
+   "company": "EarnIn",
+   "portal": "Wellfound",
+   "posted": "2026-07-21",
+   "exp": "",
    "payMinL": null,
    "payMaxL": null,
-   "level": "Mid",
-   "domain": "",
-   "url": "https://www.hirist.tech/j/web-designer-adobe-creative-suite-1656481",
+   "level": "Staff",
+   "domain": "B2C",
+   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
    "note": "",
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer - Figma/Wireframing Tools",
@@ -3647,20 +3689,6 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-at-squadra-media-4440205926",
    "note": "",
    "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Corvee",
-   "portal": "Wellfound",
-   "posted": "2026-07-08",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "B2B",
-   "url": "https://wellfound.com/jobs/3344993-product-designer",
-   "note": "",
-   "firstSeen": "2026-10-08"
   },
   {
    "title": "Senior Product Designer",
