@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-22T14:23:00+05:30",
- "previousScanAt": "2026-10-21T14:21:00+05:30",
+ "scannedAt": "2026-10-23T14:19:00+05:30",
+ "previousScanAt": "2026-10-22T14:23:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,34 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Lead User Interface Designer",
+   "company": "Sequel Logistics",
+   "portal": "LinkedIn",
+   "posted": "2026-10-23",
+   "exp": "8–12 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/lead-user-interface-designer-at-sequel-logistics-4480618513",
+   "note": "",
+   "firstSeen": "2026-10-23"
+  },
+  {
+   "title": "Product Designer",
+   "company": "More Retail Private Limited",
+   "portal": "LinkedIn",
+   "posted": "2026-10-23",
+   "exp": "3+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "E-commerce",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-more-retail-private-limited-4480633008",
+   "note": "Hybrid, needs coding",
+   "firstSeen": "2026-10-23"
+  },
   {
    "title": "UI/UX Designer -Pune/Bengaluru",
    "company": "Capco",
@@ -49,6 +77,76 @@ window.RADAR = {
    "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4745511005",
    "note": "",
    "firstSeen": "2026-10-22"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Navan",
+   "portal": "LinkedIn",
+   "posted": "2026-10-22",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Travel & expense SaaS",
+   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-navan-4456150927",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "User Experience Designer",
+   "company": "Trane Technologies",
+   "portal": "LinkedIn",
+   "posted": "2026-10-22",
+   "exp": "5-7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Sustainability",
+   "url": "https://in.linkedin.com/jobs/view/user-experience-designer-at-trane-technologies-4454261654",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior UX Designer, Marketplace & CX",
+   "company": "eBay",
+   "portal": "LinkedIn",
+   "posted": "2026-10-22",
+   "exp": "7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "E-commerce",
+   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-marketplace-cx-at-ebay-4480069968",
+   "note": "",
+   "firstSeen": "2026-10-23"
+  },
+  {
+   "title": "Product Designer (Fintech, 30L)",
+   "company": "profound.me",
+   "portal": "LinkedIn",
+   "posted": "2026-10-22",
+   "exp": "",
+   "payMinL": 30,
+   "payMaxL": 30,
+   "level": "Mid",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-fintech-30l-at-profound-me-4481351899",
+   "note": "",
+   "firstSeen": "2026-10-23"
+  },
+  {
+   "title": "Lead UX Designer",
+   "company": "Q2",
+   "portal": "LinkedIn",
+   "posted": "2026-10-22",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/lead-ux-designer-at-q2-4480046835",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-23"
   },
   {
    "title": "Senior Product Designer",
@@ -119,6 +217,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greenlight-4473580878",
    "note": "Hybrid",
    "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Senior UX Designer",
+   "company": "Automation Anywhere",
+   "portal": "LinkedIn",
+   "posted": "2026-10-21",
+   "exp": "4+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI Automation",
+   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-automation-anywhere-4482094096",
+   "note": "In office, needs coding",
+   "firstSeen": "2026-10-23"
   },
   {
    "title": "Product Designer",
@@ -553,6 +665,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/senior-product-designer-uiux-healthtech-domain-1678717",
    "note": "Recruiter",
    "firstSeen": "2026-10-16"
+  },
+  {
+   "title": "Staff UX Designer",
+   "company": "Fortanix",
+   "portal": "LinkedIn",
+   "posted": "2026-10-15",
+   "exp": "10+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Cybersecurity",
+   "url": "https://in.linkedin.com/jobs/view/staff-ux-designer-at-fortanix-4479867059",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-23"
   },
   {
    "title": "Product Designer",
@@ -1843,20 +1969,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Staff Product Designer",
-   "company": "Navan",
-   "portal": "LinkedIn",
-   "posted": "2026-10-01",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "Travel & expense SaaS",
-   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-navan-4456150927",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "UX Product Designer, MX Player",
    "company": "Prime Video & Amazon MGM Studios",
    "portal": "LinkedIn",
@@ -1952,20 +2064,6 @@ window.RADAR = {
    "domain": "SaaS",
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-runable-4472128205",
    "note": "In office",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "User Experience Designer",
-   "company": "Trane Technologies",
-   "portal": "LinkedIn",
-   "posted": "2026-09-30",
-   "exp": "5-7 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Sustainability",
-   "url": "https://in.linkedin.com/jobs/view/user-experience-designer-at-trane-technologies-4454261654",
-   "note": "Hybrid",
    "firstSeen": "2026-10-02"
   },
   {
@@ -3275,11 +3373,11 @@ window.RADAR = {
    "company": "Nprep",
    "portal": "Wellfound",
    "posted": "2026-08-22",
-   "exp": "2 yrs",
+   "exp": "2 years",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Education",
+   "domain": "",
    "url": "https://wellfound.com/jobs/4135684-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-22"
@@ -3359,7 +3457,7 @@ window.RADAR = {
    "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-08-18",
-   "exp": "2 yrs",
+   "exp": "2 years",
    "payMinL": 30,
    "payMaxL": 80,
    "level": "Mid",
@@ -3387,7 +3485,7 @@ window.RADAR = {
    "company": "Fireflies.ai",
    "portal": "Wellfound",
    "posted": "2026-08-16",
-   "exp": "3 yrs",
+   "exp": "3 years",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
@@ -3689,20 +3787,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/product-designer-figmawireframing-tools-1656101",
    "note": "Recruiter",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "A&CD - UX Design Lead (Contract",
-   "company": "Alstom",
-   "portal": "LinkedIn",
-   "posted": "2026-07-21",
-   "exp": "8+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Transportation",
-   "url": "https://in.linkedin.com/jobs/view/a-cd-ux-design-lead-contract-at-alstom-4440489795",
-   "note": "",
-   "firstSeen": "2026-10-22"
   },
   {
    "title": "Staff/Principal Product Designer, Partnerships",
