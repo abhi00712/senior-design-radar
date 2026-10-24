@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-23T14:19:00+05:30",
- "previousScanAt": "2026-10-22T14:23:00+05:30",
+ "scannedAt": "2026-10-24T13:54:00+05:30",
+ "previousScanAt": "2026-10-23T14:19:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,20 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior Product UX/UI Designer - 6 years of experience",
+   "company": "",
+   "portal": "Wellfound",
+   "posted": "2026-10-24",
+   "exp": "6 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "",
+   "url": "https://wellfound.com/jobs/73636-senior-product-ux-ui-designer-6-years-of-experience",
+   "note": "",
+   "firstSeen": "2026-10-24"
+  },
   {
    "title": "Lead User Interface Designer",
    "company": "Sequel Logistics",
@@ -35,6 +49,48 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-more-retail-private-limited-4480633008",
    "note": "Hybrid, needs coding",
    "firstSeen": "2026-10-23"
+  },
+  {
+   "title": "Senior Product Designer, dCX Design",
+   "company": "ServiceNow",
+   "portal": "LinkedIn",
+   "posted": "2026-10-23",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-dcx-design-at-servicenow-4483128629",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-24"
+  },
+  {
+   "title": "Sr. Product Designer (UI/UX)",
+   "company": "Zia",
+   "portal": "LinkedIn",
+   "posted": "2026-10-23",
+   "exp": "4-6 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI, Pharma",
+   "url": "https://in.linkedin.com/jobs/view/sr-product-designer-ui-ux-at-zia-4481675715",
+   "note": "",
+   "firstSeen": "2026-10-24"
+  },
+  {
+   "title": "UI/UX Designer",
+   "company": "Teleradiology Solutions",
+   "portal": "LinkedIn",
+   "posted": "2026-10-23",
+   "exp": "5-7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Healthcare AI",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-teleradiology-solutions-4481676803",
+   "note": "",
+   "firstSeen": "2026-10-24"
   },
   {
    "title": "UI/UX Designer -Pune/Bengaluru",
@@ -3173,48 +3229,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Senior Product Designer",
-   "company": "Fam",
-   "portal": "LinkedIn",
-   "posted": "2026-09-08",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Fintech",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-fam-4463247310",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior UX Designer – India",
-   "company": "Anatta",
-   "portal": "LinkedIn",
-   "posted": "2026-09-08",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Shopify agency",
-   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-india-at-anatta-shopify-platinum-partner-4463065016",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Nava",
-   "portal": "LinkedIn",
-   "posted": "2026-09-07",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Startup",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-at-nava-4462940225",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product Designer - Mobile App Designing",
    "company": "Vontier",
    "portal": "Hirist",
@@ -3255,20 +3269,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/uiux-designer-prototyping-tools-10-15-yrs-1668372",
    "note": "Recruiter",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Get My Parking",
-   "portal": "Wellfound",
-   "posted": "2026-09-02",
-   "exp": "5 yrs",
-   "payMinL": 15,
-   "payMaxL": 20,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/747214-senior-product-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-01"
   },
   {
    "title": "Interaction Designer",
@@ -3355,6 +3355,34 @@ window.RADAR = {
    "firstSeen": "2026-10-06"
   },
   {
+   "title": "Senior Product Designer",
+   "company": "Get My Parking",
+   "portal": "Wellfound",
+   "posted": "2026-08-24",
+   "exp": "5 yrs",
+   "payMinL": 15,
+   "payMaxL": 20,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://wellfound.com/jobs/747214-senior-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "AI Product Designer — Founding Member",
+   "company": "BrandBrahma",
+   "portal": "Wellfound",
+   "posted": "2026-08-24",
+   "exp": "3 yrs",
+   "payMinL": 8,
+   "payMaxL": 20,
+   "level": "Mid",
+   "domain": "AI",
+   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-24"
+  },
+  {
    "title": "Senior Product Designer - Figma/Adobe XD",
    "company": "Scaling Theory Technologies",
    "portal": "Hirist",
@@ -3373,11 +3401,11 @@ window.RADAR = {
    "company": "Nprep",
    "portal": "Wellfound",
    "posted": "2026-08-22",
-   "exp": "2 years",
+   "exp": "2 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "",
+   "domain": "Education",
    "url": "https://wellfound.com/jobs/4135684-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-22"
@@ -3457,7 +3485,7 @@ window.RADAR = {
    "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-08-18",
-   "exp": "2 years",
+   "exp": "2 yrs",
    "payMinL": 30,
    "payMaxL": 80,
    "level": "Mid",
@@ -3485,7 +3513,7 @@ window.RADAR = {
    "company": "Fireflies.ai",
    "portal": "Wellfound",
    "posted": "2026-08-16",
-   "exp": "3 years",
+   "exp": "3 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
@@ -3649,20 +3677,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Senior Product UI/UX Designer",
-   "company": "Outdoo AI",
-   "portal": "Wellfound",
-   "posted": "2026-08-02",
-   "exp": "2 yrs",
-   "payMinL": 20,
-   "payMaxL": 30,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product Designer - NID/IIT",
    "company": "TresVista",
    "portal": "Hirist",
@@ -3716,6 +3730,20 @@ window.RADAR = {
    "domain": "AI, HR tech",
    "url": "https://in.linkedin.com/jobs/view/sr-ux-designer-at-eightfold-ai-4445326692",
    "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Senior Product UI/UX Designer",
+   "company": "Outdoo AI",
+   "portal": "Wellfound",
+   "posted": "2026-07-24",
+   "exp": "2 yrs",
+   "payMinL": 20,
+   "payMaxL": 30,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
+   "note": "In office",
    "firstSeen": "2026-10-01"
   },
   {
@@ -3797,7 +3825,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "B2C",
+   "domain": "Insurance",
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
    "note": "",
    "firstSeen": "2026-10-14"
