@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-24T13:54:00+05:30",
- "previousScanAt": "2026-10-23T14:19:00+05:30",
+ "scannedAt": "2026-10-25T14:11:00+05:30",
+ "previousScanAt": "2026-10-24T13:54:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -9,17 +9,17 @@ window.RADAR = {
  ],
  "jobs": [
   {
-   "title": "Senior Product UX/UI Designer - 6 years of experience",
-   "company": "",
+   "title": "Senior AI Product Designer (UX/UI) - (5+ Years of Experience)",
+   "company": "SciSpace",
    "portal": "Wellfound",
-   "posted": "2026-10-24",
-   "exp": "6 yrs",
-   "payMinL": null,
-   "payMaxL": null,
+   "posted": "2026-10-23",
+   "exp": "5+ yrs",
+   "payMinL": 34,
+   "payMaxL": 50,
    "level": "Senior",
-   "domain": "",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/73636-senior-product-ux-ui-designer-6-years-of-experience",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-24"
   },
   {
@@ -91,6 +91,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-teleradiology-solutions-4481676803",
    "note": "",
    "firstSeen": "2026-10-24"
+  },
+  {
+   "title": "User Experience Designer",
+   "company": "Accenture in India",
+   "portal": "LinkedIn",
+   "posted": "2026-10-23",
+   "exp": "3 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "IT Services",
+   "url": "https://in.linkedin.com/jobs/view/user-experience-designer-at-accenture-in-india-4448390474",
+   "note": "In office",
+   "firstSeen": "2026-10-02"
   },
   {
    "title": "UI/UX Designer -Pune/Bengaluru",
@@ -371,6 +385,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-jupiter-4467376442",
    "note": "",
    "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Mobile IN - VP UX Designer",
+   "company": "Barclays",
+   "portal": "LinkedIn",
+   "posted": "2026-10-19",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/mobile-in-vp-ux-designer-at-barclays-4477704758",
+   "note": "In office",
+   "firstSeen": "2026-10-25"
   },
   {
    "title": "Product Design Lead, Platform Tools",
@@ -2333,20 +2361,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "User Experience Designer",
-   "company": "Accenture in India",
-   "portal": "LinkedIn",
-   "posted": "2026-09-25",
-   "exp": "3 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "IT Services",
-   "url": "https://in.linkedin.com/jobs/view/user-experience-designer-at-accenture-in-india-4448390474",
-   "note": "In office",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Product Designer, Amazon Pay India",
    "company": "Amazon",
    "portal": "Amazon Jobs",
@@ -3173,48 +3187,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Senior Product Designer",
-   "company": "Lenskart",
-   "portal": "LinkedIn",
-   "posted": "2026-09-09",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Retail, e-commerce",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-lenskart-com-4463034182",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Lead Product Designer",
-   "company": "GREYTIP SOFTWARE PRIVATE LIMITED",
-   "portal": "LinkedIn",
-   "posted": "2026-09-09",
-   "exp": "8–10 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "HR Tech SaaS",
-   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-greytip-software-private-limited-4464972772",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Lead Product Designer - Mobile Platform",
-   "company": "FOXO",
-   "portal": "Hirist",
-   "posted": "2026-09-09",
-   "exp": "7–10 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Mobile Platform",
-   "url": "https://www.hirist.tech/j/foxo-lead-product-designer-mobile-platform-1669796",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Lead Product Designer",
    "company": "FOXO",
    "portal": "Wellfound",
@@ -3509,20 +3481,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Product Designer",
-   "company": "Fireflies.ai",
-   "portal": "Wellfound",
-   "posted": "2026-08-16",
-   "exp": "3 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "B2B",
-   "url": "https://wellfound.com/jobs/3281427-product-designer",
-   "note": "Remote",
-   "firstSeen": "2026-10-16"
-  },
-  {
    "title": "Loop Health - Product Designer",
    "company": "Invoq Healthcare",
    "portal": "Hirist",
@@ -3573,7 +3531,7 @@ window.RADAR = {
    "payMinL": 40,
    "payMaxL": 50,
    "level": "Senior",
-   "domain": "Product Design",
+   "domain": "Product design",
    "url": "https://cutshort.io/jobs/product-design-jobs",
    "note": "needs coding · Recruiter",
    "firstSeen": "2026-10-19"
@@ -3719,6 +3677,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Product Designer",
+   "company": "Fireflies.ai",
+   "portal": "Wellfound",
+   "posted": "2026-07-25",
+   "exp": "3 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/3281427-product-designer",
+   "note": "Remote",
+   "firstSeen": "2026-10-16"
+  },
+  {
    "title": "Sr. UX Designer",
    "company": "Eightfold AI",
    "portal": "LinkedIn",
@@ -3817,6 +3789,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "A&CD - UX Design Lead (Contract",
+   "company": "Alstom",
+   "portal": "LinkedIn",
+   "posted": "2026-07-21",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Transportation",
+   "url": "https://in.linkedin.com/jobs/view/a-cd-ux-design-lead-contract-at-alstom-4440489795",
+   "note": "",
+   "firstSeen": "2026-10-25"
+  },
+  {
    "title": "Staff/Principal Product Designer, Partnerships",
    "company": "Ethos",
    "portal": "Wellfound",
@@ -3825,7 +3811,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "Insurance",
+   "domain": "B2C",
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
    "note": "",
    "firstSeen": "2026-10-14"
