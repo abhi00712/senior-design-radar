@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-25T14:11:00+05:30",
- "previousScanAt": "2026-10-24T13:54:00+05:30",
+ "scannedAt": "2026-10-26T14:49:00+05:30",
+ "previousScanAt": "2026-10-25T14:11:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -9,11 +9,25 @@ window.RADAR = {
  ],
  "jobs": [
   {
-   "title": "Senior AI Product Designer (UX/UI) - (5+ Years of Experience)",
+   "title": "Senior/Lead UI & UX Designer - Adobe XD/Figma",
+   "company": "NS Global Corporation",
+   "portal": "Hirist",
+   "posted": "2026-10-26",
+   "exp": "5–10 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "",
+   "url": "https://www.hirist.tech/j/seniorlead-ui-ux-designer-adobe-xdfigma-1680175",
+   "note": "",
+   "firstSeen": "2026-10-26"
+  },
+  {
+   "title": "Senior Product UX/UI Designer - 6 years of experience",
    "company": "SciSpace",
    "portal": "Wellfound",
    "posted": "2026-10-23",
-   "exp": "5+ yrs",
+   "exp": "6 yrs",
    "payMinL": 34,
    "payMaxL": 50,
    "level": "Senior",
@@ -3061,76 +3075,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Sr UX Designer – Advanced AI",
-   "company": "Target",
-   "portal": "LinkedIn",
-   "posted": "2026-09-10",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Retail, AI",
-   "url": "https://in.linkedin.com/jobs/view/sr-ux-designer-advanced-ai-at-target-4460298097",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior User Experience Designer",
-   "company": "redBus",
-   "portal": "LinkedIn",
-   "posted": "2026-09-10",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Travel",
-   "url": "https://in.linkedin.com/jobs/view/senior-user-experience-designer-at-redbus-4464193049",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Tekion",
-   "portal": "LinkedIn",
-   "posted": "2026-09-10",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Automotive SaaS",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-tekion-corp-4463481049",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Greytip (greytHR)",
-   "portal": "LinkedIn",
-   "posted": "2026-09-10",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "HR SaaS",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-at-greytip-software-private-limited-4465621168",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Product Designer II",
-   "company": "Tekion",
-   "portal": "LinkedIn",
-   "posted": "2026-09-10",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Automotive SaaS",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-tekion-corp-4463471044",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Connect and Heal Primary Care",
    "portal": "Hirist",
@@ -3341,20 +3285,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "AI Product Designer — Founding Member",
-   "company": "BrandBrahma",
-   "portal": "Wellfound",
-   "posted": "2026-08-24",
-   "exp": "3 yrs",
-   "payMinL": 8,
-   "payMaxL": 20,
-   "level": "Mid",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-24"
-  },
-  {
    "title": "Senior Product Designer - Figma/Adobe XD",
    "company": "Scaling Theory Technologies",
    "portal": "Hirist",
@@ -3367,20 +3297,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/senior-product-designer-figmaadobe-xd-1664803",
    "note": "",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Nprep",
-   "portal": "Wellfound",
-   "posted": "2026-08-22",
-   "exp": "2 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Education",
-   "url": "https://wellfound.com/jobs/4135684-product-designer",
-   "note": "In office",
-   "firstSeen": "2026-10-22"
   },
   {
    "title": "Founding Product Designer - Figma",
@@ -3531,7 +3447,7 @@ window.RADAR = {
    "payMinL": 40,
    "payMaxL": 50,
    "level": "Senior",
-   "domain": "Product design",
+   "domain": "Product Design",
    "url": "https://cutshort.io/jobs/product-design-jobs",
    "note": "needs coding · Recruiter",
    "firstSeen": "2026-10-19"
@@ -3675,6 +3591,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/product-designer-figmaadobe-xd-1658307",
    "note": "Recruiter",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Nprep",
+   "portal": "Wellfound",
+   "posted": "2026-07-26",
+   "exp": "2 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "",
+   "url": "https://wellfound.com/jobs/4135684-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-10-22"
   },
   {
    "title": "Product Designer",
