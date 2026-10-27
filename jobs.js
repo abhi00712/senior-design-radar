@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-26T14:49:00+05:30",
- "previousScanAt": "2026-10-25T14:11:00+05:30",
+ "scannedAt": "2026-10-27T14:49:00+05:30",
+ "previousScanAt": "2026-10-26T14:49:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,90 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior Product Designer",
+   "company": "slice",
+   "portal": "LinkedIn",
+   "posted": "2026-10-27",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-slice-4473776716",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Product Designer",
+   "company": "DevRev",
+   "portal": "LinkedIn",
+   "posted": "2026-10-27",
+   "exp": "5-8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-devrev-4483614357",
+   "note": "",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "title": "Principal Specialist - AI Product Designer",
+   "company": "RTX",
+   "portal": "LinkedIn",
+   "posted": "2026-10-27",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/principal-specialist-ai-product-designer-at-rtx-4483763205",
+   "note": "Hybrid needs coding",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "title": "Senior AI Product Designer",
+   "company": "Meraki Labs",
+   "portal": "Instahyre",
+   "posted": "2026-10-27",
+   "exp": "5-8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://www.instahyre.com/job-448196-senior-ai-product-designer-at-meraki-labs-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "title": "Sr. AI Product Designer",
+   "company": "Meraki Labs",
+   "portal": "Instahyre",
+   "posted": "2026-10-27",
+   "exp": "5-9 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://www.instahyre.com/job-448083-sr-ai-product-designer-at-meraki-labs-bangalore-hyderabad/",
+   "note": "",
+   "firstSeen": "2026-10-27"
+  },
+  {
+   "title": "Sr. Product Designer",
+   "company": "Bridgetown Research",
+   "portal": "Instahyre",
+   "posted": "2026-10-27",
+   "exp": "5-9 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Research",
+   "url": "https://www.instahyre.com/job-429647-sr-product-designer-at-bridgetown-research-bangalore/",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-27"
+  },
   {
    "title": "Senior/Lead UI & UX Designer - Adobe XD/Figma",
    "company": "NS Global Corporation",
@@ -23,17 +107,73 @@ window.RADAR = {
    "firstSeen": "2026-10-26"
   },
   {
+   "title": "Senior Product Designer, dCX Design",
+   "company": "ServiceNow",
+   "portal": "LinkedIn",
+   "posted": "2026-10-26",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-dcx-design-at-servicenow-4483128629",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-24"
+  },
+  {
+   "title": "Senior/ Lead Product Designer",
+   "company": "ITILITE",
+   "portal": "LinkedIn",
+   "posted": "2026-10-26",
+   "exp": "5–7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B2C SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-lead-product-designer-at-itilite-4480338919",
+   "note": "",
+   "firstSeen": "2026-10-17"
+  },
+  {
+   "title": "UX Designer",
+   "company": "Nutanix",
+   "portal": "LinkedIn",
+   "posted": "2026-10-26",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Enterprise Software",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-at-nutanix-4477115231",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "Lead Product Designer",
+   "company": "Wenger & Watson",
+   "portal": "LinkedIn",
+   "posted": "2026-10-26",
+   "exp": "7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-wenger-watson-4482951879",
+   "note": "Remote",
+   "firstSeen": "2026-10-27"
+  },
+  {
    "title": "Senior Product UX/UI Designer - 6 years of experience",
-   "company": "SciSpace",
+   "company": "Unknown",
    "portal": "Wellfound",
    "posted": "2026-10-23",
    "exp": "6 yrs",
-   "payMinL": 34,
-   "payMaxL": 50,
+   "payMinL": null,
+   "payMaxL": null,
    "level": "Senior",
-   "domain": "AI",
+   "domain": "",
    "url": "https://wellfound.com/jobs/73636-senior-product-ux-ui-designer-6-years-of-experience",
-   "note": "In office",
+   "note": "",
    "firstSeen": "2026-10-24"
   },
   {
@@ -63,20 +203,6 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/product-designer-at-more-retail-private-limited-4480633008",
    "note": "Hybrid, needs coding",
    "firstSeen": "2026-10-23"
-  },
-  {
-   "title": "Senior Product Designer, dCX Design",
-   "company": "ServiceNow",
-   "portal": "LinkedIn",
-   "posted": "2026-10-23",
-   "exp": "5+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-dcx-design-at-servicenow-4483128629",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-24"
   },
   {
    "title": "Sr. Product Designer (UI/UX)",
@@ -611,20 +737,6 @@ window.RADAR = {
    "firstSeen": "2026-10-17"
   },
   {
-   "title": "Senior/ Lead Product Designer",
-   "company": "ITILITE",
-   "portal": "LinkedIn",
-   "posted": "2026-10-16",
-   "exp": "5–7+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "B2B2C SaaS",
-   "url": "https://in.linkedin.com/jobs/view/senior-lead-product-designer-at-itilite-4480338919",
-   "note": "",
-   "firstSeen": "2026-10-17"
-  },
-  {
    "title": "Product Design Lead",
    "company": "Refold AI",
    "portal": "LinkedIn",
@@ -651,6 +763,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/ux-designer-ii-at-exxat-4480361129",
    "note": "",
    "firstSeen": "2026-10-19"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Kirana Club",
+   "portal": "LinkedIn",
+   "posted": "2026-10-16",
+   "exp": "4–5 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "E-commerce",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-kirana-club-4479359203",
+   "note": "In office",
+   "firstSeen": "2026-10-27"
   },
   {
    "title": "UI/UX Designer",
@@ -1395,20 +1521,6 @@ window.RADAR = {
    "firstSeen": "2026-10-08"
   },
   {
-   "title": "UX Designer",
-   "company": "Nutanix",
-   "portal": "LinkedIn",
-   "posted": "2026-10-08",
-   "exp": "5+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Enterprise Software",
-   "url": "https://in.linkedin.com/jobs/view/ux-designer-at-nutanix-4477115231",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-08"
-  },
-  {
    "title": "Product Designer",
    "company": "Bridgetown Research",
    "portal": "Instahyre",
@@ -1491,6 +1603,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/ux-researcher-product-design-1677432",
    "note": "",
    "firstSeen": "2026-10-15"
+  },
+  {
+   "title": "UI/UX Designer — Mobile & Web Applications",
+   "company": "Avanade",
+   "portal": "LinkedIn",
+   "posted": "2026-10-08",
+   "exp": "6–8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Enterprise Applications",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-%E2%80%94-mobile-web-applications-at-avanade-4477158786",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-27"
   },
   {
    "title": "Product Designer",
@@ -2105,20 +2231,6 @@ window.RADAR = {
    "level": "Senior",
    "domain": "E-commerce",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-rbs-at-amazon-4455794253",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "slice",
-   "portal": "LinkedIn",
-   "posted": "2026-09-30",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Fintech",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-slice-4473776716",
    "note": "",
    "firstSeen": "2026-10-01"
   },
@@ -2991,34 +3103,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Designer 2",
-   "company": "Truemeds",
-   "portal": "LinkedIn",
-   "posted": "2026-09-11",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Health, pharmacy",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-2-at-truemeds-4463973910",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Rapido",
-   "portal": "LinkedIn",
-   "posted": "2026-09-11",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Mobility, consumer",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-rapido-4464865223",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Platform Product Designer",
    "company": "JazzX AI",
    "portal": "LinkedIn",
@@ -3029,20 +3113,6 @@ window.RADAR = {
    "level": "Mid",
    "domain": "AI platform",
    "url": "https://in.linkedin.com/jobs/view/platform-product-designer-at-jazzx-ai-4463970068",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Product Designer",
-   "company": "WorkIndia",
-   "portal": "LinkedIn",
-   "posted": "2026-09-11",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Jobs marketplace",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-at-workindia-4465632362",
    "note": "",
    "firstSeen": "2026-10-01"
   },
@@ -3129,6 +3199,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/netapp-uiux-designer-1670576",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Sr UX Designer - Advanced AI",
+   "company": "Target",
+   "portal": "LinkedIn",
+   "posted": "2026-09-10",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/sr-ux-designer-advanced-ai-at-target-4460298097",
+   "note": "",
+   "firstSeen": "2026-10-27"
   },
   {
    "title": "Lead Product Designer",
@@ -3227,6 +3311,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/uiux-design-lead-digital-banking-domain-1667179",
    "note": "Recruiter",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "AI Product Designer — Founding Member",
+   "company": "BrandBrahma",
+   "portal": "Wellfound",
+   "posted": "2026-08-27",
+   "exp": "3 yrs",
+   "payMinL": 8,
+   "payMaxL": 20,
+   "level": "Mid",
+   "domain": "AI",
+   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-27"
   },
   {
    "title": "Senior UX Designer",
@@ -3621,20 +3719,6 @@ window.RADAR = {
    "firstSeen": "2026-10-16"
   },
   {
-   "title": "Sr. UX Designer",
-   "company": "Eightfold AI",
-   "portal": "LinkedIn",
-   "posted": "2026-07-25",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "AI, HR tech",
-   "url": "https://in.linkedin.com/jobs/view/sr-ux-designer-at-eightfold-ai-4445326692",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product UI/UX Designer",
    "company": "Outdoo AI",
    "portal": "Wellfound",
@@ -3745,20 +3829,6 @@ window.RADAR = {
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
    "note": "",
    "firstSeen": "2026-10-14"
-  },
-  {
-   "title": "Senior UI/UX Designer",
-   "company": "Squadra Media",
-   "portal": "LinkedIn",
-   "posted": "2026-07-15",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Media",
-   "url": "https://in.linkedin.com/jobs/view/senior-ui-ux-designer-at-squadra-media-4440205926",
-   "note": "",
-   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
