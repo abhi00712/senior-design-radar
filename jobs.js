@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-27T14:49:00+05:30",
- "previousScanAt": "2026-10-26T14:49:00+05:30",
+ "scannedAt": "2026-10-28T15:29:00+05:30",
+ "previousScanAt": "2026-10-27T14:49:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,20 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior AI Product Designer",
+   "company": "Adagrad AI",
+   "portal": "Instahyre",
+   "posted": "2026-10-28",
+   "exp": "5-9 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://www.instahyre.com/job-448247-senior-ai-product-designer-at-adagrad-ai-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-28"
+  },
   {
    "title": "Senior Product Designer",
    "company": "slice",
@@ -93,6 +107,48 @@ window.RADAR = {
    "firstSeen": "2026-10-27"
   },
   {
+   "title": "UX Designer",
+   "company": "Nutanix",
+   "portal": "LinkedIn",
+   "posted": "2026-10-27",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Enterprise Software",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-at-nutanix-4477115231",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "title": "Senior Product Designer II",
+   "company": "Nielsen",
+   "portal": "LinkedIn",
+   "posted": "2026-10-27",
+   "exp": "7+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Media Analytics",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-ii-at-nielsen-4473649766",
+   "note": "",
+   "firstSeen": "2026-10-06"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "CloudSEK",
+   "portal": "Wellfound",
+   "posted": "2026-10-27",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-cloudsek-4482216857",
+   "note": "",
+   "firstSeen": "2026-10-28"
+  },
+  {
    "title": "Senior/Lead UI & UX Designer - Adobe XD/Figma",
    "company": "NS Global Corporation",
    "portal": "Hirist",
@@ -135,20 +191,6 @@ window.RADAR = {
    "firstSeen": "2026-10-17"
   },
   {
-   "title": "UX Designer",
-   "company": "Nutanix",
-   "portal": "LinkedIn",
-   "posted": "2026-10-26",
-   "exp": "5+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Enterprise Software",
-   "url": "https://in.linkedin.com/jobs/view/ux-designer-at-nutanix-4477115231",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-08"
-  },
-  {
    "title": "Lead Product Designer",
    "company": "Wenger & Watson",
    "portal": "LinkedIn",
@@ -163,17 +205,17 @@ window.RADAR = {
    "firstSeen": "2026-10-27"
   },
   {
-   "title": "Senior Product UX/UI Designer - 6 years of experience",
-   "company": "Unknown",
+   "title": "Senior AI Product Designer (UX/UI) - (5+ Years of Experience)",
+   "company": "SciSpace",
    "portal": "Wellfound",
    "posted": "2026-10-23",
-   "exp": "6 yrs",
-   "payMinL": null,
-   "payMaxL": null,
+   "exp": "5+ yrs",
+   "payMinL": 34,
+   "payMaxL": 50,
    "level": "Senior",
-   "domain": "",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/73636-senior-product-ux-ui-designer-6-years-of-experience",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-24"
   },
   {
@@ -1885,20 +1927,6 @@ window.RADAR = {
    "firstSeen": "2026-10-06"
   },
   {
-   "title": "Senior Product Designer II",
-   "company": "Nielsen",
-   "portal": "LinkedIn",
-   "posted": "2026-10-05",
-   "exp": "7+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Media Analytics",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-ii-at-nielsen-4473649766",
-   "note": "",
-   "firstSeen": "2026-10-06"
-  },
-  {
    "title": "Senior UI / Product Designer",
    "company": "ARADY",
    "portal": "Instahyre",
@@ -3089,34 +3117,6 @@ window.RADAR = {
    "firstSeen": "2026-10-04"
   },
   {
-   "title": "Product Designer – AI and Enterprise Software",
-   "company": "Thermo Fisher Scientific",
-   "portal": "LinkedIn",
-   "posted": "2026-09-12",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Life sciences, enterprise",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-ai-and-enterprise-software-job-posting-title-here-at-thermo-fisher-scientific-4464274964",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Platform Product Designer",
-   "company": "JazzX AI",
-   "portal": "LinkedIn",
-   "posted": "2026-09-11",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "AI platform",
-   "url": "https://in.linkedin.com/jobs/view/platform-product-designer-at-jazzx-ai-4463970068",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior UX/UI Designer",
    "company": "4S Advisory",
    "portal": "Hirist",
@@ -3241,6 +3241,20 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/vontier-senior-product-designer-mobile-app-designing-1669186",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Nava",
+   "portal": "LinkedIn",
+   "posted": "2026-09-07",
+   "exp": "3–8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "AI Infrastructure",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-nava-4462940225",
+   "note": "",
+   "firstSeen": "2026-10-28"
   },
   {
    "title": "Senior User Experience Designer II",
@@ -3699,7 +3713,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "",
+   "domain": "Education",
    "url": "https://wellfound.com/jobs/4135684-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-22"
@@ -3785,7 +3799,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "B2C",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
-   "note": "",
+   "note": "Bengaluru",
    "firstSeen": "2026-10-01"
   },
   {
@@ -3825,9 +3839,9 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "B2C",
+   "domain": "Insurance",
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
-   "note": "",
+   "note": "Bengaluru",
    "firstSeen": "2026-10-14"
   },
   {
