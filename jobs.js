@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-28T15:29:00+05:30",
- "previousScanAt": "2026-10-27T14:49:00+05:30",
+ "scannedAt": "2026-10-29T15:52:00+05:30",
+ "previousScanAt": "2026-10-28T15:29:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,76 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior UX Designer (Full-stack - UI, UX and Research)",
+   "company": "talentxo",
+   "portal": "Wellfound",
+   "posted": "2026-10-29",
+   "exp": "5 yrs",
+   "payMinL": 23,
+   "payMaxL": 30,
+   "level": "Senior",
+   "domain": "",
+   "url": "https://wellfound.com/jobs/4901503-senior-ux-designer-full-stack-ui-ux-and-research",
+   "note": "In office, needs coding",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "title": "Senior UX Designer - UI/UX/Research - Fintech",
+   "company": "Laksh Consultants",
+   "portal": "Hirist",
+   "posted": "2026-10-29",
+   "exp": "5–8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Fintech",
+   "url": "https://www.hirist.tech/j/senior-ux-designer-uiuxresearch-fintech-1680924",
+   "note": "Recruiter",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "title": "Lead UX Designer",
+   "company": "Q2 Software",
+   "portal": "Hirist",
+   "posted": "2026-10-29",
+   "exp": "8–11 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "",
+   "url": "https://www.hirist.tech/j/q2-lead-ux-designer-1680948",
+   "note": "",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "title": "Senior UX Designer",
+   "company": "Piramal Finance Limited",
+   "portal": "Instahyre",
+   "posted": "2026-10-29",
+   "exp": "5-8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Fintech",
+   "url": "https://www.instahyre.com/job-448420-senior-ux-designer-at-piramal-finance-limited-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Wealth Quotient",
+   "portal": "Instahyre",
+   "posted": "2026-10-29",
+   "exp": "3-6 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Fintech",
+   "url": "https://www.instahyre.com/job-448287-product-designer-at-wealth-quotient-bangalore/",
+   "note": "",
+   "firstSeen": "2026-10-29"
+  },
   {
    "title": "Senior AI Product Designer",
    "company": "Adagrad AI",
@@ -21,6 +91,62 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-448247-senior-ai-product-designer-at-adagrad-ai-bangalore/",
    "note": "",
    "firstSeen": "2026-10-28"
+  },
+  {
+   "title": "Senior Product Designer (UX/UI)",
+   "company": "Revun",
+   "portal": "LinkedIn",
+   "posted": "2026-10-28",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-ux-ui-at-revun-4458703085",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "AI interaction designer",
+   "company": "Infosys",
+   "portal": "LinkedIn",
+   "posted": "2026-10-28",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/ai-interaction-designer-at-infosys-4484100173",
+   "note": "",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "title": "Lead product Designer",
+   "company": "Lowe's India",
+   "portal": "LinkedIn",
+   "posted": "2026-10-28",
+   "exp": "7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Product Design",
+   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-lowe-s-india-4483880037",
+   "note": "In office",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "title": "UI/UX Designer - Product/Visual Design",
+   "company": "KAIL SHAIL TECH (OPC) PRIVATE LIMITED ",
+   "portal": "Hirist",
+   "posted": "2026-10-28",
+   "exp": "6–8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Product Design",
+   "url": "https://www.hirist.tech/j/uiux-designer-productvisual-design-1680854",
+   "note": "",
+   "firstSeen": "2026-10-29"
   },
   {
    "title": "Senior Product Designer",
@@ -145,7 +271,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "AI",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-cloudsek-4482216857",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-28"
   },
   {
@@ -1045,6 +1171,20 @@ window.RADAR = {
    "firstSeen": "2026-10-15"
   },
   {
+   "title": "Senior Staff UX Designer",
+   "company": "Palo Alto Networks",
+   "portal": "LinkedIn",
+   "posted": "2026-10-14",
+   "exp": "10+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Cybersecurity",
+   "url": "https://in.linkedin.com/jobs/view/senior-staff-ux-designer-at-palo-alto-networks-4440119593",
+   "note": "In office",
+   "firstSeen": "2026-10-29"
+  },
+  {
    "title": "Product Designer",
    "company": "Weekday (YC W21)",
    "portal": "LinkedIn",
@@ -1813,20 +1953,6 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-438957-product-designer-at-loop-health-bangalore/",
    "note": "",
    "firstSeen": "2026-10-06"
-  },
-  {
-   "title": "Senior Product Designer (UX/UI)",
-   "company": "Revun",
-   "portal": "LinkedIn",
-   "posted": "2026-10-06",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "SaaS",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-ux-ui-at-revun-4458703085",
-   "note": "",
-   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -3663,20 +3789,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Senior Product Designer - NID/IIT",
-   "company": "TresVista",
-   "portal": "Hirist",
-   "posted": "2026-07-31",
-   "exp": "7–10 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "",
-   "url": "https://www.hirist.tech/j/tresvista-senior-product-designer-nidiit-1659581",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Senior UI/UX Designer",
    "company": "ADA",
    "portal": "LinkedIn",
@@ -3785,7 +3897,7 @@ window.RADAR = {
    "level": "Mid",
    "domain": "B2B",
    "url": "https://wellfound.com/jobs/3344993-product-designer",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-22"
   },
   {
@@ -3799,7 +3911,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "B2C",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
-   "note": "Bengaluru",
+   "note": "",
    "firstSeen": "2026-10-01"
   },
   {
@@ -3841,7 +3953,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "Insurance",
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
-   "note": "Bengaluru",
+   "note": "",
    "firstSeen": "2026-10-14"
   },
   {
