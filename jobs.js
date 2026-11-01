@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-10-31T15:25:00+05:30",
- "previousScanAt": "2026-10-30T15:54:00+05:30",
+ "scannedAt": "2026-11-01T16:17:00+05:30",
+ "previousScanAt": "2026-10-31T15:25:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,48 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Product Designer — WhatsApp India",
+   "company": "WhatsApp",
+   "portal": "LinkedIn",
+   "posted": "2026-10-31",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Social Media",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-%E2%80%94-whatsapp-india-at-whatsapp-4475620155",
+   "note": "",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "Product Design Manager - UX, Product Design",
+   "company": "PhonePe",
+   "portal": "LinkedIn",
+   "posted": "2026-10-31",
+   "exp": "7–10 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/product-design-manager-ux-product-design-at-phonepe-4458093175",
+   "note": "",
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "EarnIn",
+   "portal": "LinkedIn",
+   "posted": "2026-10-31",
+   "exp": "4+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-earnin-4477884157",
+   "note": "",
+   "firstSeen": "2026-10-15"
+  },
   {
    "title": "Senior Product Designer",
    "company": "Recro",
@@ -131,7 +173,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "",
    "url": "https://wellfound.com/jobs/4901503-senior-ux-designer-full-stack-ui-ux-and-research",
-   "note": "In office, needs coding",
+   "note": "In office needs coding",
    "firstSeen": "2026-10-29"
   },
   {
@@ -531,7 +573,7 @@ window.RADAR = {
    "company": "SciSpace",
    "portal": "Wellfound",
    "posted": "2026-10-23",
-   "exp": "5 yrs",
+   "exp": "5+ yrs",
    "payMinL": 34,
    "payMaxL": 50,
    "level": "Senior",
@@ -1605,20 +1647,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Product Designer — WhatsApp India",
-   "company": "WhatsApp",
-   "portal": "LinkedIn",
-   "posted": "2026-10-10",
-   "exp": "8+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "Social Media",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-%E2%80%94-whatsapp-india-at-whatsapp-4475620155",
-   "note": "",
-   "firstSeen": "2026-10-10"
-  },
-  {
    "title": "User Experience Designer",
    "company": "Honda Digital Innovation, India",
    "portal": "LinkedIn",
@@ -1841,34 +1869,6 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-epergne-solutions-4477661389",
    "note": "Remote",
    "firstSeen": "2026-10-11"
-  },
-  {
-   "title": "Product Design Manager - UX, Product Design",
-   "company": "PhonePe",
-   "portal": "LinkedIn",
-   "posted": "2026-10-09",
-   "exp": "7–10 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Fintech",
-   "url": "https://in.linkedin.com/jobs/view/product-design-manager-ux-product-design-at-phonepe-4458093175",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "EarnIn",
-   "portal": "LinkedIn",
-   "posted": "2026-10-09",
-   "exp": "4+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-earnin-4477884157",
-   "note": "",
-   "firstSeen": "2026-10-15"
   },
   {
    "title": "Product Designer (B2C)",
@@ -3663,6 +3663,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Product Designer",
+   "company": "Sarvam",
+   "portal": "LinkedIn",
+   "posted": "2026-08-19",
+   "exp": "4+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-sarvam-4456176299",
+   "note": "",
+   "firstSeen": "2026-11-01"
+  },
+  {
    "title": "Senior Product Designer - Figma",
    "company": "Success Pact Consulting",
    "portal": "Hirist",
@@ -3729,7 +3743,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "B2B SaaS",
    "url": "https://cutshort.io/jobs/product-design-jobs",
-   "note": "Hybrid, needs coding · Recruiter",
+   "note": "Hybrid needs coding · Recruiter",
    "firstSeen": "2026-10-19"
   },
   {
@@ -3829,6 +3843,20 @@ window.RADAR = {
    "url": "https://wellfound.com/jobs/4718643-ui-ux-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Nprep",
+   "portal": "Wellfound",
+   "posted": "2026-08-01",
+   "exp": "2 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Education",
+   "url": "https://wellfound.com/jobs/4135684-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-11-01"
   },
   {
    "title": "Product Designer - Figma/Adobe XD",
@@ -3967,7 +3995,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "Insurance",
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
-   "note": "Hybrid",
+   "note": "",
    "firstSeen": "2026-10-14"
   }
  ]
