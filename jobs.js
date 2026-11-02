@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-11-01T16:17:00+05:30",
- "previousScanAt": "2026-10-31T15:25:00+05:30",
+ "scannedAt": "2026-11-02T17:08:00+05:30",
+ "previousScanAt": "2026-11-01T16:17:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,48 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Product Designer II",
+   "company": "Nielsen",
+   "portal": "LinkedIn",
+   "posted": "2026-11-02",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Data, media",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-nielsen-4459958590",
+   "note": "",
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "Product Designer | 5+ Years of Experience | Healthcare Product Expertise | Bangalore",
+   "company": "Sketch Brahma Technologies",
+   "portal": "LinkedIn",
+   "posted": "2026-11-02",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Healthcare",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-5%2B-years-of-experience-healthcare-product-expertise-bangalore-at-sketch-brahma-technologies-4485434914",
+   "note": "",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "title": "Senior UX Designer - Figma",
+   "company": "MNM HIRETECH PVT LTD",
+   "portal": "Hirist",
+   "posted": "2026-11-02",
+   "exp": "5–8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "",
+   "url": "https://www.hirist.tech/j/senior-ux-designer-figma-1681648",
+   "note": "",
+   "firstSeen": "2026-11-02"
+  },
   {
    "title": "Product Designer — WhatsApp India",
    "company": "WhatsApp",
@@ -105,20 +147,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/senior-product-designer-uiux-ai-experiences-1681350",
    "note": "",
    "firstSeen": "2026-10-30"
-  },
-  {
-   "title": "Product Designer II",
-   "company": "Nielsen",
-   "portal": "LinkedIn",
-   "posted": "2026-10-30",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Data, media",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-ii-at-nielsen-4459958590",
-   "note": "",
-   "firstSeen": "2026-10-01"
   },
   {
    "title": "Product Designer",
@@ -503,7 +531,7 @@ window.RADAR = {
    "company": "CloudSEK",
    "portal": "Wellfound",
    "posted": "2026-10-27",
-   "exp": "",
+   "exp": "5 yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Senior",
@@ -573,7 +601,7 @@ window.RADAR = {
    "company": "SciSpace",
    "portal": "Wellfound",
    "posted": "2026-10-23",
-   "exp": "5+ yrs",
+   "exp": "5 yrs",
    "payMinL": 34,
    "payMaxL": 50,
    "level": "Senior",
@@ -3229,20 +3257,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Senior Product Designer",
-   "company": "Yulu",
-   "portal": "LinkedIn",
-   "posted": "2026-09-17",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "EV mobility",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-yulu-4468606404",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product Designer - Figma",
    "company": "Employee Forums",
    "portal": "Hirist",
@@ -3523,20 +3537,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "AI Product Designer — Founding Member",
-   "company": "BrandBrahma",
-   "portal": "Wellfound",
-   "posted": "2026-08-31",
-   "exp": "3 yrs",
-   "payMinL": 8,
-   "payMaxL": 20,
-   "level": "Mid",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-31"
-  },
-  {
    "title": "Senior UX Designer",
    "company": "Vistaprint",
    "portal": "Hirist",
@@ -3743,7 +3743,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "B2B SaaS",
    "url": "https://cutshort.io/jobs/product-design-jobs",
-   "note": "Hybrid needs coding · Recruiter",
+   "note": "Hybrid, needs coding · Recruiter",
    "firstSeen": "2026-10-19"
   },
   {
@@ -3845,6 +3845,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "AI Product Designer — Founding Member",
+   "company": "BrandBrahma",
+   "portal": "Wellfound",
+   "posted": "2026-08-02",
+   "exp": "3 yrs",
+   "payMinL": 8,
+   "payMaxL": 20,
+   "level": "Mid",
+   "domain": "AI",
+   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-31"
+  },
+  {
    "title": "Product Designer",
    "company": "Nprep",
    "portal": "Wellfound",
@@ -3895,7 +3909,7 @@ window.RADAR = {
    "payMinL": 20,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "AI",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3951,7 +3965,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "B2C",
+   "domain": "Fintech",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
    "note": "",
    "firstSeen": "2026-10-01"
@@ -3993,7 +4007,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "Insurance",
+   "domain": "Insurtech",
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
    "note": "",
    "firstSeen": "2026-10-14"
