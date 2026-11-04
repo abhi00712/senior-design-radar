@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-11-03T16:46:00+05:30",
- "previousScanAt": "2026-11-02T17:08:00+05:30",
+ "scannedAt": "2026-11-04T16:58:00+05:30",
+ "previousScanAt": "2026-11-03T16:46:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,48 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior Product Designer",
+   "company": "noon",
+   "portal": "LinkedIn",
+   "posted": "2026-11-04",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "E-commerce",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-noon-4487229902",
+   "note": "",
+   "firstSeen": "2026-11-04"
+  },
+  {
+   "title": "Staff Product Designer",
+   "company": "Okta",
+   "portal": "LinkedIn",
+   "posted": "2026-11-04",
+   "exp": "8+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Identity Security",
+   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-okta-4485070435",
+   "note": "Remote",
+   "firstSeen": "2026-11-04"
+  },
+  {
+   "title": "Principal Product Designer, Admin Platform Experience",
+   "company": "LinkedIn",
+   "portal": "LinkedIn",
+   "posted": "2026-11-04",
+   "exp": "14+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Enterprise SaaS",
+   "url": "https://in.linkedin.com/jobs/view/principal-product-designer-admin-platform-experience-at-linkedin-4479066383",
+   "note": "Hybrid",
+   "firstSeen": "2026-11-04"
+  },
   {
    "title": "Senior Product Designer - Figma",
    "company": "Recro",
@@ -35,6 +77,20 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-438457-senior-ux-designer-at-playsimple-games-bangalore/",
    "note": "",
    "firstSeen": "2026-11-03"
+  },
+  {
+   "title": "UX Designer, YouTube Creator Support",
+   "company": "Google",
+   "portal": "LinkedIn",
+   "posted": "2026-11-03",
+   "exp": "4 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-youtube-creator-support-at-google-4468499694",
+   "note": "",
+   "firstSeen": "2026-10-02"
   },
   {
    "title": "Product Designer II",
@@ -119,6 +175,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-talent-enterprise-at-linkedin-4486165313",
    "note": "Hybrid",
    "firstSeen": "2026-11-03"
+  },
+  {
+   "title": "Product Designer - India",
+   "company": "BitGo",
+   "portal": "LinkedIn",
+   "posted": "2026-11-02",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Fintech",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-india-at-bitgo-4485740975",
+   "note": "In office",
+   "firstSeen": "2026-11-04"
   },
   {
    "title": "Product Designer — WhatsApp India",
@@ -255,7 +325,7 @@ window.RADAR = {
    "payMinL": 23,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/4901503-senior-ux-designer-full-stack-ui-ux-and-research",
    "note": "In office needs coding",
    "firstSeen": "2026-10-29"
@@ -671,7 +741,7 @@ window.RADAR = {
    "company": "SciSpace",
    "portal": "Wellfound",
    "posted": "2026-10-23",
-   "exp": "5 yrs",
+   "exp": "5+ yrs",
    "payMinL": 34,
    "payMaxL": 50,
    "level": "Senior",
@@ -1673,20 +1743,6 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-446571-product-designer-at-superkalam-bangalore/",
    "note": "",
    "firstSeen": "2026-10-12"
-  },
-  {
-   "title": "UX Designer, YouTube Creator Support",
-   "company": "Google",
-   "portal": "LinkedIn",
-   "posted": "2026-10-12",
-   "exp": "4 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://in.linkedin.com/jobs/view/ux-designer-youtube-creator-support-at-google-4468499694",
-   "note": "",
-   "firstSeen": "2026-10-02"
   },
   {
    "title": "Manager, Product Design: AI Products",
@@ -3173,34 +3229,6 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Staff Product Designer",
-   "company": "Adobe",
-   "portal": "LinkedIn",
-   "posted": "2026-09-19",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "Creative software",
-   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-adobe-4321974489",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior Product Design Engineer (Design, Frontend)",
-   "company": "Staffnix",
-   "portal": "Cutshort",
-   "posted": "2026-09-19",
-   "exp": "4–8 yrs",
-   "payMinL": 40,
-   "payMaxL": 50,
-   "level": "Senior",
-   "domain": "Design + frontend",
-   "url": "https://cutshort.io/job/Senior-Product-Design-Engineer-Design-Frontend-Bengaluru-Bangalore-Staffnixcom-kbG17zf9",
-   "note": "Recruiter · needs coding",
-   "firstSeen": "2026-10-01"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Dash Hire",
    "portal": "Hirist",
@@ -3397,6 +3425,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Platform Product Designer",
+   "company": "JazzX AI",
+   "portal": "LinkedIn",
+   "posted": "2026-09-11",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI Enterprise SaaS",
+   "url": "https://in.linkedin.com/jobs/view/platform-product-designer-at-jazzx-ai-4463970068",
+   "note": "",
+   "firstSeen": "2026-11-04"
+  },
+  {
    "title": "Senior Product Designer",
    "company": "Connect and Heal Primary Care",
    "portal": "Hirist",
@@ -3475,7 +3517,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Lead",
-   "domain": "",
+   "domain": "Longevity",
    "url": "https://wellfound.com/jobs/4689777-lead-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3615,7 +3657,7 @@ window.RADAR = {
    "payMinL": 15,
    "payMaxL": 20,
    "level": "Senior",
-   "domain": "",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/747214-senior-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3689,20 +3731,6 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/ux-ui-designer-at-apple-4454938841",
    "note": "",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Product Designer",
-   "company": "Sarvam",
-   "portal": "LinkedIn",
-   "posted": "2026-08-19",
-   "exp": "4+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://in.linkedin.com/jobs/view/product-designer-at-sarvam-4456176299",
-   "note": "",
-   "firstSeen": "2026-11-01"
   },
   {
    "title": "Senior Product Designer - Figma",
@@ -3803,34 +3831,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "UI/UX Designer",
-   "company": "peopleHum",
-   "portal": "LinkedIn",
-   "posted": "2026-08-07",
-   "exp": "3+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Digital Products",
-   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-peoplehum-4450300808",
-   "note": "",
-   "firstSeen": "2026-10-09"
-  },
-  {
-   "title": "Product Designer",
-   "company": "THINK41 TECHNOLOGIES PRIVATE LIMITED",
-   "portal": "Hirist",
-   "posted": "2026-08-06",
-   "exp": "1–4 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "",
-   "url": "https://www.hirist.tech/j/think41-product-designer-1-4-yrs-1661149",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Senior Product Designer",
    "company": "Gilbarco Veeder Root",
    "portal": "Hirist",
@@ -3860,14 +3860,14 @@ window.RADAR = {
   },
   {
    "title": "UI/UX Designer",
-   "company": "Wesence Intelligent Systems.",
+   "company": "Wesence",
    "portal": "Wellfound",
    "posted": "2026-08-04",
    "exp": "3 yrs",
    "payMinL": 6,
    "payMaxL": 7.2,
    "level": "Mid",
-   "domain": "",
+   "domain": "Intelligent Systems",
    "url": "https://wellfound.com/jobs/4718643-ui-ux-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-02"
@@ -3937,7 +3937,7 @@ window.RADAR = {
    "payMinL": 20,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "B2B",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/2976208-senior-product-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3995,7 +3995,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "B2C",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-01"
   },
   {
@@ -4013,20 +4013,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "A&CD - UX Design Lead (Contract",
-   "company": "Alstom",
-   "portal": "LinkedIn",
-   "posted": "2026-07-21",
-   "exp": "8+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Transportation",
-   "url": "https://in.linkedin.com/jobs/view/a-cd-ux-design-lead-contract-at-alstom-4440489795",
-   "note": "",
-   "firstSeen": "2026-10-31"
-  },
-  {
    "title": "Staff/Principal Product Designer, Partnerships",
    "company": "Ethos",
    "portal": "Wellfound",
@@ -4037,7 +4023,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "Insurtech",
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
-   "note": "",
+   "note": "In office",
    "firstSeen": "2026-10-14"
   }
  ]
