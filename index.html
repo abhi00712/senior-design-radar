@@ -122,7 +122,7 @@ footer{font-size:12.5px;color:var(--muted);max-width:80ch}
   <header>
     <div>
       <h1>UX/Product Designer Job Hunt</h1>
-      <p class="sub">UX and product designer openings in Bengaluru for a senior UX designer with 4 years of experience. Includes senior roles that ask for 5–7 years, and mid-level titles that match her experience at larger companies.</p>
+      <p class="sub">UX and product designer openings in Bengaluru for a UX designer with 3–4 years of experience. Roles that ask for 5+ years, or that list pay under 15 LPA, are hidden. Tick “Show hidden” to see them.</p>
     </div>
     <div class="scan">
       <div class="stamp"><span id="scanText">Last scan: —</span><br><span class="next">Updates automatically every morning at 9:00 IST</span></div>
@@ -140,7 +140,7 @@ footer{font-size:12.5px;color:var(--muted);max-width:80ch}
 
   <section class="bar" aria-label="Filters">
     <input type="search" id="q" placeholder="Search role, company or domain (fintech, AI, SaaS…)">
-    <select id="fitf" aria-label="Fit for 4 years">
+    <select id="fitf" aria-label="Fit for 3–4 years">
       <option value="fa" selected>Fits + Apply anyway</option>
       <option value="all">Every fit, including stretch</option>
       <option value="fits">Fits only</option>
@@ -174,12 +174,13 @@ footer{font-size:12.5px;color:var(--muted);max-width:80ch}
       <option value="new">New in latest scan</option>
     </select>
     <label class="toggle"><input type="checkbox" id="hideskip" checked> Hide skipped</label>
+    <label class="toggle"><input type="checkbox" id="showhidden"> Show hidden (<span id="hiddenCount">0</span>): 5+ yrs or under 15 LPA</label>
   </section>
   <div class="chips" id="portalChips" role="group" aria-label="Portals"></div>
 
   <div class="tablewrap">
     <table>
-      <thead><tr><th>Role</th><th>Company</th><th>Source</th><th>Posted</th><th>Asks for</th><th>Fit for 4 yrs</th><th>Pay (CTC)</th><th>My status</th><th></th></tr></thead>
+      <thead><tr><th>Role</th><th>Company</th><th>Source</th><th>Posted</th><th>Asks for</th><th>Fit for 3–4 yrs</th><th>Pay (CTC)</th><th>My status</th><th></th></tr></thead>
       <tbody id="rows"></tbody>
     </table>
   </div>
@@ -196,6 +197,7 @@ footer{font-size:12.5px;color:var(--muted);max-width:80ch}
     <div><span class="fit fit-fits">Fits</span> The listing asks for 4 years or fewer. If it doesn't say, the title is Senior or Product Designer / II.</div>
     <div><span class="fit fit-apply">Apply anyway</span> The listing asks for 5–6 years, or the title is Lead and no experience is given. Companies often stretch by a year for a strong portfolio.</div>
     <div><span class="fit fit-stretch">Stretch</span> The listing asks for 7+ years, or the title is Staff or Principal.</div>
+    <div><b>Hidden by default</b> Listings that ask for 5+ years, ask only for under 3 years (like “2 yrs”), or state pay that tops out below 15 LPA. Ranges that reach 3–4 years (like “2–4 yrs”), listings with no experience stated, and pay ranges that reach 15 LPA stay visible.</div>
   </section>
 
   <footer>Status marks are saved in each person's own browser, so they aren't shared between viewers. Rows older than 90 days are greyed out because they may already be filled. Pay is shown only where the listing states it. "Company site" rows come straight from the company's hiring page.</footer>
@@ -212,7 +214,7 @@ function loadData(d){
   RADAR = d;
   JOBS = d.jobs.map(j=>({id:"j"+hash(j.url), ...j, pmin:j.payMinL??"", pmax:j.payMaxL??""}));
   LATEST = (d.scannedAt||"").slice(0,10);
-  JOBS.forEach(j=>j.fit=fitOf(j));
+  JOBS.forEach(j=>{j.fit=fitOf(j);j.hidden=hiddenWhy(j);});
 }
 const isNew = j => RADAR.previousScanAt && j.firstSeen === LATEST;
 
@@ -269,6 +271,22 @@ function fitOf(j){
   return j.level==="Staff"?"stretch":j.level==="Lead"?"apply":"fits";
 }
 const FIT_LABEL={fits:"Fits",apply:"Apply anyway",stretch:"Stretch"};
+// Target: 3–4 years of experience and at least 15 LPA.
+// Hide a listing when its stated experience range misses 3–4 years (minimum 5+, or maximum under 3),
+// or when it states pay that tops out below 15 LPA. Unstated experience or pay stays visible.
+const MIN_PAY_L=15;
+function expRange(e){
+  const n=String(e||"").match(/\d+(?:\.\d+)?/g); if(!n) return null;
+  const lo=+n[0], hi=n.length>1?+n[1]:/\+/.test(e)?Infinity:lo;
+  return {lo,hi};
+}
+function hiddenWhy(j){
+  const r=expRange(j.exp);
+  if(r&&(r.lo>=5||r.hi<3)) return "exp";
+  const top=j.payMaxL??j.payMinL;
+  if(top!=null&&top<MIN_PAY_L) return "pay";
+  return "";
+}
 loadData(RADAR);
 
 function renderChips(){
@@ -284,7 +302,10 @@ $("portalChips").addEventListener("click",e=>{
 function render(){
   const q=$("q").value.trim().toLowerCase();
   const lvl=$("level").value, ff=$("fitf").value, maxAge=+$("age").value, sort=$("sort").value, sf=$("statusf").value, hideSkip=$("hideskip").checked;
+  const showHidden=$("showhidden").checked;
+  $("hiddenCount").textContent=JOBS.filter(j=>j.hidden).length;
   let list=JOBS.filter(j=>{
+    if(!showHidden&&j.hidden)return false;
     if(offPortals.has(j.portal))return false;
     if(lvl!=="all"&&j.level!==lvl)return false;
     if(ff==="fa"&&j.fit==="stretch")return false;
@@ -298,10 +319,10 @@ function render(){
     if(q&&!(j.title+" "+j.company+" "+j.domain+" "+j.note).toLowerCase().includes(q))return false;
     return true;
   });
-  list.sort((a,b)=>sort==="pay"?((+b.pmax||0)-(+a.pmax||0))||b.posted.localeCompare(a.posted):sort==="co"?a.company.localeCompare(b.company):b.posted.localeCompare(a.posted));
+  list.sort((a,b)=>sort==="pay"?((+b.pmax||+b.pmin||0)-(+a.pmax||+a.pmin||0))||b.posted.localeCompare(a.posted):sort==="co"?a.company.localeCompare(b.company):b.posted.localeCompare(a.posted));
   $("rows").innerHTML=list.length?list.map(j=>{
     const n=daysAgo(j.posted), st=status[j.id]||"";
-    const pay=j.pmin?`₹${j.pmin}–${j.pmax}L`:"—";
+    const pay=j.pmin&&j.pmax?`₹${j.pmin}–${j.pmax}L`:j.pmax?`Up to ₹${j.pmax}L`:j.pmin?`₹${j.pmin}L+`:"—";
     return `<tr class="${n>90?"old":""} ${st==="skip"?"skip":""}">
       <td><div class="role">${isNew(j)?'<span class="newtag">New</span> ':""}${esc(j.title)}</div>${j.note?`<div class="note">${esc(j.note)}</div>`:""}</td>
       <td><div class="coname">${esc(j.company)}</div>${j.domain?`<div class="co">${esc(j.domain)}</div>`:""}</td>
@@ -331,7 +352,7 @@ $("rows").addEventListener("change",e=>{
   if(s.value)status[s.dataset.id]=s.value;else delete status[s.dataset.id];
   saveStatus();render();
 });
-["q","level","fitf","age","sort","statusf","hideskip"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
+["q","level","fitf","age","sort","statusf","hideskip","showhidden"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
 
 $("portals").innerHTML=PORTALS.map(g=>`<div class="pgroup"><h3>${g.group}</h3><div class="portals">${g.items.map(p=>`<a class="portal" href="${p.url}" target="_blank" rel="noopener noreferrer"><b>${p.name}</b><span>${p.what}</span><em>Open search ↗</em></a>`).join("")}</div></div>`).join("");
 // Scan info and refresh
