@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Design roles in Bengaluru, Hyderabad, Mumbai, Gurgaon and Pune</title>
+<title>Design roles in Bengaluru, Hyderabad, Mumbai, Gurgaon, Pune and Delhi</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap">
@@ -208,8 +208,8 @@ footer{margin-top:40px;font-size:13px;color:var(--faint);max-width:80ch}
   .acts{flex-wrap:wrap}
   .acts button{flex:1 1 auto}
   .howfit{grid-template-columns:1fr;gap:12px}
-  .cities{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;overflow:visible;margin-top:18px}
-  .city{flex-direction:column;align-items:center;gap:3px;padding:8px 1px 10px;font-size:13.5px}
+  .cities{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;overflow:visible;margin-top:18px}
+  .city{flex-direction:row;justify-content:center;align-items:baseline;gap:6px;padding:9px 2px;font-size:14px}
   .city span{font-size:12px}
 }
 @media (prefers-reduced-motion: no-preference){
@@ -365,6 +365,7 @@ const CITIES = [
   {name:"Mumbai", li:"Mumbai%2C%20Maharashtra%2C%20India", naukri:"mumbai", indeed:"Mumbai%2C+Maharashtra", glass:"Mumbai", found:"Mumbai", well:"mumbai", cut:"mumbai", insta:"Mumbai", hirist:"mumbai", builtin:"https://builtin.com/jobs/as/india/mumbai/design-ux", q:"mumbai", amazon:"Mumbai%2C%20Maharashtra%2C%20India"},
   {name:"Gurgaon", li:"Gurugram%2C%20Haryana%2C%20India", naukri:"gurgaon", indeed:"Gurugram%2C+Haryana", glass:"Gurgaon", found:"Gurgaon", well:"gurgaon", cut:"gurgaon", insta:"Gurgaon", hirist:"gurgaon", builtin:"https://builtin.com/jobs/as/india/gurugram/design-ux", q:"gurgaon", amazon:"Gurugram%2C%20Haryana%2C%20India"},
   {name:"Pune", li:"Pune%2C%20Maharashtra%2C%20India", naukri:"pune", indeed:"Pune%2C+Maharashtra", glass:"Pune", found:"Pune", well:"pune", cut:"pune", insta:"Pune", hirist:"pune", builtin:"https://builtin.com/jobs/as/india/pune/design-ux", q:"pune", amazon:"Pune%2C%20Maharashtra%2C%20India"},
+  {name:"Delhi", li:"New%20Delhi%2C%20Delhi%2C%20India", naukri:"delhi", indeed:"New+Delhi%2C+Delhi", glass:"New%20Delhi", found:"Delhi", well:"new-delhi", cut:"delhi", insta:"Delhi", hirist:"delhi", builtin:"https://builtin.com/jobs/as/india/new-delhi/design-ux", q:"delhi", amazon:"New%20Delhi%2C%20Delhi%2C%20India"},
 ];
 const cityOfJob = j => j.city || "Bengaluru";
 let CITY = "Bengaluru";
