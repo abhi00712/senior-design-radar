@@ -355,7 +355,7 @@ function hiddenWhy(j){
 let JOBS = [], LATEST = "";
 function loadData(d){
   RADAR = d;
-  JOBS = d.jobs.map(j => ({id:"j"+hash(j.url), ...j}));
+  JOBS = d.jobs.filter(j => !j.city || j.city==="Bengaluru").map(j => ({id:"j"+hash(j.url), ...j}));
   LATEST = (d.scannedAt||"").slice(0,10);
   JOBS.forEach(j => { j.fit = fitOf(j); j.hidden = hiddenWhy(j); });
 }
