@@ -23,6 +23,7 @@ const CITIES = [
   { name: "Hyderabad", match: /hyderabad|secunderabad/i, linkedin: "Hyderabad, Telangana, India", instahyre: "Hyderabad", amazon: "Hyderabad, Telangana, India", wellfound: "hyderabad", cutshort: "hyderabad" },
   { name: "Mumbai", match: /mumbai|bombay|thane/i, linkedin: "Mumbai, Maharashtra, India", instahyre: "Mumbai", amazon: "Mumbai, Maharashtra, India", wellfound: "mumbai", cutshort: "mumbai" },
   { name: "Gurgaon", match: /gurgaon|gurugram/i, linkedin: "Gurugram, Haryana, India", instahyre: "Gurgaon", amazon: "Gurugram, Haryana, India", wellfound: "gurgaon", cutshort: "gurgaon" },
+  { name: "Pune", match: /\bpune\b/i, linkedin: "Pune, Maharashtra, India", instahyre: "Pune", amazon: "Pune, Maharashtra, India", wellfound: "pune", cutshort: "pune" },
 ];
 const cityOf = l => { const s = String(l || ""); const c = CITIES.find(c => c.match.test(s)); return c ? c.name : ""; };
 const LLM_PAGES = CITIES.flatMap(c => [
@@ -92,7 +93,7 @@ async function askJSON(system, user) {
 
 const ENRICH_RULES = `You classify Indian design job listings for a UX designer with 3–4 years of experience.
 Return JSON: {"relevant": boolean, "level": "Senior"|"Mid"|"Lead"|"Staff", "exp": string, "payMinL": number|null, "payMaxL": number|null, "domain": string, "note": string}
-- relevant: true only for UX, product, UI/UX, interaction or experience designer roles (design-engineer roles count) based in Bengaluru, Hyderabad, Mumbai or Gurgaon/Gurugram. False for interns, junior/associate roles, roles asking only 0–2 years, graphic/motion/brand/visual-only, content/UX writing, product managers, and non-digital design (industrial, mechanical, fashion).
+- relevant: true only for UX, product, UI/UX, interaction or experience designer roles (design-engineer roles count) based in Bengaluru, Hyderabad, Mumbai, Gurgaon/Gurugram or Pune. False for interns, junior/associate roles, roles asking only 0–2 years, graphic/motion/brand/visual-only, content/UX writing, product managers, and non-digital design (industrial, mechanical, fashion).
 - level: Staff for Staff/Principal/Director/Head; Lead for Lead/Manager; Senior for Senior/Sr; Mid for Product Designer, UX Designer, Designer II/2/III without Senior.
 - exp: experience asked, formatted like "4–7 yrs", "5+ yrs", "5 yrs"; "" if not stated.
 - payMinL/payMaxL: annual pay in lakhs INR only if stated, else null.
