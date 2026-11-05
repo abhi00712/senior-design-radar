@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-11-05T16:56:00+05:30",
- "previousScanAt": "2026-11-04T16:58:00+05:30",
+ "scannedAt": "2026-11-05T21:08:00+05:30",
+ "previousScanAt": "2026-11-05T16:56:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -132,6 +132,20 @@ window.RADAR = {
    "domain": "Advertising Tech",
    "url": "https://www.instahyre.com/job-449275-senior-ux-designer-at-inmobi-bangalore/",
    "note": "",
+   "firstSeen": "2026-11-05"
+  },
+  {
+   "title": "AI Product Designer",
+   "company": "SciSpace",
+   "portal": "Instahyre",
+   "posted": "2026-11-05",
+   "exp": "5-9 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://www.instahyre.com/job-449780-ai-product-designer-at-scispace-bangalore/",
+   "note": "Hybrid",
    "firstSeen": "2026-11-05"
   },
   {
@@ -387,6 +401,20 @@ window.RADAR = {
    "firstSeen": "2026-11-04"
   },
   {
+   "title": "Senior Product Designer",
+   "company": "Zscaler",
+   "portal": "Company site",
+   "posted": "2026-11-02",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Cybersecurity",
+   "url": "https://job-boards.greenhouse.io/zscaler/jobs/5271542007",
+   "note": "Hybrid needs coding",
+   "firstSeen": "2026-11-05"
+  },
+  {
    "title": "Product Designer — WhatsApp India",
    "company": "WhatsApp",
    "portal": "LinkedIn",
@@ -521,7 +549,7 @@ window.RADAR = {
    "payMinL": 23,
    "payMaxL": 30,
    "level": "Senior",
-   "domain": "AI",
+   "domain": "",
    "url": "https://wellfound.com/jobs/4901503-senior-ux-designer-full-stack-ui-ux-and-research",
    "note": "In office",
    "firstSeen": "2026-10-29"
@@ -859,8 +887,22 @@ window.RADAR = {
    "level": "Senior",
    "domain": "AI",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-cloudsek-4482216857",
-   "note": "In office",
+   "note": "",
    "firstSeen": "2026-10-28"
+  },
+  {
+   "title": "Product Designer (B2C, 0-to-1)",
+   "company": "Staffnixcom",
+   "portal": "Cutshort",
+   "posted": "2026-10-27",
+   "exp": "3-6 yrs",
+   "payMinL": 27,
+   "payMaxL": 28,
+   "level": "Mid",
+   "domain": "Fintech",
+   "url": "https://cutshort.io/job/product-designer-b2c-0-to-1-staffnixcom-bengaluru-bangalore-9f7f7f7f7f7f7f7f7f7f7f7f",
+   "note": "Seed-funded Hybrid · Recruiter",
+   "firstSeen": "2026-11-05"
   },
   {
    "title": "Senior/Lead UI & UX Designer - Adobe XD/Figma",
@@ -933,11 +975,39 @@ window.RADAR = {
    "firstSeen": "2026-11-03"
   },
   {
+   "title": "UIUX Design Lead",
+   "company": "HP",
+   "portal": "Company site",
+   "posted": "2026-10-26",
+   "exp": "8-10 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Software",
+   "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karnataka-India/UIUX-Design-Lead_3166403-1",
+   "note": "",
+   "firstSeen": "2026-11-05"
+  },
+  {
+   "title": "UI Designer - Automotive Domain",
+   "company": "Bosch",
+   "portal": "Company site",
+   "posted": "2026-10-26",
+   "exp": "5–9 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Automotive",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157727758-ui-designer-automotive-domain",
+   "note": "",
+   "firstSeen": "2026-11-05"
+  },
+  {
    "title": "Senior AI Product Designer (UX/UI) - (5+ Years of Experience)",
    "company": "SciSpace",
    "portal": "Wellfound",
    "posted": "2026-10-23",
-   "exp": "5 years",
+   "exp": "5+ yrs",
    "payMinL": 34,
    "payMaxL": 50,
    "level": "Senior",
@@ -2333,6 +2403,20 @@ window.RADAR = {
    "firstSeen": "2026-10-27"
   },
   {
+   "title": "UX Designer",
+   "company": "Bosch",
+   "portal": "Company site",
+   "posted": "2026-10-08",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Automotive",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154383185-ux-designer",
+   "note": "",
+   "firstSeen": "2026-11-05"
+  },
+  {
    "title": "Product Designer",
    "company": "Toddle - Your Teaching Partner",
    "portal": "LinkedIn",
@@ -2977,6 +3061,20 @@ window.RADAR = {
    "firstSeen": "2026-10-07"
   },
   {
+   "title": "Director, Product Design",
+   "company": "ServiceNow",
+   "portal": "Company site",
+   "posted": "2026-09-30",
+   "exp": "15+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Enterprise Software",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000152588729-director-product-design",
+   "note": "",
+   "firstSeen": "2026-11-05"
+  },
+  {
    "title": "Staff/Principal Product Designer",
    "company": "Versatile Club (EOR)",
    "portal": "LinkedIn",
@@ -3269,6 +3367,20 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-meesho-4470985311",
    "note": "",
    "firstSeen": "2026-10-02"
+  },
+  {
+   "title": "Sr UX Designer - Advanced AI",
+   "company": "Target",
+   "portal": "Company site",
+   "posted": "2026-09-23",
+   "exp": "6+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/BangaloreIndia/Sr-UX-Designer---AI-Labs_R0000444542",
+   "note": "Hybrid",
+   "firstSeen": "2026-11-05"
   },
   {
    "title": "Product Designer (UI/UX)",
@@ -3699,7 +3811,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Lead",
-   "domain": "Longevity",
+   "domain": "",
    "url": "https://wellfound.com/jobs/4689777-lead-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3789,6 +3901,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Product Designer - II (Design System)",
+   "company": "Meesho",
+   "portal": "Company site",
+   "posted": "2026-08-31",
+   "exp": "3+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "E-commerce",
+   "url": "https://jobs.lever.co/meesho/500264fe-e851-499a-b825-2eb588752aa3",
+   "note": "Hybrid needs coding",
+   "firstSeen": "2026-11-05"
+  },
+  {
    "title": "Senior UX Designer",
    "company": "Vistaprint",
    "portal": "Hirist",
@@ -3839,7 +3965,7 @@ window.RADAR = {
    "payMinL": 15,
    "payMaxL": 20,
    "level": "Senior",
-   "domain": "AI",
+   "domain": "",
    "url": "https://wellfound.com/jobs/747214-senior-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-01"
@@ -3971,6 +4097,20 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "Lead Product Designer I",
+   "company": "Swiggy",
+   "portal": "Company site",
+   "posted": "2026-08-13",
+   "exp": "5-7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "B2C Technology",
+   "url": "https://jobs.smartrecruiters.com/SWIGGY/6000000001312974-lead-product-designer-i",
+   "note": "In office",
+   "firstSeen": "2026-11-05"
+  },
+  {
    "title": "Senior Product Design Engineer",
    "company": "NeoGenCode Technologies Pvt Ltd",
    "portal": "Cutshort",
@@ -3981,7 +4121,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "B2B SaaS",
    "url": "https://cutshort.io/jobs/product-design-jobs",
-   "note": "Hybrid, needs coding · Recruiter",
+   "note": "Hybrid needs coding · Recruiter",
    "firstSeen": "2026-10-19"
   },
   {
@@ -3997,6 +4137,34 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-stockgro-4430921229",
    "note": "",
    "firstSeen": "2026-10-01"
+  },
+  {
+   "title": "UI/UX Designer",
+   "company": "peopleHum",
+   "portal": "LinkedIn",
+   "posted": "2026-08-07",
+   "exp": "3+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Digital Products",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-peoplehum-4450300808",
+   "note": "",
+   "firstSeen": "2026-11-05"
+  },
+  {
+   "title": "Lead UX Designer",
+   "company": "InMobi",
+   "portal": "Company site",
+   "posted": "2026-08-06",
+   "exp": "8–10 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "AdTech SaaS",
+   "url": "https://job-boards.greenhouse.io/inmobi/jobs/8076355",
+   "note": "",
+   "firstSeen": "2026-11-05"
   },
   {
    "title": "Senior Product Designer",
@@ -4021,7 +4189,7 @@ window.RADAR = {
    "payMinL": 6,
    "payMaxL": 7.2,
    "level": "Mid",
-   "domain": "Intelligent Systems",
+   "domain": "",
    "url": "https://wellfound.com/jobs/4718643-ui-ux-product-designer",
    "note": "In office",
    "firstSeen": "2026-10-02"
@@ -4031,7 +4199,7 @@ window.RADAR = {
    "company": "BrandBrahma",
    "portal": "Wellfound",
    "posted": "2026-08-02",
-   "exp": "3 yrs",
+   "exp": "3 years",
    "payMinL": 8,
    "payMaxL": 20,
    "level": "Mid",
@@ -4045,7 +4213,7 @@ window.RADAR = {
    "company": "Nprep",
    "portal": "Wellfound",
    "posted": "2026-08-01",
-   "exp": "2 yrs",
+   "exp": "2 years",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
@@ -4073,7 +4241,7 @@ window.RADAR = {
    "company": "Atlys",
    "portal": "Wellfound",
    "posted": "2026-07-25",
-   "exp": "2 yrs",
+   "exp": "2 years",
    "payMinL": 30,
    "payMaxL": 80,
    "level": "Mid",
