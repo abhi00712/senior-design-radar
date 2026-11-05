@@ -1,5 +1,5 @@
 {
-  "_about": "Company career boards read directly by the daily scan. Add a company by its board name (the part after the domain in its jobs URL). Only Bengaluru design roles are kept.",
+  "_about": "Company career boards read directly by the daily scan. Greenhouse, Lever and Ashby: add a company by its board name (the part after the domain in its jobs URL). Workday: add \"host/site\" from the careers URL, e.g. walmart.wd5.myworkdayjobs.com/WalmartExternal. SmartRecruiters: add the company id from jobs.smartrecruiters.com/<id>/. Only Bengaluru design roles are kept.",
   "greenhouse": {
     "razorpaysoftwareprivatelimited": "Razorpay",
     "groww": "Groww",
@@ -12,17 +12,55 @@
     "coinbase": "Coinbase",
     "figma": "Figma",
     "observeai": "Observe.AI",
-    "truefoundry": "TrueFoundry"
+    "truefoundry": "TrueFoundry",
+    "inmobi": "InMobi",
+    "zscaler": "Zscaler",
+    "gitlab": "GitLab",
+    "mongodb": "MongoDB",
+    "datadog": "Datadog",
+    "elastic": "Elastic",
+    "samsara": "Samsara",
+    "mixpanel": "Mixpanel",
+    "anthropic": "Anthropic"
   },
   "lever": {
     "hevodata": "Hevo Data",
     "zeta": "Zeta",
     "mindtickle": "Mindtickle",
-    "pocketfm": "Pocket FM"
+    "pocketfm": "Pocket FM",
+    "paytm": "Paytm",
+    "cred": "CRED",
+    "meesho": "Meesho"
   },
   "ashby": {
     "sarvam": "Sarvam AI",
     "composio": "Composio",
-    "spotdraft": "SpotDraft"
+    "spotdraft": "SpotDraft",
+    "tekion": "Tekion"
+  },
+  "workday": {
+    "walmart.wd5.myworkdayjobs.com/WalmartExternal": "Walmart Global Tech",
+    "target.wd5.myworkdayjobs.com/targetcareers": "Target",
+    "adobe.wd5.myworkdayjobs.com/external_experienced": "Adobe",
+    "salesforce.wd12.myworkdayjobs.com/External_Career_Site": "Salesforce",
+    "paypal.wd1.myworkdayjobs.com/jobs": "PayPal",
+    "intel.wd1.myworkdayjobs.com/External": "Intel",
+    "nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite": "NVIDIA",
+    "mastercard.wd1.myworkdayjobs.com/CorporateCareers": "Mastercard",
+    "autodesk.wd1.myworkdayjobs.com/Ext": "Autodesk",
+    "workday.wd5.myworkdayjobs.com/Workday": "Workday",
+    "dell.wd1.myworkdayjobs.com/External": "Dell",
+    "hp.wd5.myworkdayjobs.com/ExternalCareerSite": "HP",
+    "thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site": "Thomson Reuters",
+    "philips.wd3.myworkdayjobs.com/jobs-and-careers": "Philips",
+    "fmr.wd1.myworkdayjobs.com/FidelityCareers": "Fidelity",
+    "intuit.wd1.myworkdayjobs.com/Intuit": "Intuit"
+  },
+  "smartrecruiters": {
+    "Swiggy": "Swiggy",
+    "ServiceNow": "ServiceNow",
+    "BoschGroup": "Bosch",
+    "Freshworks": "Freshworks",
+    "Grab": "Grab"
   }
 }
