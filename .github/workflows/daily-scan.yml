@@ -13,6 +13,10 @@ on:
         description: "Test only: scan but don't save"
         type: boolean
         default: false
+      backfill:
+        description: "Backfill: dig deeper for Hyderabad, Mumbai and Gurgaon"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -37,6 +41,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+          BACKFILL: ${{ inputs.backfill && '1' || '' }}
           SKIP_IF_SCANNED_TODAY: ${{ github.event_name == 'schedule' && '1' || '' }}
         run: node scripts/scan.mjs
 
