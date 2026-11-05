@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Design roles in Bengaluru</title>
+<title>Design roles in Bengaluru, Hyderabad, Mumbai and Gurgaon</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap">
@@ -69,7 +69,7 @@ h1{font-size:clamp(34px,5vw,56px);line-height:.98;font-weight:800;letter-spacing
 .refreshmsg.warn{background:var(--apply-soft)}
 
 /* Pipeline: the person's own progress, a real sequence */
-.pipe{display:flex;flex-wrap:wrap;align-items:center;gap:6px 4px;margin:24px 0 0;font-size:14px;color:var(--muted)}
+.pipe{display:flex;flex-wrap:wrap;align-items:center;gap:6px 4px;margin:20px 0 0;font-size:14px;color:var(--muted)}
 .pipe-label{margin-right:8px}
 .stage{display:inline-flex;align-items:baseline;gap:7px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);cursor:pointer;color:var(--ink)}
 .stage b{font-size:16px;font-weight:700}
@@ -82,6 +82,14 @@ h1{font-size:clamp(34px,5vw,56px);line-height:.98;font-weight:800;letter-spacing
 .stage[data-stage="interview"][aria-pressed="true"]{background:var(--fits);border-color:var(--fits);color:var(--surface)}
 .stage[aria-pressed="true"]::before{background:currentColor;box-shadow:none}
 .chev{color:var(--faint);padding:0 2px}
+
+/* City tabs */
+.cities{display:flex;gap:6px;margin:26px 0 0;overflow-x:auto;padding-bottom:2px;border-bottom:2px solid var(--line)}
+.city{appearance:none;border:0;background:transparent;padding:10px 16px 12px;font-size:17px;font-weight:700;letter-spacing:-.01em;color:var(--muted);cursor:pointer;border-radius:10px 10px 0 0;display:inline-flex;align-items:baseline;gap:8px;white-space:nowrap;margin-bottom:-2px;border-bottom:3px solid transparent}
+.city:hover{color:var(--ink);background:var(--soft)}
+.city span{font-size:13px;font-weight:600;padding:1px 8px;border-radius:999px;background:var(--soft);color:var(--muted)}
+.city[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent);background:var(--accent-soft)}
+.city[aria-selected="true"] span{background:var(--accent);color:var(--accent-ink)}
 
 /* Layout */
 .desk{display:grid;grid-template-columns:250px minmax(0,1fr);gap:40px;margin-top:28px;align-items:start}
@@ -200,6 +208,9 @@ footer{margin-top:40px;font-size:13px;color:var(--faint);max-width:80ch}
   .acts{flex-wrap:wrap}
   .acts button{flex:1 1 auto}
   .howfit{grid-template-columns:1fr;gap:12px}
+  .cities{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;overflow:visible;margin-top:18px}
+  .city{flex-direction:column;align-items:center;gap:3px;padding:8px 2px 10px;font-size:14.5px}
+  .city span{font-size:12px}
 }
 @media (prefers-reduced-motion: no-preference){
   .job.flash{animation:flash .9s ease-out}
@@ -211,7 +222,7 @@ footer{margin-top:40px;font-size:13px;color:var(--faint);max-width:80ch}
 <div class="band"><div class="band-in">
   <header class="top">
     <div>
-      <h1>Design roles in Bengaluru</h1>
+      <h1 id="h1">Design roles in Bengaluru</h1>
       <p class="brief" id="brief">Loading openings…</p>
     </div>
     <div class="scan">
@@ -222,6 +233,8 @@ footer{margin-top:40px;font-size:13px;color:var(--faint);max-width:80ch}
 </div></div>
 <div class="page">
   <p class="refreshmsg" id="refreshMsg" role="status" hidden></p>
+
+  <div class="cities" id="cities" role="tablist" aria-label="City"></div>
 
   <nav class="pipe" aria-label="Your applications">
     <span class="pipe-label">Your applications</span>
@@ -250,36 +263,6 @@ footer{margin-top:40px;font-size:13px;color:var(--faint);max-width:80ch}
         </select>
       </div>
       <div class="fgroup">
-        <span class="ftitle" id="age-l">Posted within</span>
-        <div class="seg" id="age" role="group" aria-labelledby="age-l">
-          <button type="button" data-v="7" aria-pressed="false">7 days</button>
-          <button type="button" data-v="30" aria-pressed="false">30 days</button>
-          <button type="button" data-v="90" aria-pressed="true">90 days</button>
-          <button type="button" data-v="9999" aria-pressed="false">Any</button>
-        </div>
-      </div>
-      <div class="fgroup">
-        <label for="level">Title level</label>
-        <select id="level">
-          <option value="all">All levels</option>
-          <option value="Mid">Product Designer, Designer II</option>
-          <option value="Senior">Senior</option>
-          <option value="Lead">Lead</option>
-          <option value="Staff">Staff, Principal</option>
-        </select>
-      </div>
-      <div class="fgroup">
-        <label for="statusf">My status</label>
-        <select id="statusf">
-          <option value="">Any status</option>
-          <option value="none">Not marked yet</option>
-          <option value="new">New in latest scan</option>
-          <option value="saved">Saved</option>
-          <option value="applied">Applied</option>
-          <option value="interview">Interviewing</option>
-        </select>
-      </div>
-      <div class="fgroup">
         <label for="sort">Sort</label>
         <select id="sort">
           <option value="new">Newest first</option>
@@ -303,7 +286,7 @@ footer{margin-top:40px;font-size:13px;color:var(--faint);max-width:80ch}
 
   <section class="elsewhere" aria-labelledby="elsewhere-h">
     <h2 id="elsewhere-h">Search these sites yourself</h2>
-    <p>Each link opens a search already set for Bengaluru design roles. Naukri, Indeed, Glassdoor and foundit block automated reading, so they aren't in the list above. Career-page links search Google for postings on company hiring systems, which often appear there before the job portals.</p>
+    <p>Each link opens a search already set for design roles in <span id="cityName2">Bengaluru</span>. Naukri, Indeed, Glassdoor and foundit block automated reading, so they aren't in the list above. Career-page links search Google for postings on company hiring systems, which often appear there before the job portals.</p>
     <div class="pgroups" id="portals"></div>
   </section>
 
@@ -355,7 +338,7 @@ function hiddenWhy(j){
 let JOBS = [], LATEST = "";
 function loadData(d){
   RADAR = d;
-  JOBS = d.jobs.filter(j => !j.city || j.city==="Bengaluru").map(j => ({id:"j"+hash(j.url), ...j}));
+  JOBS = d.jobs.map(j => ({id:"j"+hash(j.url), ...j}));
   LATEST = (d.scannedAt||"").slice(0,10);
   JOBS.forEach(j => { j.fit = fitOf(j); j.hidden = hiddenWhy(j); });
 }
@@ -371,51 +354,62 @@ const ageLabel = n => n===0 ? "Posted today" : n===1 ? "Posted yesterday" : n<14
 const payText = j => j.payMinL && j.payMaxL ? (j.payMinL===j.payMaxL ? `₹${j.payMaxL}L` : `₹${j.payMinL}–${j.payMaxL}L`) : j.payMaxL ? `Up to ₹${j.payMaxL}L` : j.payMinL ? `₹${j.payMinL}L+` : "";
 const GROUPS = [[0,0,"Today"],[1,1,"Yesterday"],[2,6,"Earlier this week"],[7,30,"Earlier this month"],[31,90,"One to three months ago"],[91,1e9,"Older than three months"]];
 
-const DEFAULTS = {q:"", fitf:"fa", age:"90", level:"all", statusf:"", sort:"new", hideskip:true, showhidden:false};
+const DEFAULTS = {q:"", fitf:"fa", sort:"new", hideskip:true, showhidden:false};
 const offPortals = new Set();
-let ageVal = DEFAULTS.age;
+let stageFilter = "";   // set by the Saved / Applied / Interviewing buttons
+
+// City tabs. Jobs saved before cities were added have no city: they are Bengaluru.
+const CITIES = [
+  {name:"Bengaluru", li:"Bengaluru%2C%20Karnataka%2C%20India", naukri:"bangalore", indeed:"Bengaluru%2C+Karnataka", glass:"Bangalore", found:"Bengaluru", well:"bangalore", cut:"bangalore-bengaluru", insta:"Bangalore", hirist:"bangalore", builtin:"https://builtin.com/jobs/as/india/bangalore/design-ux", q:"bengaluru", amazon:"Bengaluru%2C%20Karnataka%2C%20India"},
+  {name:"Hyderabad", li:"Hyderabad%2C%20Telangana%2C%20India", naukri:"hyderabad", indeed:"Hyderabad%2C+Telangana", glass:"Hyderabad", found:"Hyderabad", well:"hyderabad", cut:"hyderabad", insta:"Hyderabad", hirist:"hyderabad", builtin:"https://builtin.com/jobs/as/india/hyderabad/design-ux", q:"hyderabad", amazon:"Hyderabad%2C%20Telangana%2C%20India"},
+  {name:"Mumbai", li:"Mumbai%2C%20Maharashtra%2C%20India", naukri:"mumbai", indeed:"Mumbai%2C+Maharashtra", glass:"Mumbai", found:"Mumbai", well:"mumbai", cut:"mumbai", insta:"Mumbai", hirist:"mumbai", builtin:"https://builtin.com/jobs/as/india/mumbai/design-ux", q:"mumbai", amazon:"Mumbai%2C%20Maharashtra%2C%20India"},
+  {name:"Gurgaon", li:"Gurugram%2C%20Haryana%2C%20India", naukri:"gurgaon", indeed:"Gurugram%2C+Haryana", glass:"Gurgaon", found:"Gurgaon", well:"gurgaon", cut:"gurgaon", insta:"Gurgaon", hirist:"gurgaon", builtin:"https://builtin.com/jobs/as/india/gurugram/design-ux", q:"gurgaon", amazon:"Gurugram%2C%20Haryana%2C%20India"},
+];
+const cityOfJob = j => j.city || "Bengaluru";
+let CITY = "Bengaluru";
+try { const c = localStorage.getItem("radar-city"); if (CITIES.some(x => x.name===c)) CITY = c; } catch(e) {}
 
 const G = q => "https://www.google.com/search?q="+encodeURIComponent(q);
-const PORTALS = [
+const portalsFor = C => [
  {group:"Big job portals",items:[
-  {name:"LinkedIn · Senior",what:"Senior product designer, mid-senior level, last 7 days",url:"https://www.linkedin.com/jobs/search/?keywords=Senior%20Product%20Designer&location=Bengaluru%2C%20Karnataka%2C%20India&f_E=4&f_TPR=r604800"},
-  {name:"LinkedIn · UX",what:"Senior UX designer, last 7 days",url:"https://www.linkedin.com/jobs/search/?keywords=Senior%20UX%20Designer&location=Bengaluru%2C%20Karnataka%2C%20India&f_TPR=r604800"},
-  {name:"LinkedIn · Product Designer II",what:"Mid-level titles that fit 3–4 years",url:"https://www.linkedin.com/jobs/search/?keywords=%22Product%20Designer%20II%22%20OR%20%22UX%20Designer%20II%22&location=Bengaluru%2C%20Karnataka%2C%20India"},
-  {name:"Naukri · Product",what:"Product designer, 3–4 years",url:"https://www.naukri.com/product-designer-jobs-in-bangalore?experience=3"},
-  {name:"Naukri · UX",what:"UX designer, 3–4 years",url:"https://www.naukri.com/ux-designer-jobs-in-bangalore?experience=3"},
-  {name:"Indeed",what:"Product designer, last 7 days",url:"https://in.indeed.com/jobs?q=product+designer&l=Bengaluru%2C+Karnataka&fromage=7"},
-  {name:"Glassdoor",what:"Product designer, with salary data",url:"https://www.glassdoor.co.in/Job/jobs.htm?sc.keyword=product%20designer&locKeyword=Bangalore"},
-  {name:"foundit",what:"3–5 years experience",url:"https://www.foundit.in/srp/results?query=product%20designer&locations=Bengaluru&experienceRanges=3~5"},
-  {name:"Google Jobs",what:"Combines listings from many sites",url:"https://www.google.com/search?q=product+designer+jobs+bengaluru&ibp=htl;jobs"},
+  {name:"LinkedIn · Senior",what:"Senior product designer, mid-senior level, last 7 days",url:`https://www.linkedin.com/jobs/search/?keywords=Senior%20Product%20Designer&location=${C.li}&f_E=4&f_TPR=r604800`},
+  {name:"LinkedIn · UX",what:"Senior UX designer, last 7 days",url:`https://www.linkedin.com/jobs/search/?keywords=Senior%20UX%20Designer&location=${C.li}&f_TPR=r604800`},
+  {name:"LinkedIn · Product Designer II",what:"Mid-level titles that fit 3–4 years",url:`https://www.linkedin.com/jobs/search/?keywords=%22Product%20Designer%20II%22%20OR%20%22UX%20Designer%20II%22&location=${C.li}`},
+  {name:"Naukri · Product",what:"Product designer, 3–4 years",url:`https://www.naukri.com/product-designer-jobs-in-${C.naukri}?experience=3`},
+  {name:"Naukri · UX",what:"UX designer, 3–4 years",url:`https://www.naukri.com/ux-designer-jobs-in-${C.naukri}?experience=3`},
+  {name:"Indeed",what:"Product designer, last 7 days",url:`https://in.indeed.com/jobs?q=product+designer&l=${C.indeed}&fromage=7`},
+  {name:"Glassdoor",what:"Product designer, with salary data",url:`https://www.glassdoor.co.in/Job/jobs.htm?sc.keyword=product%20designer&locKeyword=${C.glass}`},
+  {name:"foundit",what:"3–5 years experience",url:`https://www.foundit.in/srp/results?query=product%20designer&locations=${C.found}&experienceRanges=3~5`},
+  {name:"Google Jobs",what:"Combines listings from many sites",url:`https://www.google.com/search?q=product+designer+jobs+${C.q}&ibp=htl;jobs`},
  ]},
  {group:"Startup and tech boards",items:[
-  {name:"Wellfound",what:"Startups, pay usually listed",url:"https://wellfound.com/role/l/product-designer/bangalore"},
-  {name:"Wellfound · UI/UX",what:"UI/UX designer roles",url:"https://wellfound.com/role/l/ui-ux-designer/bangalore"},
-  {name:"Cutshort",what:"Product design, experience ranges listed",url:"https://cutshort.io/jobs/product-design-jobs-in-bangalore-bengaluru"},
-  {name:"Instahyre",what:"Funded startups and product companies",url:"https://www.instahyre.com/search-jobs/?q=Product%20Designer&l=Bangalore"},
-  {name:"Hirist",what:"Tech-company roles, design category",url:"https://www.hirist.tech/k/ux-designer-jobs-in-bangalore.html"},
-  {name:"Built In",what:"Global tech companies hiring in Bangalore",url:"https://builtin.com/jobs/as/india/bangalore/design-ux"},
+  {name:"Wellfound",what:"Startups, pay usually listed",url:`https://wellfound.com/role/l/product-designer/${C.well}`},
+  {name:"Wellfound · UI/UX",what:"UI/UX designer roles",url:`https://wellfound.com/role/l/ui-ux-designer/${C.well}`},
+  {name:"Cutshort",what:"Product design, experience ranges listed",url:`https://cutshort.io/jobs/product-design-jobs-in-${C.cut}`},
+  {name:"Instahyre",what:"Funded startups and product companies",url:`https://www.instahyre.com/search-jobs/?q=Product%20Designer&l=${C.insta}`},
+  {name:"Hirist",what:"Tech-company roles, design category",url:`https://www.hirist.tech/k/ux-designer-jobs-in-${C.hirist}.html`},
+  {name:"Built In",what:`Global tech companies hiring in ${C.name}`,url:C.builtin},
  ]},
  {group:"Design communities",items:[
-  {name:"Dribbble Jobs",what:"Design-only job board",url:"https://dribbble.com/jobs?keyword=product%20designer&location=Bengaluru"},
-  {name:"Behance Jobs",what:"Adobe's creative job board",url:"https://www.behance.net/joblist?search=product%20designer%20bangalore"},
-  {name:"LinkedIn hiring posts",what:"Posts by design managers saying they're hiring",url:"https://www.linkedin.com/search/results/content/?keywords=hiring%20product%20designer%20bangalore&sortBy=%22date_posted%22"},
+  {name:"Dribbble Jobs",what:"Design-only job board",url:`https://dribbble.com/jobs?keyword=product%20designer&location=${C.name}`},
+  {name:"Behance Jobs",what:"Adobe's creative job board",url:`https://www.behance.net/joblist?search=product%20designer%20${C.q}`},
+  {name:"LinkedIn hiring posts",what:"Posts by design managers saying they're hiring",url:`https://www.linkedin.com/search/results/content/?keywords=hiring%20product%20designer%20${C.q}&sortBy=%22date_posted%22`},
  ]},
  {group:"Straight from company career pages",items:[
-  {name:"Greenhouse boards",what:"Companies using Greenhouse",url:G('site:job-boards.greenhouse.io "product designer" OR "ux designer" Bengaluru')},
-  {name:"Lever boards",what:"Companies using Lever",url:G('site:jobs.lever.co "product designer" OR "ux designer" Bengaluru')},
-  {name:"Ashby boards",what:"Mostly AI and newer startups",url:G('site:jobs.ashbyhq.com "product designer" Bengaluru')},
-  {name:"Workday boards",what:"Large enterprises and MNCs",url:G('site:myworkdayjobs.com "UX designer" OR "product designer" Bengaluru')},
-  {name:"Amazon Jobs",what:"UX and product design roles at Amazon in Bengaluru",url:"https://www.amazon.jobs/en/search?base_query=ux%20designer&loc_query=Bengaluru%2C%20Karnataka%2C%20India"},
+  {name:"Greenhouse boards",what:"Companies using Greenhouse",url:G(`site:job-boards.greenhouse.io "product designer" OR "ux designer" ${C.name}`)},
+  {name:"Lever boards",what:"Companies using Lever",url:G(`site:jobs.lever.co "product designer" OR "ux designer" ${C.name}`)},
+  {name:"Ashby boards",what:"Mostly AI and newer startups",url:G(`site:jobs.ashbyhq.com "product designer" ${C.name}`)},
+  {name:"Workday boards",what:"Large enterprises and MNCs",url:G(`site:myworkdayjobs.com "UX designer" OR "product designer" ${C.name}`)},
+  {name:"Amazon Jobs",what:`UX and product design roles at Amazon in ${C.name}`,url:`https://www.amazon.jobs/en/search?base_query=ux%20designer&loc_query=${C.amazon}`},
  ]},
 ];
-$("portals").innerHTML = PORTALS.map(g => `<div class="pgroup"><h3>${g.group}</h3><ul>${g.items.map(p => `<li><a href="${p.url}" target="_blank" rel="noopener noreferrer"><b>${esc(p.name)}</b><span>${esc(p.what)}</span></a></li>`).join("")}</ul></div>`).join("");
+const renderPortals = () => $("portals").innerHTML = portalsFor(CITIES.find(c => c.name===CITY)).map(g => `<div class="pgroup"><h3>${g.group}</h3><ul>${g.items.map(p => `<li><a href="${p.url}" target="_blank" rel="noopener noreferrer"><b>${esc(p.name)}</b><span>${esc(p.what)}</span></a></li>`).join("")}</ul></div>`).join("");
 
 const tagClass = d => { let h=0; for (const c of d.toLowerCase().split(/[ ,]/)[0]) h=(h*31+c.charCodeAt(0))>>>0; return "c"+(h%8+1); };
 const EXT = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5h5v5M9.5 2.5 3 9" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>';
 
 function renderSources(){
-  const counts = {}; JOBS.forEach(j => counts[j.portal] = (counts[j.portal]||0)+1);
+  const counts = {}; JOBS.filter(j => cityOfJob(j)===CITY).forEach(j => counts[j.portal] = (counts[j.portal]||0)+1);
   $("sources").innerHTML = Object.keys(counts).sort((a,b)=>counts[b]-counts[a]).map(p =>
     `<label class="check"><input type="checkbox" data-p="${esc(p)}" ${offPortals.has(p)?"":"checked"}><span class="dot d-${slug(p)}"></span><span>${esc(p)}</span><span class="n">${counts[p]}</span></label>`).join("");
 }
@@ -447,21 +441,18 @@ function rowHTML(j, grouped){
 
 function render(){
   const q = $("q").value.trim().toLowerCase();
-  const lvl = $("level").value, ff = $("fitf").value, maxAge = +ageVal, sort = $("sort").value, sf = $("statusf").value;
+  const ff = $("fitf").value, sort = $("sort").value, sf = stageFilter;
   const hideSkip = $("hideskip").checked, showHidden = $("showhidden").checked;
-  $("hiddenCount").textContent = JOBS.filter(j => j.hidden).length;
-  const list = JOBS.filter(j => {
+  const inCity = JOBS.filter(j => cityOfJob(j)===CITY);
+  $("hiddenCount").textContent = inCity.filter(j => j.hidden).length;
+  const list = inCity.filter(j => {
     if (!showHidden && j.hidden) return false;
     if (offPortals.has(j.portal)) return false;
-    if (lvl!=="all" && j.level!==lvl) return false;
     if (ff==="fa" && j.fit==="stretch") return false;
     if (ff!=="fa" && ff!=="all" && j.fit!==ff) return false;
-    if (daysAgo(j.posted) > maxAge) return false;
     const st = status[j.id]||"";
-    if (hideSkip && st==="skip" && sf!=="skip") return false;
-    if (sf==="none" && st) return false;
-    if (sf==="new" && !isNew(j)) return false;
-    if (sf && sf!=="none" && sf!=="new" && st!==sf) return false;
+    if (hideSkip && st==="skip") return false;
+    if (sf && st!==sf) return false;
     if (q && !(j.title+" "+j.company+" "+j.domain+" "+j.note).toLowerCase().includes(q)) return false;
     return true;
   });
@@ -470,7 +461,9 @@ function render(){
 
   let html = `<p class="count"><span><b>${list.length}</b> ${list.length===1?"opening matches":"openings match"} these filters</span></p>`;
   if (!list.length){
-    html += `<div class="empty">No openings match these filters.<br><button type="button" class="reset" data-reset>Reset filters</button></div>`;
+    html += inCity.length
+      ? `<div class="empty">No openings match these filters.<br><button type="button" class="reset" data-reset>Reset filters</button></div>`
+      : `<div class="empty">No ${CITY} listings yet. They're added by the next daily scan.</div>`;
   } else if (sort==="new"){
     for (const [lo,hi,name] of GROUPS){
       const g = list.filter(j => { const n = daysAgo(j.posted); return n>=lo && n<=hi; });
@@ -482,16 +475,20 @@ function render(){
   $("results").innerHTML = html;
 
   // Header brief and pipeline
-  const inDefault = j => !j.hidden && j.fit!=="stretch" && daysAgo(j.posted)<=+DEFAULTS.age && status[j.id]!=="skip";
-  const visible = JOBS.filter(inDefault).length;
-  const latestNew = JOBS.filter(j => isNew(j) && inDefault(j)).length;
-  $("brief").innerHTML = `<b>${visible} openings</b> fit 3–4 years of experience.${RADAR.previousScanAt ? ` <b class="newn">${latestNew} ${latestNew===1?"is":"are"} new</b> since the scan before.` : ""}`;
+  const inDefault = j => !j.hidden && j.fit!=="stretch" && status[j.id]!=="skip";
+  const visible = inCity.filter(inDefault).length;
+  const latestNew = inCity.filter(j => isNew(j) && inDefault(j)).length;
+  $("h1").textContent = "Design roles in " + CITY;
+  $("cityName2").textContent = CITY;
+  $("cities").innerHTML = CITIES.map(c => { const n = JOBS.filter(j => cityOfJob(j)===c.name && inDefault(j)).length;
+    return `<button type="button" class="city" role="tab" data-city="${c.name}" aria-selected="${c.name===CITY}">${c.name} <span>${n}</span></button>`; }).join("");
+  $("brief").innerHTML = `<b>${visible} ${visible===1?"opening":"openings"}</b> in ${CITY} fit 3–4 years of experience.${RADAR.previousScanAt ? ` <b class="newn">${latestNew} ${latestNew===1?"is":"are"} new</b> since the scan before.` : ""}`;
   const vals = Object.values(status);
   for (const s of ["saved","applied","interview"]){
     $("n-"+s).textContent = vals.filter(v => v===s).length;
     document.querySelector(`.stage[data-stage="${s}"]`).setAttribute("aria-pressed", sf===s);
   }
-  const changed = q || ff!==DEFAULTS.fitf || ageVal!==DEFAULTS.age || lvl!==DEFAULTS.level || sf!==DEFAULTS.statusf || sort!==DEFAULTS.sort || !hideSkip || showHidden || offPortals.size;
+  const changed = q || ff!==DEFAULTS.fitf || sf || sort!==DEFAULTS.sort || !hideSkip || showHidden || offPortals.size;
   $("reset").hidden = !changed;
   $("factive").textContent = changed ? "Changed" : "Default view";
 }
@@ -508,21 +505,21 @@ $("results").addEventListener("click", e => {
 });
 document.querySelector(".pipe").addEventListener("click", e => {
   const b = e.target.closest(".stage"); if (!b) return;
-  $("statusf").value = $("statusf").value===b.dataset.stage ? "" : b.dataset.stage;
+  stageFilter = stageFilter===b.dataset.stage ? "" : b.dataset.stage;
   render();
 });
-$("age").addEventListener("click", e => {
-  const b = e.target.closest("button"); if (!b) return;
-  ageVal = b.dataset.v;
-  [...$("age").children].forEach(x => x.setAttribute("aria-pressed", x===b));
-  render();
+$("cities").addEventListener("click", e => {
+  const b = e.target.closest(".city"); if (!b) return;
+  CITY = b.dataset.city;
+  try { localStorage.setItem("radar-city", CITY); } catch(e) {}
+  offPortals.clear(); renderSources(); renderPortals(); render();
+  $("cities").querySelector('[aria-selected="true"]')?.focus();
 });
-["q","level","fitf","sort","statusf","hideskip","showhidden"].forEach(id => $(id).addEventListener(id==="q" ? "input" : "change", render));
+["q","fitf","sort","hideskip","showhidden"].forEach(id => $(id).addEventListener(id==="q" ? "input" : "change", render));
 function resetFilters(){
-  $("q").value = DEFAULTS.q; $("fitf").value = DEFAULTS.fitf; $("level").value = DEFAULTS.level;
-  $("statusf").value = DEFAULTS.statusf; $("sort").value = DEFAULTS.sort;
+  $("q").value = DEFAULTS.q; $("fitf").value = DEFAULTS.fitf; $("sort").value = DEFAULTS.sort;
   $("hideskip").checked = DEFAULTS.hideskip; $("showhidden").checked = DEFAULTS.showhidden;
-  ageVal = DEFAULTS.age; [...$("age").children].forEach(x => x.setAttribute("aria-pressed", x.dataset.v===ageVal));
+  stageFilter = "";
   offPortals.clear(); renderSources(); render();
 }
 $("reset").addEventListener("click", resetFilters);
@@ -535,7 +532,7 @@ $("ftoggle").addEventListener("click", () => {
 const fmtScan = iso => iso ? new Date(iso).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"}) : "";
 function showScan(){
   $("scanText").innerHTML = RADAR.scannedAt
-    ? `Last scanned <b>${fmtScan(RADAR.scannedAt)}</b>, ${JOBS.length} listings<br>Scans run every morning from 9 am IST`
+    ? `Last scanned <b>${fmtScan(RADAR.scannedAt)}</b>, ${JOBS.length} listings across 4 cities<br>Scans run every morning from 9 am IST`
     : "Not scanned yet";
 }
 async function fetchLatest(){
@@ -546,7 +543,7 @@ async function fetchLatest(){
 }
 function applyIfNewer(latest){
   if (!latest || !latest.scannedAt || latest.scannedAt===RADAR.scannedAt) return false;
-  loadData(latest); renderSources(); render(); showScan(); return true;
+  loadData(latest); renderSources(); renderPortals(); render(); showScan(); return true;
 }
 let doneTimer;
 function say(text, warn){ const m = $("refreshMsg"); m.textContent = text; m.className = "refreshmsg"+(warn?" warn":""); m.hidden = false; }
@@ -576,7 +573,7 @@ $("refreshBtn").addEventListener("click", async () => {
 });
 
 loadData(RADAR);
-showScan(); renderSources(); render();
+showScan(); renderSources(); renderPortals(); render();
 fetchLatest().then(applyIfNewer).catch(() => {});
 </script>
 </body>
