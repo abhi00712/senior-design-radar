@@ -10,7 +10,7 @@ const DATA_FILE = new URL("../jobs.js", import.meta.url);
 const OPENAI_KEY = (process.env.OPENAI_API_KEY || "").replace(/\s+/g, "").replace(/^["']|["']$/g, "");
 if (OPENAI_KEY) console.log(`OpenAI key check: ${OPENAI_KEY.length} chars, starts with "${OPENAI_KEY.slice(0, 3)}", contains whitespace: ${/\s/.test(OPENAI_KEY)}`);
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-4.1-mini";
-const MAX_DETAIL_FETCHES = 70;
+const MAX_DETAIL_FETCHES = 100;
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36";
 
 const LINKEDIN_QUERIES = ["senior product designer", "senior ux designer", "product designer", "ux designer", "lead product designer"];
@@ -172,6 +172,12 @@ async function getJSON(url, headers = {}) {
     return r.ok ? await r.json() : null;
   } catch { return null; }
 }
+async function postJSON(url, body) {
+  try {
+    const r = await fetch(url, { method: "POST", headers: { "User-Agent": UA, Accept: "application/json", "Content-Type": "application/json", "Accept-Language": "en-US" }, body: JSON.stringify(body) });
+    return r.ok ? await r.json() : null;
+  } catch { return null; }
+}
 
 async function scanHirist() {
   const out = new Map(); let ok = false;
@@ -233,6 +239,70 @@ async function scanAmazon() {
   return { ok, jobs: [...out.values()] };
 }
 
+// Workday career sites (large MNCs). Config key is "host/site", e.g. "walmart.wd5.myworkdayjobs.com/WalmartExternal".
+// Search design titles, then read each posting for its locations, start date and description.
+async function scanWorkday(cfg) {
+  const jobs = []; let ok = false;
+  for (const [key, name] of Object.entries(cfg.workday || {})) {
+    if (key.startsWith("_")) continue;
+    const [host, site] = key.split("/");
+    const api = `https://${host}/wday/cxs/${host.split(".")[0]}/${site}`;
+    const found = new Map(); let read = false;
+    for (const q of ["ux designer", "product designer", "interaction designer"]) {
+      let total = 0;
+      for (let offset = 0; offset < 100; offset += 20) {
+        const d = await postJSON(`${api}/jobs`, { appliedFacets: {}, limit: 20, offset, searchText: q });
+        await sleep(500);
+        if (!d || !Array.isArray(d.jobPostings)) break;
+        read = true;
+        if (offset === 0) total = d.total || 0;
+        for (const x of d.jobPostings) if (x.externalPath && keep(x.title || "")) found.set(x.externalPath, x);
+        if (d.jobPostings.length < 20 || offset + 20 >= total) break;
+      }
+    }
+    if (!read) { console.log(`  Workday ${key}: failed`); continue; }
+    ok = true; boardsFetched.add(key + "/");
+    let blr = 0;
+    for (const [path, x] of [...found].slice(0, 40)) {
+      const info = (await getJSON(api + path))?.jobPostingInfo; await sleep(400);
+      if (!info) continue;
+      if (![x.locationsText, info.location, ...(info.additionalLocations || [])].some(isBlr)) continue;
+      blr++;
+      jobs.push({ title: (info.title || x.title).trim(), company: name, portal: "Company site", url: `https://${key}${path}`,
+        posted: safeDate(String(info.startDate || "").slice(0, 10)), exp: "", desc: text(decode(info.jobDescription || "")), board: key });
+    }
+    console.log(`  Workday ${key}: ${found.size} design titles, ${blr} in Bengaluru`);
+  }
+  return { ok, jobs };
+}
+
+// SmartRecruiters company pages. Config key is the company id in jobs.smartrecruiters.com/<id>/...
+async function scanSmartRecruiters(cfg) {
+  const jobs = []; let ok = false;
+  for (const [id, name] of Object.entries(cfg.smartrecruiters || {})) {
+    if (id.startsWith("_")) continue;
+    const found = []; let read = false;
+    for (let offset = 0; offset < 1000; offset += 100) {
+      const d = await getJSON(`https://api.smartrecruiters.com/v1/companies/${encodeURIComponent(id)}/postings?country=in&limit=100&offset=${offset}`);
+      await sleep(400);
+      if (!d || !Array.isArray(d.content)) break;
+      read = true;
+      for (const x of d.content) if (keep(x.name || "") && isBlr(x.location?.city || x.location?.fullLocation)) found.push(x);
+      if (d.content.length < 100 || offset + 100 >= (d.totalFound || 0)) break;
+    }
+    if (!read) { console.log(`  SmartRecruiters ${id}: failed`); continue; }
+    ok = true; boardsFetched.add(`jobs.smartrecruiters.com/${id}/`);
+    console.log(`  SmartRecruiters ${id}: ${found.length} Bengaluru design roles`);
+    for (const x of found) {
+      const full = await getJSON(x.ref); await sleep(400);
+      const s = full?.jobAd?.sections || {};
+      jobs.push({ title: x.name.trim(), company: name, portal: "Company site", url: full?.postingUrl || `https://jobs.smartrecruiters.com/${id}/${x.id}`,
+        posted: safeDate(String(x.releasedDate || "").slice(0, 10)), exp: "", desc: text([s.jobDescription?.text, s.qualifications?.text].join("\n")), board: "smartrecruiters/" + id });
+    }
+  }
+  return { ok, jobs };
+}
+
 const boardsFetched = new Set();
 async function scanCompanyBoards() {
   const cfg = JSON.parse(await readFile(new URL("./companies.json", import.meta.url), "utf8"));
@@ -270,7 +340,8 @@ async function scanCompanyBoards() {
         exp: "", desc: String(x.descriptionPlain || ""), board: "ashbyhq.com/" + slug });
     }
   }
-  return { ok, jobs };
+  const wd = await scanWorkday(cfg), sr = await scanSmartRecruiters(cfg);
+  return { ok: ok || wd.ok || sr.ok, jobs: [...jobs, ...wd.jobs, ...sr.jobs] };
 }
 
 // ---------- main ----------
