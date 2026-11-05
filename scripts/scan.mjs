@@ -80,7 +80,7 @@ async function askJSON(system, user) {
   } catch (e) { console.warn("OpenAI call failed:", e.message); return null; }
 }
 
-const ENRICH_RULES = `You classify Bengaluru design job listings for a senior UX designer with 4 years of experience.
+const ENRICH_RULES = `You classify Bengaluru design job listings for a UX designer with 3–4 years of experience.
 Return JSON: {"relevant": boolean, "level": "Senior"|"Mid"|"Lead"|"Staff", "exp": string, "payMinL": number|null, "payMaxL": number|null, "domain": string, "note": string}
 - relevant: true only for UX, product, UI/UX, interaction or experience designer roles (design-engineer roles count) based in Bengaluru/Bangalore. False for interns, junior/associate roles, roles asking only 0–2 years, graphic/motion/brand/visual-only, content/UX writing, product managers, and non-digital design (industrial, mechanical, fashion).
 - level: Staff for Staff/Principal/Director/Head; Lead for Lead/Manager; Senior for Senior/Sr; Mid for Product Designer, UX Designer, Designer II/2/III without Senior.
