@@ -10,11 +10,13 @@ const DATA_FILE = new URL("../jobs.js", import.meta.url);
 const OPENAI_KEY = (process.env.OPENAI_API_KEY || "").replace(/\s+/g, "").replace(/^["']|["']$/g, "");
 if (OPENAI_KEY) console.log(`OpenAI key check: ${OPENAI_KEY.length} chars, starts with "${OPENAI_KEY.slice(0, 3)}", contains whitespace: ${/\s/.test(OPENAI_KEY)}`);
 const OPENAI_MODEL = process.env.OPENAI_MODEL || "gpt-4.1-mini";
-const MAX_DETAIL_FETCHES = 220;
+// BACKFILL=1: one-off deeper run for the cities added later (older listings, more pages, no stale-row removal).
+const BACKFILL = !!process.env.BACKFILL;
+const MAX_DETAIL_FETCHES = BACKFILL ? 450 : 220;
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36";
 
 const LINKEDIN_QUERIES = ["senior product designer", "senior ux designer", "product designer", "ux designer", "lead product designer"];
-const LINKEDIN_PAGES = [0, 25, 50];
+const LINKEDIN_PAGES = BACKFILL ? [0, 25, 50, 75, 100, 125, 150, 175, 200, 225, 250] : [0, 25, 50];
 // Cities to scan. "match" recognises the city in a location string; the other fields are each site's own name for it.
 const CITIES = [
   { name: "Bengaluru", match: /bengaluru|bangalore/i, linkedin: "Bengaluru, Karnataka, India", instahyre: "Bangalore", amazon: "Bengaluru, Karnataka, India", wellfound: "bangalore", cutshort: "bangalore-bengaluru" },
@@ -101,7 +103,7 @@ Return JSON: {"relevant": boolean, "level": "Senior"|"Mid"|"Lead"|"Staff", "exp"
 async function scanLinkedIn() {
   const seen = new Map();
   let okPages = 0;
-  for (const city of CITIES) for (const q of LINKEDIN_QUERIES) {
+  for (const city of (BACKFILL ? CITIES.slice(1) : CITIES)) for (const q of LINKEDIN_QUERIES) {
     for (const start of LINKEDIN_PAGES) {
       const url = `https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=${encodeURIComponent(q)}&location=${encodeURIComponent(city.linkedin)}&start=${start}`;
       const r = await get(url);
@@ -190,7 +192,7 @@ async function postJSON(url, body) {
 async function scanHirist() {
   const out = new Map(); let ok = false;
   for (const loc of ["&loc=3", ""]) for (const q of ["product designer", "ux designer", "ui ux designer", "interaction designer"]) {
-    for (let page = 0; page < 3; page++) {
+    for (let page = 0; page < (BACKFILL ? 10 : 3); page++) {
       const d = await getJSON(`https://gladiator.hirist.tech/job/search?query=${encodeURIComponent(q)}${loc}&pageNo=${page}`);
       await sleep(800);
       if (!d || !Array.isArray(d.data)) break;
@@ -445,7 +447,7 @@ for (const [k, j] of existing) {
   const fromScanned = ["LinkedIn", "Wellfound", "Cutshort", "Hirist", "Instahyre", "Amazon Jobs"].includes(j.portal);
   // A company board lists only open roles, so a role missing from a board we just read has closed.
   const closedOnBoard = j.portal === "Company site" && [...boardsFetched].some(b => j.url.includes(b)) && !seenToday.has(k);
-  const gone = (fromScanned && sourceOk[j.portal] && !seenToday.has(k) && age > 45) || closedOnBoard;
+  const gone = (!BACKFILL && fromScanned && sourceOk[j.portal] && !seenToday.has(k) && age > 45) || closedOnBoard;
   if (age > 120 || gone) { existing.delete(k); removed++; }
 }
 
@@ -484,7 +486,7 @@ if (!Object.values(sourceOk).some(Boolean) || jobs.length < 30) {
 }
 
 const out = { scannedAt: istNow().iso, previousScanAt: data.scannedAt, sources: data.sources, jobs };
-console.log(`Total ${jobs.length} · new ${added.length} · removed ${removed} · OpenAI ${OPENAI_KEY ? "on (" + OPENAI_MODEL + ")" : "off"}`);
+console.log(`${BACKFILL ? "BACKFILL · " : ""}Total ${jobs.length} · new ${added.length} · removed ${removed} · OpenAI ${OPENAI_KEY ? "on (" + OPENAI_MODEL + ")" : "off"}`);
 for (const j of added.slice(0, 12)) console.log(`  + ${j.title} – ${j.company} (${j.portal})`);
 if (process.env.DRY_RUN) { console.log("DRY_RUN: not writing jobs.js"); process.exit(0); }
 await writeFile(DATA_FILE, "window.RADAR = " + JSON.stringify(out, null, 1) + ";\n");
