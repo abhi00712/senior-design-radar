@@ -39,7 +39,6 @@
     "tekion": "Tekion"
   },
   "workday": {
-    "walmart.wd5.myworkdayjobs.com/WalmartExternal": "Walmart Global Tech",
     "target.wd5.myworkdayjobs.com/targetcareers": "Target",
     "adobe.wd5.myworkdayjobs.com/external_experienced": "Adobe",
     "salesforce.wd12.myworkdayjobs.com/External_Career_Site": "Salesforce",
@@ -49,12 +48,10 @@
     "mastercard.wd1.myworkdayjobs.com/CorporateCareers": "Mastercard",
     "autodesk.wd1.myworkdayjobs.com/Ext": "Autodesk",
     "workday.wd5.myworkdayjobs.com/Workday": "Workday",
-    "dell.wd1.myworkdayjobs.com/External": "Dell",
     "hp.wd5.myworkdayjobs.com/ExternalCareerSite": "HP",
     "thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site": "Thomson Reuters",
     "philips.wd3.myworkdayjobs.com/jobs-and-careers": "Philips",
-    "fmr.wd1.myworkdayjobs.com/FidelityCareers": "Fidelity",
-    "intuit.wd1.myworkdayjobs.com/Intuit": "Intuit"
+    "fmr.wd1.myworkdayjobs.com/FidelityCareers": "Fidelity"
   },
   "smartrecruiters": {
     "Swiggy": "Swiggy",
