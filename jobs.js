@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-11-09T17:43:00+05:30",
- "previousScanAt": "2026-11-08T16:25:00+05:30",
+ "scannedAt": "2026-11-10T17:17:00+05:30",
+ "previousScanAt": "2026-11-09T17:43:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,81 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Senior Product Designer",
+   "company": "Paylocity",
+   "portal": "LinkedIn",
+   "city": "Bengaluru",
+   "posted": "2026-11-10",
+   "exp": "5-7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-paylocity-4477680252",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-10"
+  },
+  {
+   "title": "Senior UX Designer",
+   "company": "MoxiWorks",
+   "portal": "LinkedIn",
+   "city": "Pune",
+   "posted": "2026-11-10",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "PropTech",
+   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-moxiworks-4488316326",
+   "note": "In office",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "title": "Product Designer BDes, MDes) from Tier1 college (NIT, NIFT. IIT). Only eligible",
+   "company": "Staffnix",
+   "portal": "LinkedIn",
+   "city": "Pune",
+   "posted": "2026-11-10",
+   "exp": "2-6 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2C Products",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-bdes-mdes-from-tier1-college-nit-nift-iit-only-eligible-at-staffnix-4488312575",
+   "note": "Recruiter",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "title": "Director of Product Design",
+   "company": "WhiteSlips Job Management Consultants",
+   "portal": "LinkedIn",
+   "city": "Pune",
+   "posted": "2026-11-10",
+   "exp": "12+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Finance",
+   "url": "https://in.linkedin.com/jobs/view/director-of-product-design-at-whiteslips-job-management-consultants-4489429250",
+   "note": "Recruiter",
+   "firstSeen": "2026-11-10"
+  },
+  {
+   "title": "UI UX Designer",
+   "company": "ClearancePort",
+   "portal": "LinkedIn",
+   "city": "Delhi",
+   "posted": "2026-11-10",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "B2B SaaS",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-clearanceport-4488311455",
+   "note": "In office",
+   "firstSeen": "2026-11-10"
+  },
   {
    "title": "Senior User Experience Designer",
    "company": "Arista Networks",
@@ -442,21 +517,6 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/ux-designer-c3-cxp-at-valtech-4461735412",
    "note": "Hybrid",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Paylocity",
-   "portal": "LinkedIn",
-   "city": "Bengaluru",
-   "posted": "2026-11-06",
-   "exp": "5-7 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "SaaS",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-paylocity-4477680252",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-10"
   },
   {
    "title": "Staff UX Interaction Designer",
@@ -1790,7 +1850,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "AI",
    "url": "https://wellfound.com/jobs/4901379-senior-ui-ux-designer",
-   "note": "In office",
+   "note": "In office Pune",
    "firstSeen": "2026-11-06"
   },
   {
@@ -2317,6 +2377,21 @@ window.RADAR = {
    "url": "https://cutshort.io/jobs/founding-product-designer-vc-funded-ai-startup-building-ai-for-enterprise-automation-mumbai-5-9-years-upto-55l-yr-9f7f7a7a",
    "note": "In office needs coding",
    "firstSeen": "2026-11-08"
+  },
+  {
+   "title": "Founding Product Designer- AI Startup- Building AI for Enterprise Automation",
+   "company": "Agency job via Cutshort Lightning by Nikita Sinha",
+   "portal": "Cutshort",
+   "city": "Mumbai",
+   "posted": "2026-10-28",
+   "exp": "5 - 9 years",
+   "payMinL": null,
+   "payMaxL": 55,
+   "level": "Mid",
+   "domain": "Artificial Intelligence (AI)",
+   "url": "https://cutshort.io/jobs/founding-product-designer-ai-startup-building-ai-for-enterprise-automation-agency-job-via-cutshort-lightning-by-nikita-sinha-1000001",
+   "note": "In office",
+   "firstSeen": "2026-11-10"
   },
   {
    "title": "Senior Product Designer",
@@ -2889,21 +2964,6 @@ window.RADAR = {
    "firstSeen": "2026-11-06"
   },
   {
-   "title": "Product Designer (Part-Time, Contract)",
-   "company": "The GoodStack Company",
-   "portal": "Wellfound",
-   "city": "Pune",
-   "posted": "2026-10-23",
-   "exp": "4 years",
-   "payMinL": 12,
-   "payMaxL": 18,
-   "level": "Mid",
-   "domain": "B2B",
-   "url": "https://wellfound.com/jobs/4869603-product-designer-part-time-contract",
-   "note": "Remote",
-   "firstSeen": "2026-11-06"
-  },
-  {
    "title": "UI/UX Designer -Pune/Bengaluru",
    "company": "Capco",
    "portal": "LinkedIn",
@@ -3249,6 +3309,21 @@ window.RADAR = {
    "firstSeen": "2026-11-06"
   },
   {
+   "title": "Product Designer (Part-Time, Contract)",
+   "company": "The GoodStack Company",
+   "portal": "Wellfound",
+   "city": "Delhi",
+   "posted": "2026-10-20",
+   "exp": "4 years",
+   "payMinL": 12,
+   "payMaxL": 18,
+   "level": "Mid",
+   "domain": "B2B",
+   "url": "https://wellfound.com/jobs/4869603-product-designer-part-time-contract",
+   "note": "Remote",
+   "firstSeen": "2026-11-06"
+  },
+  {
    "title": "Product Designer",
    "company": "Zeta Global",
    "portal": "LinkedIn",
@@ -3453,7 +3528,7 @@ window.RADAR = {
    "payMinL": 2.4,
    "payMaxL": 3,
    "level": "Mid",
-   "domain": "Community Platform",
+   "domain": "",
    "url": "https://wellfound.com/jobs/4851889-ui-ux-design",
    "note": "In office",
    "firstSeen": "2026-11-06"
@@ -3681,21 +3756,6 @@ window.RADAR = {
    "domain": "HCM",
    "url": "https://in.linkedin.com/jobs/view/ux-designer-at-isolved-4476164298",
    "note": "Hybrid",
-   "firstSeen": "2026-11-06"
-  },
-  {
-   "title": "Sr Product Designer- AI",
-   "company": "LearnTube.ai (backed by Google)",
-   "portal": "Wellfound",
-   "city": "Mumbai",
-   "posted": "2026-10-16",
-   "exp": "4 years",
-   "payMinL": 12,
-   "payMaxL": 30,
-   "level": "Senior",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/3879750-sr-product-designer-ai",
-   "note": "In office",
    "firstSeen": "2026-11-06"
   },
   {
@@ -3981,6 +4041,21 @@ window.RADAR = {
    "domain": "",
    "url": "https://www.hirist.tech/j/vontier-uiux-designer-1669198",
    "note": "",
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "title": "Sr Product Designer- AI",
+   "company": "LearnTube.ai (backed by Google)",
+   "portal": "Wellfound",
+   "city": "Mumbai",
+   "posted": "2026-10-13",
+   "exp": "4 years",
+   "payMinL": 12,
+   "payMaxL": 30,
+   "level": "Senior",
+   "domain": "AI",
+   "url": "https://wellfound.com/jobs/3879750-sr-product-designer-ai",
+   "note": "In office",
    "firstSeen": "2026-11-06"
   },
   {
@@ -4889,7 +4964,7 @@ window.RADAR = {
    "portal": "Wellfound",
    "city": "Hyderabad",
    "posted": "2026-10-06",
-   "exp": "1 yr",
+   "exp": "1 year",
    "payMinL": 3,
    "payMaxL": 9,
    "level": "Senior",
@@ -4923,7 +4998,7 @@ window.RADAR = {
    "payMinL": 12,
    "payMaxL": 18,
    "level": "Senior",
-   "domain": "PropTech, FinTech",
+   "domain": "PropTech FinTech",
    "url": "https://wellfound.com/jobs/4745955-senior-ui-ux-product-designer",
    "note": "Onsite or remote",
    "firstSeen": "2026-11-06"
@@ -4953,7 +5028,7 @@ window.RADAR = {
    "payMinL": 1.8,
    "payMaxL": 3,
    "level": "Mid",
-   "domain": "Fintech",
+   "domain": "",
    "url": "https://wellfound.com/jobs/4754617-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-11-06"
@@ -4970,7 +5045,7 @@ window.RADAR = {
    "level": "Lead",
    "domain": "",
    "url": "https://wellfound.com/jobs/4779170-lead-product-designer",
-   "note": "In office",
+   "note": "In office Pune",
    "firstSeen": "2026-11-06"
   },
   {
@@ -4979,7 +5054,7 @@ window.RADAR = {
    "portal": "Wellfound",
    "city": "Delhi",
    "posted": "2026-10-06",
-   "exp": "2 yrs",
+   "exp": "2 years",
    "payMinL": 4,
    "payMaxL": 6,
    "level": "Mid",
@@ -5784,21 +5859,6 @@ window.RADAR = {
    "firstSeen": "2026-11-06"
   },
   {
-   "title": "Product Designer, Amazon Pay India",
-   "company": "Amazon",
-   "portal": "Amazon Jobs",
-   "city": "Bengaluru",
-   "posted": "2026-09-25",
-   "exp": "7+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Fintech",
-   "url": "https://www.amazon.jobs/en/jobs/10560185/product-designer-amazon-pay-india",
-   "note": "",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Staff UX Designer",
    "company": "Okta",
    "portal": "Company site",
@@ -5842,6 +5902,21 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/optum-senior-product-designer-figma-1666496",
    "note": "",
    "firstSeen": "2026-11-06"
+  },
+  {
+   "title": "UI/UX Designer",
+   "company": "penster.ai",
+   "portal": "LinkedIn",
+   "city": "Hyderabad",
+   "posted": "2026-09-25",
+   "exp": "3+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Healthcare SaaS",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-penster-ai-4481511357",
+   "note": "",
+   "firstSeen": "2026-11-10"
   },
   {
    "title": "Product Designer",
@@ -6400,9 +6475,9 @@ window.RADAR = {
   },
   {
    "title": "Senior Product Designer",
-   "company": "The GoodStack Company",
+   "company": "",
    "portal": "Wellfound",
-   "city": "Pune",
+   "city": "Delhi",
    "posted": "2026-09-07",
    "exp": "5 years",
    "payMinL": null,
@@ -6423,7 +6498,7 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Lead",
-   "domain": "B2B SaaS",
+   "domain": "B2B",
    "url": "https://wellfound.com/jobs/1992895-product-senior-product-designer",
    "note": "Remote",
    "firstSeen": "2026-11-06"
@@ -6460,7 +6535,7 @@ window.RADAR = {
   },
   {
    "title": "Product Design Lead (Design Systems, Usability, B2C)",
-   "company": "Re-Engineering Business Solutions",
+   "company": "",
    "portal": "Wellfound",
    "city": "Pune",
    "posted": "2026-09-06",
@@ -6470,7 +6545,7 @@ window.RADAR = {
    "level": "Lead",
    "domain": "B2C",
    "url": "https://wellfound.com/jobs/4627432-product-design-lead-design-systems-usability-b2c",
-   "note": "In office",
+   "note": "In office Pune",
    "firstSeen": "2026-11-06"
   },
   {
@@ -7064,7 +7139,7 @@ window.RADAR = {
    "portal": "Cutshort",
    "city": "Bengaluru",
    "posted": "2026-08-10",
-   "exp": "2 - 3 years",
+   "exp": "2-3 yrs",
    "payMinL": 10,
    "payMaxL": 12,
    "level": "Mid",
@@ -7072,21 +7147,6 @@ window.RADAR = {
    "url": "https://cutshort.io/jobs/product-design-jobs",
    "note": "",
    "firstSeen": "2026-10-19"
-  },
-  {
-   "title": "AI Product Designer — Founding Member",
-   "company": "BrandBrahma",
-   "portal": "Wellfound",
-   "city": "Bengaluru",
-   "posted": "2026-08-08",
-   "exp": "3 years",
-   "payMinL": 8,
-   "payMaxL": 20,
-   "level": "Mid",
-   "domain": "AI",
-   "url": "https://wellfound.com/jobs/4505597-product-designer-founding-member-brandbrahma",
-   "note": "Hybrid",
-   "firstSeen": "2026-11-08"
   },
   {
    "title": "Senior Product Designer",
@@ -7194,21 +7254,6 @@ window.RADAR = {
    "firstSeen": "2026-11-06"
   },
   {
-   "title": "Product Designer",
-   "company": "Nprep",
-   "portal": "Wellfound",
-   "city": "Bengaluru",
-   "posted": "2026-08-01",
-   "exp": "2 years",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Education",
-   "url": "https://wellfound.com/jobs/4135684-product-designer",
-   "note": "In office",
-   "firstSeen": "2026-11-01"
-  },
-  {
    "title": "Product Designer - Figma/Adobe XD",
    "company": "HyrMe",
    "portal": "Hirist",
@@ -7295,7 +7340,7 @@ window.RADAR = {
    "level": "Staff",
    "domain": "B2C",
    "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
-   "note": "In office",
+   "note": "",
    "firstSeen": "2026-10-01"
   },
   {
@@ -7368,9 +7413,9 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "Insurtech",
+   "domain": "B2C",
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
-   "note": "In office",
+   "note": "",
    "firstSeen": "2026-10-14"
   }
  ]
