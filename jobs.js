@@ -1,6 +1,6 @@
 window.RADAR = {
- "scannedAt": "2026-11-18T17:54:00+05:30",
- "previousScanAt": "2026-11-17T18:01:00+05:30",
+ "scannedAt": "2026-11-19T17:46:00+05:30",
+ "previousScanAt": "2026-11-18T17:54:00+05:30",
  "sources": [
   "LinkedIn",
   "Wellfound",
@@ -8,6 +8,126 @@ window.RADAR = {
   "Company career pages"
  ],
  "jobs": [
+  {
+   "title": "Lead product Designer",
+   "company": "Lowe's India",
+   "portal": "LinkedIn",
+   "city": "Bengaluru",
+   "posted": "2026-11-19",
+   "exp": "7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Product Design",
+   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-lowe-s-india-4483880037",
+   "note": "In office",
+   "firstSeen": "2026-10-29"
+  },
+  {
+   "title": "Senior UX Designer",
+   "company": "Nasuni",
+   "portal": "LinkedIn",
+   "city": "Hyderabad",
+   "posted": "2026-11-19",
+   "exp": "5–9 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "SaaS",
+   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-nasuni-4484759501",
+   "note": "Hybrid",
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "title": "UX Designer",
+   "company": "NETGEAR",
+   "portal": "LinkedIn",
+   "city": "Bengaluru",
+   "posted": "2026-11-19",
+   "exp": "5 - 8 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Networking",
+   "url": "https://in.linkedin.com/jobs/view/ux-designer-at-netgear-4491357499",
+   "note": "",
+   "firstSeen": "2026-11-19"
+  },
+  {
+   "title": "UI/UX Designer",
+   "company": "Cantellat Solutions",
+   "portal": "LinkedIn",
+   "city": "Hyderabad",
+   "posted": "2026-11-19",
+   "exp": "2–5 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "",
+   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-cantellat-solutions-4491388676",
+   "note": "",
+   "firstSeen": "2026-11-19"
+  },
+  {
+   "title": "HIH- User Experience Design Advisor",
+   "company": "The Cigna Group",
+   "portal": "LinkedIn",
+   "city": "Hyderabad",
+   "posted": "2026-11-19",
+   "exp": "12+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Healthtech",
+   "url": "https://in.linkedin.com/jobs/view/hih-user-experience-design-advisor-at-the-cigna-group-4491397578",
+   "note": "Hybrid, needs coding",
+   "firstSeen": "2026-11-19"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Talent Toppers",
+   "portal": "LinkedIn",
+   "city": "Gurgaon",
+   "posted": "2026-11-19",
+   "exp": "2-5 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Sports",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-talent-toppers-4492299778",
+   "note": "",
+   "firstSeen": "2026-11-19"
+  },
+  {
+   "title": "Product Designer",
+   "company": "Nova Ops X",
+   "portal": "LinkedIn",
+   "city": "Pune",
+   "posted": "2026-11-19",
+   "exp": "2+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "B2C Products",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-nova-ops-x-4492120640",
+   "note": "In office",
+   "firstSeen": "2026-11-19"
+  },
+  {
+   "title": "Lead UX Designer",
+   "company": "Zeta",
+   "portal": "Company site",
+   "city": "Bengaluru",
+   "posted": "2026-11-19",
+   "exp": "5+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "Fintech",
+   "url": "https://jobs.lever.co/zeta/078ed081-2d3e-4120-ab19-36063272cf8d",
+   "note": "Hybrid needs coding",
+   "firstSeen": "2026-11-19"
+  },
   {
    "title": "Staff Product Designer",
    "company": "JioStar",
@@ -157,6 +277,51 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-471477-product-designer-at-hubble-money-bangalore/",
    "note": "Hybrid Recruiter",
    "firstSeen": "2026-11-18"
+  },
+  {
+   "title": "AI interaction designer",
+   "company": "Infosys",
+   "portal": "LinkedIn",
+   "city": "Pune",
+   "posted": "2026-11-18",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Lead",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/ai-interaction-designer-at-infosys-4475441285",
+   "note": "Hybrid",
+   "firstSeen": "2026-11-06"
+  },
+  {
+   "title": "Product Designer 2",
+   "company": "Newton School",
+   "portal": "LinkedIn",
+   "city": "Bengaluru",
+   "posted": "2026-11-18",
+   "exp": "2+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "Edtech",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-2-at-newton-school-4491814327",
+   "note": "Hybrid",
+   "firstSeen": "2026-11-19"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "RentOk",
+   "portal": "Wellfound",
+   "city": "Gurgaon",
+   "posted": "2026-11-18",
+   "exp": "5 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Renting",
+   "url": "https://wellfound.com/jobs/5101352-senior-product-designer",
+   "note": "In office",
+   "firstSeen": "2026-11-19"
   },
   {
    "title": "UX Designer",
@@ -389,11 +554,11 @@ window.RADAR = {
    "portal": "Wellfound",
    "city": "Gurgaon",
    "posted": "2026-11-17",
-   "exp": "4 - 8 years",
+   "exp": "4–8 yrs",
    "payMinL": 10,
    "payMaxL": 14,
    "level": "Senior",
-   "domain": "Subscription",
+   "domain": "E-commerce",
    "url": "https://wellfound.com/jobs/5094823-ux-ui-designer-4-8-years",
    "note": "In office",
    "firstSeen": "2026-11-18"
@@ -614,11 +779,11 @@ window.RADAR = {
    "portal": "Wellfound",
    "city": "Bengaluru",
    "posted": "2026-11-15",
-   "exp": "",
+   "exp": "3 years",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "Security",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/5081939-founding-product-designer",
    "note": "In office",
    "firstSeen": "2026-11-16"
@@ -1327,6 +1492,21 @@ window.RADAR = {
    "url": "https://in.linkedin.com/jobs/view/sr-product-designer-at-target-4486597441",
    "note": "",
    "firstSeen": "2026-11-05"
+  },
+  {
+   "title": "Senior Product Designer",
+   "company": "Greenlight",
+   "portal": "LinkedIn",
+   "city": "Bengaluru",
+   "posted": "2026-11-11",
+   "exp": "5–7 yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Senior",
+   "domain": "Fintech, family banking",
+   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greenlight-4473580878",
+   "note": "Hybrid",
+   "firstSeen": "2026-10-01"
   },
   {
    "title": "Senior Product Designer",
@@ -2979,21 +3159,6 @@ window.RADAR = {
    "firstSeen": "2026-11-08"
   },
   {
-   "title": "Strong Product Designer from top college profile",
-   "company": "Staffnixcom",
-   "portal": "Cutshort",
-   "city": "Pune",
-   "posted": "2026-11-02",
-   "exp": "2 - 6 years",
-   "payMinL": 17,
-   "payMaxL": 22,
-   "level": "Mid",
-   "domain": "B2C",
-   "url": "https://cutshort.io/jobs/product-design-jobs-in-pune/strong-product-designer-from-top-college-profile-at-staffnixcom--id-9f7e7f7f",
-   "note": "In office · Recruiter",
-   "firstSeen": "2026-11-16"
-  },
-  {
    "title": "Product Designer - Prototyping Tools",
    "company": "Laksh Consultants",
    "portal": "Hirist",
@@ -3590,7 +3755,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "AI",
    "url": "https://wellfound.com/jobs/4901379-senior-ui-ux-designer",
-   "note": "In office Pune",
+   "note": "In office",
    "firstSeen": "2026-11-06"
   },
   {
@@ -3639,21 +3804,6 @@ window.RADAR = {
    "firstSeen": "2026-10-29"
   },
   {
-   "title": "Lead product Designer",
-   "company": "Lowe's India",
-   "portal": "LinkedIn",
-   "city": "Bengaluru",
-   "posted": "2026-10-28",
-   "exp": "7 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Product Design",
-   "url": "https://in.linkedin.com/jobs/view/lead-product-designer-at-lowe-s-india-4483880037",
-   "note": "In office",
-   "firstSeen": "2026-10-29"
-  },
-  {
    "title": "UI/UX Designer - Product/Visual Design",
    "company": "KAIL SHAIL TECH (OPC) PRIVATE LIMITED ",
    "portal": "Hirist",
@@ -3681,21 +3831,6 @@ window.RADAR = {
    "domain": "Fintech",
    "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-backbase-4474974040",
    "note": "",
-   "firstSeen": "2026-11-06"
-  },
-  {
-   "title": "Senior UX Designer",
-   "company": "Nasuni",
-   "portal": "LinkedIn",
-   "city": "Hyderabad",
-   "posted": "2026-10-28",
-   "exp": "5–9 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "SaaS",
-   "url": "https://in.linkedin.com/jobs/view/senior-ux-designer-at-nasuni-4484759501",
-   "note": "Hybrid",
    "firstSeen": "2026-11-06"
   },
   {
@@ -3756,21 +3891,6 @@ window.RADAR = {
    "domain": "Energy SaaS",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-design-systems-at-uplight-4476581637",
    "note": "",
-   "firstSeen": "2026-11-06"
-  },
-  {
-   "title": "AI interaction designer",
-   "company": "Infosys",
-   "portal": "LinkedIn",
-   "city": "Pune",
-   "posted": "2026-10-28",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "AI",
-   "url": "https://in.linkedin.com/jobs/view/ai-interaction-designer-at-infosys-4475441285",
-   "note": "Hybrid",
    "firstSeen": "2026-11-06"
   },
   {
@@ -3890,7 +4010,7 @@ window.RADAR = {
    "level": "Senior",
    "domain": "Artificial Intelligence",
    "url": "https://cutshort.io/jobs/product-design-jobs-in-mumbai/founding-product-designer-vc-funded-ai-startup-building-ai-for-enterprise-automation--id-9b7f7f7f",
-   "note": "In office",
+   "note": "In office needs coding",
    "firstSeen": "2026-11-14"
   },
   {
@@ -4244,7 +4364,7 @@ window.RADAR = {
    "portal": "Wellfound",
    "city": "Bengaluru",
    "posted": "2026-10-23",
-   "exp": "5+ years",
+   "exp": "5 years",
    "payMinL": 34,
    "payMaxL": 50,
    "level": "Senior",
@@ -4491,21 +4611,6 @@ window.RADAR = {
    "domain": "Fintech, remittance",
    "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-aspora-4428813846",
    "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Senior Product Designer",
-   "company": "Greenlight",
-   "portal": "LinkedIn",
-   "city": "Bengaluru",
-   "posted": "2026-10-21",
-   "exp": "5–7 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Fintech, family banking",
-   "url": "https://in.linkedin.com/jobs/view/senior-product-designer-at-greenlight-4473580878",
-   "note": "Hybrid",
    "firstSeen": "2026-10-01"
   },
   {
@@ -6273,9 +6378,9 @@ window.RADAR = {
    "payMinL": 12,
    "payMaxL": 18,
    "level": "Senior",
-   "domain": "Fintech",
+   "domain": "PropTech FinTech",
    "url": "https://wellfound.com/jobs/4745955-senior-ui-ux-product-designer",
-   "note": "Onsite or remote",
+   "note": "Hybrid",
    "firstSeen": "2026-11-06"
   },
   {
@@ -6320,7 +6425,7 @@ window.RADAR = {
    "level": "Lead",
    "domain": "",
    "url": "https://wellfound.com/jobs/4779170-lead-product-designer",
-   "note": "In office Pune",
+   "note": "In office",
    "firstSeen": "2026-11-06"
   },
   {
@@ -6427,21 +6532,6 @@ window.RADAR = {
    "url": "https://www.instahyre.com/job-442683-senior-ui-product-designer-at-arady-bangalore/",
    "note": "",
    "firstSeen": "2026-10-04"
-  },
-  {
-   "title": "UX Designer - Enterprise Products",
-   "company": "VISCR AI",
-   "portal": "LinkedIn",
-   "city": "Bengaluru",
-   "posted": "2026-10-04",
-   "exp": "2–4 yrs",
-   "payMinL": 9,
-   "payMaxL": 15,
-   "level": "Senior",
-   "domain": "Enterprise AI Security",
-   "url": "https://in.linkedin.com/jobs/view/ux-designer-enterprise-products-at-viscr-ai-4474201890",
-   "note": "In office",
-   "firstSeen": "2026-10-05"
   },
   {
    "title": "Product Designer",
@@ -6654,6 +6744,21 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
+   "title": "GM - Automotive Experience Design",
+   "company": "ideaForge",
+   "portal": "LinkedIn",
+   "city": "Mumbai",
+   "posted": "2026-09-28",
+   "exp": "10-15+ yrs",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Staff",
+   "domain": "Automotive",
+   "url": "https://in.linkedin.com/jobs/view/gm-automotive-experience-design-at-ideaforge-4471213519",
+   "note": "",
+   "firstSeen": "2026-11-19"
+  },
+  {
    "title": "Lead Product Designer",
    "company": "Scapia",
    "portal": "LinkedIn",
@@ -6757,6 +6862,21 @@ window.RADAR = {
    "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/BangaloreIndia/Sr-UX-Designer---AI-Labs_R0000444542",
    "note": "Hybrid",
    "firstSeen": "2026-11-05"
+  },
+  {
+   "title": "UX/UI Designer – SCG India",
+   "company": "SCG",
+   "portal": "LinkedIn",
+   "city": "Mumbai",
+   "posted": "2026-09-23",
+   "exp": "",
+   "payMinL": null,
+   "payMaxL": null,
+   "level": "Mid",
+   "domain": "",
+   "url": "https://in.linkedin.com/jobs/view/ux-ui-designer-%E2%80%93-scg-india-at-scg-4468518968",
+   "note": "",
+   "firstSeen": "2026-11-19"
   },
   {
    "title": "Senior UX Designer",
@@ -6879,21 +6999,6 @@ window.RADAR = {
    "firstSeen": "2026-10-02"
   },
   {
-   "title": "Head - Product Design",
-   "company": "HR LOBBY",
-   "portal": "Hirist",
-   "city": "Bengaluru",
-   "posted": "2026-09-18",
-   "exp": "7–10 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "",
-   "url": "https://www.hirist.tech/j/head-product-design-7-10-yrs-1672570",
-   "note": "Recruiter",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Senior UI/UX Designer - Figma",
    "company": "Vedantu Innovations",
    "portal": "Hirist",
@@ -6918,7 +7023,7 @@ window.RADAR = {
    "payMinL": 8,
    "payMaxL": 10,
    "level": "Senior",
-   "domain": "Intelligent Systems",
+   "domain": "AI",
    "url": "https://wellfound.com/jobs/4718643-senior-ui-ux-designer",
    "note": "In office",
    "firstSeen": "2026-11-18"
@@ -7207,21 +7312,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/vontier-senior-product-designer-mobile-app-designing-1669186",
    "note": "",
    "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Manager, Product Design",
-   "company": "ServiceNow",
-   "portal": "LinkedIn",
-   "city": "Hyderabad",
-   "posted": "2026-09-07",
-   "exp": "10+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Lead",
-   "domain": "Enterprise Software",
-   "url": "https://in.linkedin.com/jobs/view/manager-product-design-at-servicenow-4464307265",
-   "note": "Hybrid",
-   "firstSeen": "2026-11-06"
   },
   {
    "title": "Lead UX Designer - Insurance Domain",
@@ -7554,15 +7644,15 @@ window.RADAR = {
    "firstSeen": "2026-10-01"
   },
   {
-   "title": "Product Design Lead B2C Tier 1 design institute only",
+   "title": "Strong Product Designer from top college profile",
    "company": "Staffnixcom",
    "portal": "Cutshort",
    "city": "Pune",
    "posted": "2026-08-24",
-   "exp": "5 - 8 years",
-   "payMinL": 40,
-   "payMaxL": 45,
-   "level": "Lead",
+   "exp": "2+ yrs",
+   "payMinL": 17,
+   "payMaxL": 22,
+   "level": "Mid",
    "domain": "B2C",
    "url": "https://cutshort.io/jobs/product-design-jobs-in-pune",
    "note": "In office · Recruiter",
@@ -7582,21 +7672,6 @@ window.RADAR = {
    "url": "https://www.hirist.tech/j/product-design-lead-human-computer-interaction-1665680",
    "note": "",
    "firstSeen": "2026-11-06"
-  },
-  {
-   "title": "Senior Product Designer - Figma/Adobe XD",
-   "company": "Scaling Theory Technologies",
-   "portal": "Hirist",
-   "city": "Bengaluru",
-   "posted": "2026-08-22",
-   "exp": "4–8 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "",
-   "url": "https://www.hirist.tech/j/senior-product-designer-figmaadobe-xd-1664803",
-   "note": "",
-   "firstSeen": "2026-10-02"
   },
   {
    "title": "Product Designer",
@@ -7644,51 +7719,6 @@ window.RADAR = {
    "firstSeen": "2026-11-06"
   },
   {
-   "title": "Founding Product Designer - Figma",
-   "company": "Scaling Theory Technologies",
-   "portal": "Hirist",
-   "city": "Bengaluru",
-   "posted": "2026-08-20",
-   "exp": "3–8 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "Product Design",
-   "url": "https://www.hirist.tech/j/founding-product-designer-figma-1664849",
-   "note": "Hybrid",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "UX Designer - Product Design",
-   "company": "ChayanikaRecruittech",
-   "portal": "Hirist",
-   "city": "Bengaluru",
-   "posted": "2026-08-20",
-   "exp": "2–6 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Product Design",
-   "url": "https://www.hirist.tech/j/ux-designer-product-design-1664647",
-   "note": "Recruiter",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "UX Designer - Systems & Interaction Design",
-   "company": "HR Works Consultancy",
-   "portal": "Hirist",
-   "city": "Bengaluru",
-   "posted": "2026-08-20",
-   "exp": "2–6 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Systems Design",
-   "url": "https://www.hirist.tech/j/ux-designer-systems-interaction-design-1664783",
-   "note": "Recruiter",
-   "firstSeen": "2026-10-02"
-  },
-  {
    "title": "Senior Product Designer - Figma/Prototyping Tools",
    "company": "Xneeti Tech",
    "portal": "Hirist",
@@ -7704,34 +7734,19 @@ window.RADAR = {
    "firstSeen": "2026-11-06"
   },
   {
-   "title": "Product Designer - UX/UI",
-   "company": "Mesitus",
-   "portal": "Hirist",
-   "city": "Mumbai",
-   "posted": "2026-08-20",
-   "exp": "5–9 yrs",
+   "title": "Product Designer",
+   "company": "Sarvam",
+   "portal": "LinkedIn",
+   "city": "Bengaluru",
+   "posted": "2026-08-19",
+   "exp": "4+ yrs",
    "payMinL": null,
    "payMaxL": null,
    "level": "Mid",
-   "domain": "",
-   "url": "https://www.hirist.tech/j/product-designer-uxui-1664818",
+   "domain": "AI",
+   "url": "https://in.linkedin.com/jobs/view/product-designer-at-sarvam-4456176299",
    "note": "",
-   "firstSeen": "2026-11-06"
-  },
-  {
-   "title": "UI/ UX Designer",
-   "company": "sirrus.ai",
-   "portal": "LinkedIn",
-   "city": "Mumbai",
-   "posted": "2026-08-20",
-   "exp": "5+ yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Senior",
-   "domain": "B2B SaaS AI Real Estate",
-   "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-at-sirrus-ai-4455694511",
-   "note": "",
-   "firstSeen": "2026-11-17"
+   "firstSeen": "2026-11-19"
   },
   {
    "title": "Product Designer",
@@ -7758,9 +7773,9 @@ window.RADAR = {
    "payMinL": null,
    "payMaxL": null,
    "level": "Staff",
-   "domain": "Insurance",
+   "domain": "Insurtech",
    "url": "https://wellfound.com/jobs/4670580-staff-principal-product-designer-partnerships",
-   "note": "Hybrid",
+   "note": "",
    "firstSeen": "2026-11-16"
   },
   {
@@ -7925,51 +7940,6 @@ window.RADAR = {
    "level": "Senior",
    "domain": "",
    "url": "https://www.hirist.tech/j/senior-product-designer-figma-1656508",
-   "note": "Recruiter",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Director - Product Design",
-   "company": "HyrMe",
-   "portal": "Hirist",
-   "city": "Bengaluru",
-   "posted": "2026-07-22",
-   "exp": "10–16 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "",
-   "url": "https://www.hirist.tech/j/director-product-design-10-16-yrs-1667983",
-   "note": "Recruiter",
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "title": "Staff Product Designer",
-   "company": "EarnIn",
-   "portal": "Wellfound",
-   "city": "Bengaluru",
-   "posted": "2026-07-21",
-   "exp": "",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Staff",
-   "domain": "B2C",
-   "url": "https://in.linkedin.com/jobs/view/staff-product-designer-at-earnin-4443581994",
-   "note": "",
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "title": "Product Designer - Figma/Wireframing Tools",
-   "company": "HyrMe",
-   "portal": "Hirist",
-   "city": "Bengaluru",
-   "posted": "2026-07-21",
-   "exp": "4–8 yrs",
-   "payMinL": null,
-   "payMaxL": null,
-   "level": "Mid",
-   "domain": "Product Design",
-   "url": "https://www.hirist.tech/j/product-designer-figmawireframing-tools-1656101",
    "note": "Recruiter",
    "firstSeen": "2026-10-02"
   }
